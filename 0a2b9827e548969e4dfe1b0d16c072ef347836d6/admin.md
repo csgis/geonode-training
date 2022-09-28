@@ -47,8 +47,9 @@ Existiert ein Template aus dem Core wird das aus Geonode Projekt bevorzugt.
 {% load i18n %}
 {% block title %} Forschungsdaten der DBFZ {% endblock %}
 {% endraw %}
-
+{% raw  %}
 {% block body_outer %}
+{% endraw %}
 <div class="page-header">
   <h2>Forschungsdaten der DBFZ</h2>
 </div>
@@ -58,8 +59,9 @@ Diees Plattform dient der Publikation von Daten zum Thema Biomasse</p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
 <p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
-
+{% raw  %}
 {% endblock %}
+{% endraw %}
 ```
 
 
