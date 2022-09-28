@@ -39,7 +39,7 @@ wird kopiert nach `<project_name>/src/templates/`.
 
 Existiert ein Template aus dem Core wird das aus Geonode Projekt bevorzugt.
 
-```html
+```
 {% extends "geonode_base.html" %}
 
 {% load i18n %}
