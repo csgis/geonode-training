@@ -42,7 +42,7 @@ Existiert ein Template aus dem Core wird das aus Geonode Projekt bevorzugt.
 ```
 
 
-{% block body_outer %}
+{{% block body_outer %}}
 <div class="page-header">
   <h2>Forschungsdaten der DBFZ</h2>
 </div>
@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique as
 <p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
 
-{% endblock %}
+{{% endblock %}}
 ```
 
 
