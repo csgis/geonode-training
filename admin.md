@@ -40,10 +40,7 @@ wird kopiert nach `<project_name>/src/templates/`.
 Existiert ein Template aus dem Core wird das aus Geonode Projekt bevorzugt.
 
 ```
-{% extends "geonode_base.html" %}
 
-{% load i18n %}
-{% block title %} Forschungsdaten der DBFZ {% endblock %}
 
 {% block body_outer %}
 <div class="page-header">
