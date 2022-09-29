@@ -9,6 +9,19 @@
 
 a[href*="github"]{display: none}
 
+
+div#logo {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    left: 1rem;
+    color: indianred;
+}
+
+div#logo a {
+    text-decoration: none;
+}
+
 #menu { 
     position: absolute;
     top: 0;
