@@ -3,7 +3,7 @@
         "admin_frontend.md": "Frontend als Admin",
         "django_admin_basics.md": "Django Admin: Übersicht",
         "django_admin_themes.md": "Django Admin: Themes",
-        "django_admin_menu.md": "Django Admin: Neues Menu",
+        "django_admin_menu.md": "Django Admin: Menus",
         "django_admin_lisences.md": "Django Admin: Lisences",
         "django_admin_harvester.md": "Django Admin: Havester",
         "django_admin_metadata.md": "Django Admin: Metadaten"
