@@ -1,0 +1,8 @@
+{
+    "admin" : {
+        "source.md": "GeoNode Source",
+        "template.md": "Templates",
+        "custom_page.md": "Eigene Seite",
+        "geoapp.md": "Geoapp"
+    }
+}
