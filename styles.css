@@ -19,23 +19,26 @@ div#logo {
 
 div#logo a {
     text-decoration: none;
-    color: indianred;
+    color: indianred!important;
 }
 
-#menu { 
+#jumpMenu { 
     position: absolute;
     top: 0;
-    left: 0rem;
+    right: 0rem;
     height: 100vh;
-    border-right: 1px solid #eee;
-    padding-right: 4rem;
     padding-top: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
-    min-width: 220px;
 }
 
-#menu ul li {
+#jumpMenu ul li {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#jumpMenu ul li {
     list-style-type: none;
     padding: 0;
 }
