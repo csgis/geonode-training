@@ -1,5 +1,5 @@
 #menu a {
-    color: #7BB0A6
+    color: auto
 }
 
 #menu a.active {
@@ -47,14 +47,15 @@ div#logo a {
     padding: 0;
 }
 
-#jumpMenu { 
+#jumpMenu {
     position: absolute;
     top: 0;
-    right: 0rem;
+    right: 0;
     height: 100vh;
     padding-top: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
+    width: 250px;
 }
 
 #jumpMenu ul li {
@@ -66,4 +67,8 @@ div#logo a {
 #jumpMenu ul li {
     list-style-type: none;
     padding: 0;
+}
+
+#jumpMenu ul li  a {
+    color: #7BB0A6!important
 }

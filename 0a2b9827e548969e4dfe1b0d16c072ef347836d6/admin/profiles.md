@@ -4,8 +4,8 @@
 <div id="menu"></div>
 <div id="jumpMenu"></div>
 <script src="../menu.js"></script>
+<script src="../jumpmenu.js"></script>
 <!-- the Menu -->
-
 
 
 # profiles
