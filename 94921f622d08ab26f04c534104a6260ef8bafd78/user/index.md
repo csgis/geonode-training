@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# 1. User Guide
+# User Guide
 
 lorem ipsum …
 
