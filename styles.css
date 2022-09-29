@@ -1,0 +1,22 @@
+a.active {
+    color: grey
+}
+
+a[href*="github"]{display: none}
+
+#menu { 
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    height: 100vh;
+    border-right: 1px solid #eee;
+    padding-right: 4rem;
+    padding-top: 3rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#menu ul li {
+    list-style-type: none;
+    padding: 0;
+}

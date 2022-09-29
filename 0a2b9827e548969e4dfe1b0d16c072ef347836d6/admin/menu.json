@@ -1,6 +1,7 @@
 {
     "admin" : {
         "profiles.md": "User profiles",
-        "django_admin.md": "Django Admin"
+        "django_admin.md": "Django Admin",
+        "../index.md": "back to index"
     }
 }
