@@ -6,7 +6,8 @@ async function loadNames() {
   const names = await response.json()
   let menuName = Object.keys(names)[0]
   let menu = document.getElementById("menu");
-  var menuDom = "<ul>"
+  var menuDom = ""
+  let start = '<li><a href="../" style="color: #666">Start</a></li>'
 
   for (name in names[menuName]){
     let link = name.replace(".md", ".html")
@@ -15,7 +16,7 @@ async function loadNames() {
     let li = `<li><a href="${link}" class="${className}">${label}</a></li>`
     menuDom = menuDom+li
    }
-    menuDom = `${menuDom}</ul>`
+    menuDom = `</ul>${start}${menuDom}</ul>`
     console.log(menuDom)
     menu.innerHTML = menuDom
 }
