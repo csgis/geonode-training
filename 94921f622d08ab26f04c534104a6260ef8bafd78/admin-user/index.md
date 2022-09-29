@@ -10,7 +10,8 @@
 
 
 
-# Willkommen
+# Geonode Admin User
 
-Dieser Schulungsbereich gibt eine einfürhrende Zusammenfassung für Administratoren.
+Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administratoren.
+<br>
 Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigieren.
