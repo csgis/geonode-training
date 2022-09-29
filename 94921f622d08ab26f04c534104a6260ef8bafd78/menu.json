@@ -1,8 +1,8 @@
 {
     "home" : {
-        "_user_index.md": "GeoNode User",
-        "_admin-user_index.md": "GeoNode Admin",
-        "_sys-admin_index.md": "GeoNode Sysadmin",
-        "_dev_index.md": "GeoNode Development"
+        "./user/index.md": "GeoNode User",
+        "./admin-user/index.md": "GeoNode Admin",
+        "./sys-admin/index.md": "GeoNode Sysadmin",
+        "./dev/index.md": "GeoNode Development"
     }
 }

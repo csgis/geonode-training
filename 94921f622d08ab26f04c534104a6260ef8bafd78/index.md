@@ -9,4 +9,6 @@
 
 # Schulungsinhalte
 
-Willkommen auf der Schulungsplattform
+Willkommen auf der Schulungsplattform der CSGIS gbr.  
+Diese Dokumentation führt in die Schulung von GeoNode4 ein.  
+GeoNode ist ein Content Management System für räumliche Daten.
