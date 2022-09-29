@@ -16,7 +16,7 @@ async function loadNames() {
     let li = `<li><a href="${link}" class="${className}">${label}</a></li>`
     menuDom = menuDom+li
    }
-    menuDom = `</ul>${start}${menuDom}</ul>`
+    menuDom = `<ul>${start}${menuDom}</ul>`
     console.log(menuDom)
     menu.innerHTML = menuDom
 }
