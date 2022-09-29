@@ -7,7 +7,7 @@ async function loadNames() {
   let menuName = Object.keys(names)[0]
   let menu = document.getElementById("menu");
   var menuDom = ""
-  let start = '<li><a href="../" style="color: #bbb4b4">Start</a></li>'
+  let start = '<li><a href="../" style="color: #bbb4b4">∙ Start</a></li>'
 
   for (name in names[menuName]){
     let link = name.replace(".md", ".html")
