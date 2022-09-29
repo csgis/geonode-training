@@ -1,5 +1,6 @@
 {
     "admin" : {
+        "index.md": "Index",
         "source.md": "GeoNode Source",
         "template.md": "Templates",
         "custom_page.md": "Seiten ergänzen",

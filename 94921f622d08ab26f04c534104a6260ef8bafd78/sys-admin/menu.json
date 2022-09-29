@@ -1,5 +1,6 @@
 {
     "sys-admin" : {
+        "index.md": "Index",
         "architecture.md": "Systemarchitektur",
         "installations.md": "Installationswege",
         "settings.md": "Geonode Settings",
