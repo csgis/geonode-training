@@ -90,4 +90,4 @@ urlpatterns = [
 
 - dsgvo.html in `<project_name>/src/templates/` anlegen
 ![GitHub Logo](./images/geonode.png)
-<div style="position:absolute; top:0 left:0">Hello</div>
+<div style="position:absolute; top:0; left:0">Hello</div>
