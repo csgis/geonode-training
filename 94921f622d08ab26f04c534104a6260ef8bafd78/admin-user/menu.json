@@ -1,5 +1,5 @@
 {
-    "admin" : {
+    "admin-user" : {
         "admin_role.md": "Die Admin Rolle",
         "django_admin_basics.md": "Django Admin: Übersicht",
         "django_admin_themes.md": "Django Admin: Themes",

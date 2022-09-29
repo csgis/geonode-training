@@ -11,12 +11,16 @@ async function loadNames() {
 
   for (name in names[menuName]){
     let link = name.replace(".md", ".html")
-    let label = names["admin"][name]
+    let label = names[menuName][name]
     let className = (fileName == link) ? "active" : "link"
     let li = `<li><a href="${link}" class="${className}">${label}</a></li>`
     menuDom = menuDom+li
    }
-    menuDom = `<ul>${start}${menuDom}</ul>`
+    if (menuName !== 'home'){
+      menuDom = `<ul>${start}${menuDom}</ul>`
+    } else {
+      menuDom = `<ul>${menuDom}</ul>`
+    }
     console.log(menuDom)
     menu.innerHTML = menuDom
 }
