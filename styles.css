@@ -79,9 +79,12 @@ div#logo a {
 }
 
 #jumpMenu ul li a.second {
-    padding-left: 19px;
+    padding-left: 18px;
 }
 
+#jumpMenu ul li a.second:before {
+    content: "- ";
+}
 .container-lg{
     /* width: 91%!important; */
     max-width: 65%;
