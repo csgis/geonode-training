@@ -11,7 +11,7 @@ h1:first-child {
 }
 
 #menu a.active {
-    color: grey;
+    color: indianred!important;
 }
 
 a[href*="github"]{display: none}
