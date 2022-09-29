@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 #menu a {
     color: auto
 }
