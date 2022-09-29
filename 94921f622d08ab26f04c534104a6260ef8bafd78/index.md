@@ -1,5 +1,7 @@
 
- <link rel="stylesheet" media="all" href="../styles.css" />
+<style>
+h1:first-child {display: none;}
+</style>
 
 
 # Schulungsinhalte
