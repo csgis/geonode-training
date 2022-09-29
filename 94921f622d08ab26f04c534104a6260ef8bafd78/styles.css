@@ -138,3 +138,8 @@ div#logo a {
     }
 }
 
+img {
+    box-shadow: 5px 9px 5px -6px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 5px 9px 5px -6px rgba(0,0,0,0.43);
+    -moz-box-shadow: 5px 9px 5px -6px rgba(0,0,0,0.43);
+}

@@ -15,3 +15,6 @@
 Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administratoren.
 <br>
 Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigieren.
+
+
+![Benutzer](./images/benutzer.jpeg)
