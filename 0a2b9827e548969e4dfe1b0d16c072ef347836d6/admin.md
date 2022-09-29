@@ -89,3 +89,5 @@ urlpatterns = [
 ```
 
 - dsgvo.html in `<project_name>/src/templates/` anlegen
+
+<div style="position:absolute; top:0 left:0">Hello</div>
