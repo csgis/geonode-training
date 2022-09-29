@@ -10,7 +10,7 @@ a[href*="github"]{display: none}
 
 
 div#logo {
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     left: 1rem;
     left: 1rem;
@@ -21,8 +21,8 @@ div#logo a {
     color: indianred!important;
 }
 
-#menu { 
-    position: absolute;
+#menu {
+    /* position: absolute; */
     top: 0;
     left: 0rem;
     height: 100vh;
@@ -31,6 +31,7 @@ div#logo a {
     overflow-x: hidden;
     overflow-y: auto;
     min-width: 220px;
+    position: fixed;
 }
 
 #menu ul {
@@ -57,6 +58,7 @@ div#logo a {
     overflow-x: hidden;
     overflow-y: auto;
     width: 270px;
+    position: fixed;
 }
 
 #jumpMenu ul li {
@@ -75,30 +77,31 @@ div#logo a {
 }
 
 .container-lg{
-    width: 80%!important;
+    /* width: 91%!important; */
+    max-width: 65%;
 }
 
 @media screen and (max-width: 1550px) {
     .container-lg{
-        border: 1px solid red;
         width: 70%!important;
     }
 }
 
 @media screen and (max-width: 1430px) {
     .container-lg{
-        border: 1px solid red;
         width: 50%!important;
     }
 }
 
 @media screen and (max-width: 930px) {
     .container-lg{
-        border: 1px solid red;
-        width: 40%!important;
+        width: 95%!important;
+        max-width: 72%;
+        margin-left: 200px!important
     }
 
     #jumpMenu {
-        display: none;
+        display: none!important;
+        right: -1000px;
     }
 }
