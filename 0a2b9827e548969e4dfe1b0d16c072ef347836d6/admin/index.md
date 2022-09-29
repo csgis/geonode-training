@@ -1,3 +1,10 @@
+<!-- the Menu -->
+<link rel="stylesheet" media="all" href="../../styles.css" />
+<div id="menu"></div>
+<script src="../menu.js"></script>
+<!-- the Menu -->
+
+
 # 1. Docker Auffrischung
 
 docker-compose ist ein Tool zur Definition und Ausführung von Multi-Container-Docker-Anwendungen. Mit docker-compose verwenden Sie eine YAML-Datei, um die Dienste Ihrer Anwendung zu konfigurieren. Dann erstellen und starten Sie mit einem einzigen Befehl alle Dienste aus Ihrer Konfiguration. Um mehr über alle Funktionen von Compose zu erfahren, lesen Sie die Liste der [Funktionen](https://docs.docker.com/compose/overview/#features).
@@ -90,8 +97,3 @@ urlpatterns = [
 
 - dsgvo.html in `<project_name>/src/templates/` anlegen
 ![GitHub Logo](./images/geonode.png)
-
-<!-- the Menu -->
-<link rel="stylesheet" media="all" href="../../styles.css" />
-<div id="menu"></div>
-<script src="../menu.js"></script>
