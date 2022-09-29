@@ -17,7 +17,7 @@ Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administrato
 Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigieren.
 
 
-![Benutzer](./images/benutzer.jpeg){:  width="80px" }.
+![Benutzer](./images/benutzer.jpeg){:  width="350px" }.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
