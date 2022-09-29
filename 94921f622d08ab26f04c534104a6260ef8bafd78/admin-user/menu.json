@@ -1,6 +1,6 @@
 {
     "admin" : {
-        "admin_frontend.md": "Das Frontend als Admin",
+        "admin_role.md": "Die Admin Rolle",
         "django_admin_basics.md": "Django Admin: Übersicht",
         "django_admin_themes.md": "Django Admin: Themes",
         "django_admin_menu.md": "Django Admin: Menus",
