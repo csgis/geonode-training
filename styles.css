@@ -17,6 +17,7 @@ h1:first-child {
 a[href*="github"]{display: none}
 a[href*="docs.csgis.de"]{display: none}
 
+
 div#logo {
     position: fixed;
     bottom: 1rem;
