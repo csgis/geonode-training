@@ -20,9 +20,6 @@ a[href*="github"]{display: none}
     overflow-x: hidden;
     overflow-y: auto;
     min-width: 220px;
-    transition-property: width;
-    transition-duration: 0.5s;
-    transition-delay: 0.5s;
 }
 
 #menu ul li {
