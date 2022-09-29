@@ -1,3 +1,7 @@
+
+ <link rel="stylesheet" media="all" href="styles.css" />
+
+
 # Schulungsinhalte
 
 1. [GeoNode User Training](./user/index.md)
