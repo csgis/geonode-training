@@ -14,7 +14,12 @@ async function loadNames() {
     let label = names[menuName][name]
     let className = (fileName == link) ? "active" : "link"
     let li = `<li class="item-${className}" onClick="location.href='${link}'"><a href="${link}" class="${className}">${label}</a></li>`
-    menuDom = menuDom+li
+    let li_spacer = `<li class="spacer">${label.replace('spacer_','')}</li>`
+    if (label.includes('spacer_')){
+      menuDom = menuDom+li_spacer
+    } else {
+      menuDom = menuDom+li
+    }
    }
     if (menuName !== 'home'){
       menuDom = `<ul>${start}${menuDom}</ul>`

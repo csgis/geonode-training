@@ -2,11 +2,12 @@
     "admin-user" : {
         "index.md": "Index",
         "admin_role.md": "Die Admin Rolle",
-        "django_admin_basics.md": "Django Admin: Übersicht",
-        "django_admin_themes.md": "Django Admin: Themes",
-        "django_admin_menu.md": "Django Admin: Menus",
-        "django_admin_lisences.md": "Django Admin: Licenses",
-        "django_admin_harvester.md": "Django Admin: Havester",
-        "django_admin_metadata.md": "Django Admin: Metadaten"
+        "django_admin_basics.md": "spacer_Django Admin:",
+        "django_admin_basics.md": "- Übersicht",
+        "django_admin_themes.md": "- Themes",
+        "django_admin_menu.md": "- Menus",
+        "django_admin_lisences.md": "- Licenses",
+        "django_admin_harvester.md": "- Havester",
+        "django_admin_metadata.md": "- Metadaten"
     }
 }
