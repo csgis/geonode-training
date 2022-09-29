@@ -1,4 +1,8 @@
-a.active {
+#menu a {
+    color: #7BB0A6
+}
+
+#menu a.active {
     color: grey
 }
 
@@ -14,6 +18,10 @@ a[href*="github"]{display: none}
     padding-top: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
+    min-width: 220px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
 }
 
 #menu ul li {
