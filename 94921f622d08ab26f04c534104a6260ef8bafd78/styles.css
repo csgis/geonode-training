@@ -10,6 +10,11 @@ h1:first-child {
     color: #24292f;
 }
 
+#menu a:hover {
+    text-decoration: none;
+}
+
+
 #menu a.active {}
 
 #menu li.item-active{
@@ -18,6 +23,7 @@ h1:first-child {
 
 li.item-link:hover {
     background: #F6F8FA;
+    cursor: pointer;
 }
 
 a[href*="github"]{display: none}

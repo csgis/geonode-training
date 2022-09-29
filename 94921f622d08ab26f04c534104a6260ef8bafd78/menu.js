@@ -13,7 +13,7 @@ async function loadNames() {
     let link = name.replace(".md", ".html")
     let label = names[menuName][name]
     let className = (fileName == link) ? "active" : "link"
-    let li = `<li class="item-${className}"><a href="${link}" class="${className}">${label}</a></li>`
+    let li = `<li class="item-${className}" onClick="location.href='${link}'"><a href="${link}" class="${className}">${label}</a></li>`
     menuDom = menuDom+li
    }
     if (menuName !== 'home'){
