@@ -1,5 +1,5 @@
 
- <link rel="stylesheet" media="all" href="./styles.css" />
+ <link rel="stylesheet" media="all" href="../styles.css" />
 
 
 # Schulungsinhalte
