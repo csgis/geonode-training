@@ -22,7 +22,7 @@ div#logo a {
 }
 
 #menu {
-    /* position: absolute; */
+    /* position: fixed; */
     top: 0;
     left: 0rem;
     height: 100vh;
@@ -50,7 +50,7 @@ div#logo a {
 }
 
 #jumpMenu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
