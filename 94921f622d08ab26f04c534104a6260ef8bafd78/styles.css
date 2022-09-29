@@ -26,9 +26,14 @@ li.item-link:hover {
     cursor: pointer;
 }
 
+li.spacer {
+    color: #989494;
+}
+
 a[href*="github"]{display: none}
 a[href*="docs.csgis.de"]{display: none}
-
+a.backlink{color: #bbb4b4}
+a.backlink:hover{color: #000}
 
 div#logo {
     position: fixed;
