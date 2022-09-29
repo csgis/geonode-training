@@ -7,11 +7,15 @@ h1:first-child {
 }
 
 #menu a {
-    color: #545496;
+    color: #24292f;
 }
 
 #menu a.active {
     color: indianred!important;
+}
+
+#menu li.item-active{
+    background: #F6F8FA;
 }
 
 a[href*="github"]{display: none}
@@ -52,8 +56,9 @@ div#logo a {
 
 #menu ul li {
     list-style-type: none;
-    padding: 5px 5px 5px 15px;
+    padding: 6px 5px 6px 15px;
     border-bottom: 1px solid #eee;
+    margin-top: none!important;
 }
 
 #jumpMenu {
