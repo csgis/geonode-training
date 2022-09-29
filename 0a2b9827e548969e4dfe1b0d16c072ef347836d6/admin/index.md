@@ -99,4 +99,3 @@ urlpatterns = [
   <li><a href="#link" style="color: lightblue">link</a></li>
   </ul>
 </div>
-<script>alert("ok")</script>
