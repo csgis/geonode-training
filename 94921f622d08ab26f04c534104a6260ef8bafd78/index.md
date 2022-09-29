@@ -1,12 +1,12 @@
 
-<style>
-h1:first-child {display: none;}
-</style>
+<!-- the Menu -->
+<link rel="stylesheet" media="all" href="styles.css" />
+<div id="logo"><a href="https://csgis.de">© csgis</a></div>
+<div id="menu"></div>
+<script src="menu.js"></script>
+<!-- the Menu -->
 
 
 # Schulungsinhalte
 
-1. [GeoNode User](./user/index.md)
-2. [GeoNode Admin](./admin-user/index.md)
-3. [GeoNode Sysadmin](./sys-admin/index.md)
-4. [GeoNode Development](./dev/index.md)
+Willkommen auf der Schulungsplattform

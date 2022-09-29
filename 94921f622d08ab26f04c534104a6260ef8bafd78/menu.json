@@ -1,0 +1,8 @@
+{
+    "home" : {
+        "./user/index.md": "GeoNode User",
+        "./admin-user/index.md": "GeoNode Admin",
+        "./sys-admin/index.md": "GeoNode Sysadmin",
+        "./dev/index.md": "GeoNode Development"
+    }
+}
