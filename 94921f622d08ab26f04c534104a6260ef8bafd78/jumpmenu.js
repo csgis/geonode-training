@@ -3,8 +3,9 @@ function createSubMenu(){
     headlines = document.querySelectorAll("h1, h2");
     let subMenu = ""
     headlines.forEach((headlineItem) => {
-      subMenu = subMenu + `<li><a href="#${headlineItem.id}">${headlineItem.innerHTML}</a></li>`
-    });
+      let subClassName = headlineItem.nodeName == 'H1' ? 'h1' : 'h2'
+      subMenu = subMenu + `<li><a href="#${headlineItem.id}" class="${subClassName}">${headlineItem.innerHTML}</a></li>`
+      });
   
     jumpMenu.innerHTML = `<ul>${subMenu}</ul>`
   }
