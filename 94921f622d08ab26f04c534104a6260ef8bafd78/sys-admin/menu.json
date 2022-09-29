@@ -1,11 +1,11 @@
 {
     "sys-admin" : {
         "architecture.md": "Systemarchitektur",
-        "installations.md": "Installtionswege",
+        "installations.md": "Installationswege",
         "settings.md": "Geonode Settings",
         "management_commands.md": "CLI Kommandos",
         "shell.md": "Django Shell",
-        "monitoring.md": "GeoNode analytcis",
+        "monitoring.md": "GeoNode analytcics",
         "contrib_apps.md": "Contrib Apps",
         "backups.md": "Backups",
         "trouble.md": "Trouble Shooting"
