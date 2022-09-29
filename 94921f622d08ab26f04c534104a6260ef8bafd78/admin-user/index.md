@@ -12,9 +12,5 @@
 
 # Willkommen
 
-Diese Zusammenfassudn ist für Administratoren
-
-## Das sollten Sie wissen
-
-lorem
-ipsum
+Dieser Schulungsbereich gibt eine einfürhrende Zusammenfassung für Administratoren.
+Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigieren.
