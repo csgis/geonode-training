@@ -5,7 +5,7 @@
         "settings.md": "Geonode Settings",
         "management_commands.md": "CLI Kommandos",
         "shell.md": "Django Shell",
-        "monitoring.md": "GeoNode analytcics",
+        "monitoring.md": "GeoNode analytics",
         "contrib_apps.md": "Contrib Apps",
         "backups.md": "Backups",
         "trouble.md": "Trouble Shooting"
