@@ -10,9 +10,7 @@ h1:first-child {
     color: #24292f;
 }
 
-#menu a.active {
-    color: indianred!important;
-}
+#menu a.active {}
 
 #menu li.item-active{
     background: #F6F8FA;
@@ -56,9 +54,9 @@ div#logo a {
 
 #menu ul li {
     list-style-type: none;
-    padding: 6px 5px 6px 15px;
+    padding: 8px 5px 8px 15px;
     border-bottom: 1px solid #eee;
-    margin-top: none!important;
+    margin-top: 0!important;
 }
 
 #jumpMenu {
