@@ -32,3 +32,5 @@ hello
 kj
 
 ydf
+
+Django bietet eine gebrauchsfertige Benutzeroberfläche für administrative Tätigkeiten. Wir alle wissen, wie wichtig eine Verwaltungsoberfläche für ein Webprojekt ist. Django generiert automatisch eine Admin-Oberfläche auf der Grundlage der Datenbank Modelle.
