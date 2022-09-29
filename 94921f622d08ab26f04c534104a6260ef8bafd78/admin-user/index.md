@@ -18,3 +18,9 @@ Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigiere
 
 
 ![Benutzer](./images/benutzer.jpeg)
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
