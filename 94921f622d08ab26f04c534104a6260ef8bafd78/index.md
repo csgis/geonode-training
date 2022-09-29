@@ -1,10 +1,10 @@
 
- <link rel="stylesheet" media="all" href="styles.css" />
+ <link rel="stylesheet" media="all" href="./styles.css" />
 
 
 # Schulungsinhalte
 
-1. [GeoNode User Training](./user/index.md)
-2. [GeoNode Admin Training](./admin-user/index.md)
-2. [GeoNode Sysadmin Training](./sys-admin/index.md)
-3. [GeoNode Dev Training](./dev/index.md)
+1. [GeoNode User](./user/index.md)
+2. [GeoNode Admin](./admin-user/index.md)
+3. [GeoNode Sysadmin](./sys-admin/index.md)
+4. [GeoNode Development](./dev/index.md)
