@@ -16,6 +16,10 @@ h1:first-child {
     background: #F6F8FA;
 }
 
+li.item-link:hover {
+    background: #F6F8FA;
+}
+
 a[href*="github"]{display: none}
 a[href*="docs.csgis.de"]{display: none}
 
