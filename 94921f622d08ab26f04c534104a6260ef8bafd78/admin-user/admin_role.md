@@ -92,4 +92,6 @@ Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe änd
 
 ![Manage Group](images/manage_groups.jpeg)
 
-> Die umfangreiche Dokumentation finden Sie [hier](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).
+# Weiterführende Links
+
+- [GeoNode Docs](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).
