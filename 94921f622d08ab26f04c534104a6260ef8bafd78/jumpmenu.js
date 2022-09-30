@@ -10,7 +10,9 @@ function createSubMenu(){
     headlines.forEach((headlineItem) => {
       let subClassName = headlineItem.nodeName == 'H1' ? 'first' : (headlineItem.nodeName == 'H2') ? 'second' : 'third'
       let jumpName = truncate(headlineItem.innerText, 26)
-      subMenu = subMenu + `<li><a href="#${headlineItem.id}" class="${subClassName}">${jumpName}</a></li>`
+        if (!jumpname.includes("training")){
+          subMenu = subMenu + `<li><a href="#${headlineItem.id}" class="${subClassName}">${jumpName}</a></li>`
+        }
       });
   
     jumpMenu.innerHTML = `<ul>${subMenu}</ul>`
