@@ -43,6 +43,8 @@ In der Django Übersicht wählen wir nun den Mnüpunkt "Menu Items"
 
 ![Django Menu Items](images/django_menu_items.jpeg)
 
+### Erster Menüpunkt
+
 Und legen uns in der darauffolgenden Maske über den bekannten rechten Buton "menu item hinzufügen" ein neues Menu Item an:
 
 ![Django Menu Items](images/django_new_menu_item.jpeg)
@@ -75,6 +77,8 @@ Hiernach klicken wir auf "Sicher und neu hinzufügen".
 
 ![Django Menu Item1 ](images/django_menu_item1.jpeg)
 
+### Zweiter Menüpunkt
+
 Für unseren nächsten Datensatz öffnen wir ein neues Browserfenster. Navigieren zu den Datensätzen und setzen den Haken bei Vektor und kopieren uns die URL aus der Adresszeile:
 
 ![Django Menu Item2 ](images/vektor_url.jpeg)
@@ -91,6 +95,8 @@ Blank Target | nicht gesetzt
 Url | https://geonode-training.csgis.de/catalogue/#/search/?f=dataset&f=store-vector
 
 Wir speichern und schließen den Menpunkt über speichern und betrachten das Ergebnis im Frontend.
+
+### Darstellung des Menüs
 
 Unser neues Menü zeigt sich der der oberen Navigationsleiste der Seite.
 ![Neues Frontend Menü](images/fe_new_menu.jpeg)
