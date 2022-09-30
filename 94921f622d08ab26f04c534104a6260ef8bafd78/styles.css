@@ -105,6 +105,11 @@ div#logo a {
     padding-left: 12px;
 }
 
+ #jumpMenu ul li a.third {
+    padding-left: 25px;
+}
+
+
 #jumpMenu ul li a.second:before {
     content: "- ";
 }
