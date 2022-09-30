@@ -12,7 +12,7 @@
 Im ersten Schritt erfolgt eine Registrierung in den GeoNode Plattform. Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente, etc.) visualisiert und geteilt aber nicht bearbeitet werden.
 Nachdem sich einen Anwender erfolgreich registriert hat, kann sich gleich anmelden GeoNode im vollen Umfang benutzen.
 
-![image2](images/image2.png)
+![Anmeldung](images/image2.png)
 
 >*Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.*
 >
@@ -42,7 +42,7 @@ Außerdem können registrierte Benutzer:
 - Mailbox abfragen
 - Das Hilfe Dokument (mit verlinkten Inhalten) lesen
 
-![image5](images/image5.png)
+![Profil](images/image5.png)
 
 >*Weitere empfehlenswert GeoNode Dokumentationen sind:*
 > - *[GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)*
@@ -50,7 +50,7 @@ Außerdem können registrierte Benutzer:
 
 > *Auf der Startseite, im Menü Über  kann man visualisieren, filtern 	und sehen welche User im GeoNode registriert sind und welche Daten haben sie 	veröffentlicht*
 
-![image8](images/image8.png)
+![Benutzer](images/image8.png)
 
 ## Übung
 
