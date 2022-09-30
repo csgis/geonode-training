@@ -25,7 +25,7 @@ function createSubMenu(){
 let images = document.querySelectorAll("img");
 
 images.forEach(function(el){
-          var title = this.alt;
+          var title = el.alt;
           var caption = document.createElement("small")
           element.classList.add("caption");
           caption.innerText = title 
