@@ -98,6 +98,7 @@ Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe änd
 
 1. Legen Sie eine neue Gruppe an und weisen Sie der neuen Gruppe einige Mitglieder zu.
 
+
 # Weiterführende Links
 
-- [GeoNode Docs | Gruppen anlegen](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).
+- [GeoNode Docs – Gruppen anlegen](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).
