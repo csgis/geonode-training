@@ -2,6 +2,7 @@
     "admin-user" : {
         "index.md": "Index",
         "user_profil.md": "User Profil",
-        "publikationen_ressourcen.md": "Publikation von Ressourcen"
+        "publikationen_ressourcen.md": "Publikation von Ressourcen",
+        "geodaten_publizieren_und_bearbeiten.md"
     }
 }
