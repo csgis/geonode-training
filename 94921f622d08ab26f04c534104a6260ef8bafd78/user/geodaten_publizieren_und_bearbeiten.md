@@ -7,7 +7,6 @@
 <script src="../jumpmenu.js"></script>
 <!-- the Menu -->
 
-
 # Geodaten publizieren und bearbeiten
 
 Nach dem die daten hochgeladen sind stehen uns unter Datensatz ansehen folgende Funktionen zur Verfügung:
@@ -33,7 +32,8 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 1. Starten Sie die Edtierung. Wählen Sie Schwabing aus und zoomen Sie zu den Extent
 
 1. Filtern Sie  Schwabing,  Schwabing-West und  Schwabing-Ost, lassen Sie nur diese Orte sichtbar auf der Karte und verändern Sie die Einwohnerzahlen (Spalte population) dieser Orten.
-![image20](images/image20.png)
+
+  ![image20](images/image20.png)
 
 1. Untersuchen Sie weitere Filter Optionen wie “Interessengeiet“
 1. Erzeugen Sie einen Punkt und vergeben Sie die Attribute in die Tabelle
@@ -71,7 +71,6 @@ Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfü
 **Symbologie von places**
 
 1. Erstellen Sie diese zwei verschiedene Legende für den Ressource ***places*** und speichern Sie die Ergebnisse (mit der Änderung .sld):
-
   ![image20-d](images/image20-d.png)
 
 1. Lassen Sie die ***places*** mit einer einfachen Symbol darstellen und laden Sie die gespeicherten Stile (sld Dateien) hoch (**Bearbeiten → Stil hochladen**)
@@ -80,8 +79,7 @@ Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfü
 
 **Symbologie von railways**
 
-1. Erstellen Sie die railways wie in der unteren Abbildung dar. Benutzen Sie den einfacher Stil und erstellen sie die entsprechenden Filter ein 				(*type=subway und type =tram*)
-
+1. Erstellen Sie die railways wie in der unteren Abbildung dar. Benutzen Sie den einfacher Stil und erstellen sie die entsprechenden Filter ein (*type=subway und type =tram*)
   ![image33_2](images/image33_2.png)
 
 1. Speichern Sie den Stil als sld und Laden Sie diese Datei als Dokument in GeoNode hoch 	
@@ -98,7 +96,7 @@ Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfü
 
   ![image33-a](images/image33-a.png)
 
-> Die symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie 	Grafikdateien(svg, png, etc.). Man braucht die url wo die Bilder gehostet 		sind
+> *Die symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie 	Grafikdateien(svg, png, etc.). Man braucht die url wo die Bilder gehostet sind*
 >
 >![image38-2](images/image38_2.png)
 
@@ -116,13 +114,13 @@ Die Metadaten in GeoNode haben 2 wesentlichen Zwecken:
 
 **Metadaten von administrative**
 
-1. • Thumbnail aktualisieren
-1. • Kategorie population speichern unter die Grundlegende Metadaten
-1. • Unter regions soll Germany gespeichert werden
-1. • Speichern Sie die Metadaten und suchen sie auf der Startseite in GeoNode nach Daten mit zum Beispiel die Kategorie  population oder nach der Region  Germany
+1. Thumbnail aktualisieren
+1. Kategorie population speichern unter die Grundlegende Metadaten
+1. Unter regions soll Germany gespeichert werden
+1. Speichern Sie die Metadaten und suchen sie auf der Startseite in GeoNode nach Daten mit zum Beispiel die Kategorie  population oder nach der Region  Germany
 1. Probieren Sie die Suche nach Daten mit dem Filter Option “Ausmaß“
 
-> Im Schritt 4 (Datensatz Attribute) lässt sich unter Anzeigetyp speichern, wie die gespeicherten Daten in einer Spalte angezeigt werden sollen. Mit Klick auf einen Objekt in die Karte erscheinen die Informationen entsprechend formatiert.
+> *Im Schritt 4 (Datensatz Attribute) lässt sich unter Anzeigetyp speichern, wie die gespeicherten Daten in einer Spalte angezeigt werden sollen. Mit Klick auf einen Objekt in die Karte erscheinen die Informationen entsprechend formatiert.*
 >
 >![image42-2](images/image42_2.png)
 >
