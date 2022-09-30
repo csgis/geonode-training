@@ -37,40 +37,40 @@ Mit der nächsten Übung bauen wir selber eine Geostory auf.
 1. Ressource hinzufügen → Geostory erstellen → Speichern
 1. Im ersten Schritt wird uns angeboten dass wir mit einem **Titelabschnitt** anfangen. Hier finden wir 2 widgets:
 
-  Mit einfachen Klicken bearbeiten unf formatieren Sie den Titel.
+    Mit einfachen Klicken bearbeiten unf formatieren Sie den Titel.
 
-  ![Titel bearbeiten](images/image67_2.png)
+    ![Titel bearbeiten](images/image67_2.png)
 
-  Die Größe des Titelabschnittes können Sie anpassen oder einen Hintergrund hinzufügen mit Bilder, Videos oder Karten.
+    Die Größe des Titelabschnittes können Sie anpassen oder einen Hintergrund hinzufügen mit Bilder, Videos oder Karten.
 
-  ![Größe des Titelabschnittes und Hintergrund](images/image68.png)
+    ![Größe des Titelabschnittes und Hintergrund](images/image68.png)
 
-  Der erste Teil unser Geostory wäre fertig. Wir haben jetzt den Titelabschnitt mit 2 Elemente: Titel und Hintergrund (einer GeoNode Karte).
+    Der erste Teil unser Geostory wäre fertig. Wir haben jetzt den Titelabschnitt mit 2 Elemente: Titel und Hintergrund (einer GeoNode Karte).
 
-  ![Titelabschnitt](images/image69_2.png)
+    ![Titelabschnitt](images/image69_2.png)
 
 1. Im zweiten Schritt erweitern wir unsere Geostory mit einem **Absatzabschnitt**.
 
-  ![Absatzabschnitt](images/image70.png)
+    ![Absatzabschnitt](images/image70.png)
 
-  Hier können wir hinzufügen:
+    Hier können wir hinzufügen:
 
-  ![Absatzabschnitt bearbeiten](images/image71.png)
+    ![Absatzabschnitt bearbeiten](images/image71.png)
 
-  - Text
-  - Medien (Bilder,
-  - Videos, Karten)
-  - eine Webseite
+    - Text
+    - Medien (Bilder,
+    - Videos, Karten)
+    - eine Webseite
 
 1. Lassen wir unser Geostory mit einer **immersive section** erweitern. Sie besteht aus zwei Elementen: dem Hintergrund und dem Inhalt.
 
-  Der Unterschied mit der vorherigen Option (Absatzabschnitt) ist dass die Inhalte bleiben 	zusammen im gleichen Abschnitt
+    Der Unterschied mit der vorherigen Option (Absatzabschnitt) ist dass die Inhalte bleiben 	zusammen im gleichen Abschnitt
 
-  ![immersive section](images/image71-a.png)
+    ![immersive section](images/image71-a.png)
 
 1. Im nächsten Schritt möchten wir uns beschäftigen mit der **Geocarousel** Option:
 
-  ![Geocarousel](images/image74_2.png)
+    ![Geocarousel](images/image74_2.png)
 
 - Der Hintegrund dient für den gesamten Abschnitt.
 - Der Text und das untere kleine Bild werden verknüpft mit einer bestimmten Ort in die Karte.
