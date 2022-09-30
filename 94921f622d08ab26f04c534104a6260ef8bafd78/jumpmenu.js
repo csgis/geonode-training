@@ -5,14 +5,13 @@ function truncate(str, n){
 
 function createSubMenu(){
     var jumpMenu = document.getElementById("jumpMenu")
+    document.querySelectorAll("h1").remove();
     headlines = document.querySelectorAll("h1, h2, h3");
     let subMenu = ""
     headlines.forEach((headlineItem) => {
       let subClassName = headlineItem.nodeName == 'H1' ? 'first' : (headlineItem.nodeName == 'H2') ? 'second' : 'third'
       let jumpName = truncate(headlineItem.innerText, 26)
-        if (!jumpName.includes("training")){
-          subMenu = subMenu + `<li><a href="#${headlineItem.id}" class="${subClassName}">${jumpName}</a></li>`
-        }
+      subMenu = subMenu + `<li><a href="#${headlineItem.id}" class="${subClassName}">${jumpName}</a></li>`
       });
   
     jumpMenu.innerHTML = `<ul>${subMenu}</ul>`
