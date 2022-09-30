@@ -89,8 +89,14 @@ Nach dem anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppe
 ![View Groups](images/view_gropus.jpeg)
 
 Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe ändern.
+> In der Pause haben wir zu diesem Zweck Ihren Accounts Administratoren Rechte gegeben.
 
 ![Manage Group](images/manage_groups.jpeg)
+
+# Übung
+## Neue Gruppe
+
+Legen Sie eine neue Gruppe an und weisen Sie der neuen Gruppe einige Mitglieder zu.
 
 # Weiterführende Links
 
