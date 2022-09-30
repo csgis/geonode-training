@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Gruppenrechte
+# Gruppenrechte X
 
 > Um Ihren Datensätze Gruppenberechtigungen zuzuweisen müssen Sie keine Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt um diese zu erstellen.
 
