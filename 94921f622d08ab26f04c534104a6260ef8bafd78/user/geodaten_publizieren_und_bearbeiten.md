@@ -11,7 +11,7 @@
 
 Nach dem die daten hochgeladen sind stehen uns unter Datensatz ansehen folgende Funktionen zur Verfügung:
 
-![image18](images/image18.png)
+![Datensatz ansehen](images/image18.png)
 
 **Speichern:** sollen Änderungen an den Daten, Symbologie, Berechtigungen,etc. vorgenommen werden, können Sie diese hier dauerhaft speichern. Mit **“speichern als“** erzeugen Sie einen neuen Dataset.
 
@@ -19,7 +19,7 @@ Im Menü **bearbeiten** können wir:
 
 **Informationen anzeigen:** lassen (allgemeine Informationen zu den Ressource). Hier haben Sie auch die Möglichkeit diesen Ressource als Favorit zu speichern, den Link zu teilen oder die Datei zum downloaden.
 
-![image19](images/image19.png)
+![Favorit, teilen oder runterladen](images/image19.png)
 
 ## Daten bearbeiten
 
@@ -33,7 +33,7 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 
 1. Filtern Sie  Schwabing,  Schwabing-West und  Schwabing-Ost, lassen Sie nur diese Orte sichtbar auf der Karte und verändern Sie die Einwohnerzahlen (Spalte population) dieser Orten.
 
-  ![image20](images/image20.png)
+  ![Attributfilter](images/image20.png)
 
 1. Untersuchen Sie weitere Filter Optionen wie “Interessengeiet“
 1. Erzeugen Sie einen Punkt und vergeben Sie die Attribute in die Tabelle
@@ -53,25 +53,25 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 
 Es gibt 3 verschiedene Gruppen (Regeln) von  Stilen die man benutzen kann (sie können miteinander kombiniert werden)
 
-![image20-a](images/image20-a.png)
+![Regeln](images/image20-a.png)
 
 Außerdem gibt es die Möglichkeit für die verschiedene Regel die Daten zu filtern (wenn man zum Beispiel nur bestimmten Daten darstellen möchten – type=forest -) oder nur innerhalb von einem bestimmten Maßstab die Daten darstellen zu lassen.
 
-![image20-b](images/image20-b.png)
+![Filter und Maßstababhängige Sichtbarkeit](images/image20-b.png)
 
 Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfügung:
 
 - Einfacher Stil
 - Klassifizierungsstil (mit verschieden Methoden)
 
-![image20-c](images/image20-c.png)
+![Legenden](images/image20-c.png)
 
 ### Übung
 
 **Symbologie von places**
 
 1. Erstellen Sie diese zwei verschiedene Legende für den Ressource ***places*** und speichern Sie die Ergebnisse (mit der Änderung .sld):
-  ![image20-d](images/image20-d.png)
+  ![Beispiele für Legenden](images/image20-d.png)
 
 1. Lassen Sie die ***places*** mit einer einfachen Symbol darstellen und laden Sie die gespeicherten Stile (sld Dateien) hoch (**Bearbeiten → Stil hochladen**)
 
@@ -80,7 +80,7 @@ Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfü
 **Symbologie von railways**
 
 1. Erstellen Sie die railways wie in der unteren Abbildung dar. Benutzen Sie den einfacher Stil und erstellen sie die entsprechenden Filter ein (*type=subway und type =tram*)
-  ![image33_2](images/image33_2.png)
+  ![Symbologie von railways](images/image33_2.png)
 
 1. Speichern Sie den Stil als sld und Laden Sie diese Datei als Dokument in GeoNode hoch 	
 
@@ -94,11 +94,11 @@ Innerhalb der **Markierung** Option haben wir 2 verschiedene Legenden zur Verfü
 
 2. Wie kann man erreichen dass nur den type residential innerhalb von diesen Maßtäbe erscheint aber dass die andere Typen immer sichtbar bleiben?
 
-  ![image33-a](images/image33-a.png)
+  ![Beispiele für Legenden und Filter](images/image33-a.png)
 
 > *Die symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie 	Grafikdateien(svg, png, etc.). Man braucht die url wo die Bilder gehostet sind*
 >
->![image38-2](images/image38_2.png)
+>![Symbolregel](images/image38_2.png)
 
 ## Metadaten bearbeiten
 
@@ -122,9 +122,9 @@ Die Metadaten in GeoNode haben 2 wesentlichen Zwecken:
 
 > *Im Schritt 4 (Datensatz Attribute) lässt sich unter Anzeigetyp speichern, wie die gespeicherten Daten in einer Spalte angezeigt werden sollen. Mit Klick auf einen Objekt in die Karte erscheinen die Informationen entsprechend formatiert.*
 >
->![image42-2](images/image42_2.png)
+>![Datensatz Attribute](images/image42_2.png)
 >
->![image41-2](images/image41_2.png)
+>![Informationen einer Ebene](images/image41_2.png)
 
 ## Ressource teilen
 
@@ -146,7 +146,7 @@ Sie können die folgenden Berechtigungen festlegen:
 1. Erstellen Sie dass die places nicht heruntergeladen werden können. Melden Sie sich ab und prüfen Sie dass keine Option zum herunterladen angeboten ist.
 1. Erlauben Sie dass die places von anderen Benutzer verwaltet werden können
 
-  ![image45-2](images/image45_2.png)
+  ![Berechtigungen](images/image45_2.png)
 
 ## Filtern
 
@@ -157,7 +157,7 @@ Sie können mit dieser Option die Anzeige der Daten beeinflüßen mit folgenden 
 
 Beide Optionen können auch gleichzeitig benutzt werden:
 
-![image46-2](images/image46_2.png)
+![Filteroptionen](images/image46_2.png)
 
 ## Herunterladen
 
@@ -167,4 +167,4 @@ Sie können entscheiden ob Sie die Daten mit der ursprüngliche Projektion (prj 
 
 Außerdem können Sie definieren ob sie nur die gefilterte Daten oder die Daten des aktuellen Kartenfenster herunterladen möchten.
 
-![image47-2](images/image47_2.png)
+![Daten herunterladen](images/image47_2.png)

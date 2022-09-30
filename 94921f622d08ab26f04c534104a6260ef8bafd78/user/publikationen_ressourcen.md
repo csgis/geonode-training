@@ -21,29 +21,29 @@ Diese Dateitypen sind unterstützt:
 
 - **KARTEN** (Publikation von bestehenden GeoNode Datensätze). Der Anwender kann beliebigen Datensätze hinzufügen und eigenständig eine Karte mit den verschiedenen Ebenen erstellen.
 
-![image10_2](images/image10_2.png)
+![Karten](images/image10_2.png)
 
 - **GEOSTORIES** sind online Berichte die man mit den GeoNode hochgeladenen oder mit externen Ressourcen (videos, webseiten, etc.) erstellen kann
 
-![image11_2](images/image11_2.png)
+![Geostories](images/image11_2.png)
 
 - **DASHBOARDS** sind Bereiche in GeoNode in dem der Benutzer zusammenfassende Geoinformationen mit Widgets wie Diagramme, Karten, Tabellen, Texte, etc ( die miteinander interaktiv verbunden sein können) präsentieren kann.
 
-![image12_2](images/image12_2.png)
+![Dashboard](images/image12_2.png)
 
 > - *Alle Ressource in GeoNode sind standardmäßig öffentlich. Der Benutzer, der den GeoNode Ressource erstellt hat, kann entscheiden ob diese Daten für alle oder nur für registrierte Benutzer sichtbar sein sollen*
 >
 > - *Nur die Person, die den GeoNode Ressource  gehört (i.d.R. die Person, die den Ressource erzeugt hat) kann die Daten bearbeiten. Diese Person kann aber weitere Berechtigungen hinzufügen und erlauben dass andere Benutzer die Daten **ansehen, herunterladen, bearbeiten** oder **verwalten** können*
 >
-> ![image14_2](images/image14_2.png)
+> ![Berechtigungen](images/image14_2.png)
 >
 > - *Der Besitzer des GeoNode Ressources kann entscheiden, ob einen anderen Benutzer die Daten gehören sollen (siehe optionale Metadaten):*
 >
-> ![image16_2](images/image16_2.png)
+> ![Eigentümer](images/image16_2.png)
 
 ## Übung
 
 1. Laden Sie in GeoNode die Shape Dateien places, natural, administrative, railways und roads hoch
 1. Erstellen Sie einen Filter damit Sie nur Ihre Daten ansehen können
 
-![image17](images/image17.png)
+![Daten filtern](images/image17.png)
