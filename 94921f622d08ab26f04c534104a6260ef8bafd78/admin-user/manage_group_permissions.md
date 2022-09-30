@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Gruppenrechte X
+# Gruppenrechte
 
 > Um Ihren Datensätze Gruppenberechtigungen zuzuweisen müssen Sie keine Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt um diese zu erstellen.
 
@@ -28,7 +28,7 @@ Und vergeben hiernach die gewünschte Sichtbarkeit:
 
 # Übungen
 
-1. Vergeben Sie bei Ihrem Datensatz Gruppen Rechte.
+1. Vergeben Sie bei Ihrem Datensatz Gruppen Rechte für eine beliebige Gruppe.
 
 # Weiterführende Links
 
