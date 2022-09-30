@@ -8,42 +8,26 @@
 <!-- the Menu -->
 
 
-# User Guide
+# Einführung in GeoNode 4.0 für Anwender
 
-lorem ipsum …
+**Inhalt:**
 
-# Jhjh
+In dieser Schulung werden wir folgende Themen mit GeoNode behandeln:
 
-image1 ist:
+- Publikation von Geodaten, Karten und Dokumenten
+- Analysieren, Filtern und Abfragen
+- Karten und Daten teilen
+- Einbinden und Bereitstellen eigener WMS Dienste
+- Legendenerstellung
+- Kartenerstellung
+- Überblick: Geostories, Dashboards, Diagramme und Widgets
 
-![mein Bild](images/image1.png)
-quelle
+**Ziel:**
 
-> servas
+In diesem Kurs arbeiten Sie mit GeoNode mit konkreten Beispielen und Fragestellungen aus der Praxis.
+Wir bauen gemeinsam ein Geoportal auf. Schritt für Schritt lernen wir GeoNode kennen.
 
-- hallo
-- hallo2
-  - hallo3
+Wir beschäftigen uns mit der Publikation, dem Management und der Analyse von Geodaten in GeoNode.
+Den Inhalt der Schulung runden wir mit weiteren Informationen über das GeoNode Projekt ab: Organisation des Open Source Projektes, Entwicklerteam, Code Repository, etc.
 
-1. hola
-1. hola 1
-  1. hola 1.1
-
-[doku](https:csgis.de)
-
-    hier bin ich
-    wo bist du
-
-aqui estamos  
-donde estas tu?
-
-
-
-
-
-## klkl
-
-### zuzu
-
-Übungen
-Links
+Nach dem Kurs besitzen Sie einen fundierten Überblick über GeoNode, dessen wichtigste Funktionen und Möglichkeiten.
