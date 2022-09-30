@@ -6,10 +6,9 @@
         "spacer.md": "spacer_Django Admin:",
         "django_admin_basics.md": "- Übersicht",
         "django_admin_profile.md": "- Benutzer verwalten",
-        "django_admin_themes.md": "- Themes",
-        "django_admin_menu.md": "- Menus",
-        "django_admin_lisences.md": "- Licenses",
-        "django_admin_harvester.md": "- Harvester",
-        "django_admin_metadata.md": "- Metadaten"
+        "django_admin_themes.md": "- Theme erstellen",
+        "django_admin_menu.md": "- Menu erstellen",
+        "django_admin_lisences.md": "- Lizenz anlegen",
+        "django_admin_harvester.md": "- Harvester"
     }
 }
