@@ -27,8 +27,8 @@ function createSubMenu(){
     images.forEach(function(el){
               var title = el.alt;
               var caption = document.createElement("small")
+              caption.setAttribute("class", "caption");
               caption.innerText = title 
-              el.setAttribute("class", "caption");
               if (title !== undefined)
                 el.parentNode.insertBefore(caption, el.nextSibling);
           }); 
