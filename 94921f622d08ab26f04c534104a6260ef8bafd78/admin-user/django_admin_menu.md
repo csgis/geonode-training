@@ -29,7 +29,7 @@ Die Position (Feld Placehoder), sowie die Reihenfolge falls mehrere Menus unter 
 
 Und speichern das Menü ab.
 
-> Placeholder bezeichnet einen Ort im Template andem das Menü ausgegeben wird. Standardmässig besitzt GeoNode 4 vordefinierte Positionen. Über das Template Tag `{% render_nav_menu 'CUSTOM_MENU' %}` könnten wir einen neuen Platzhalter an anderer Stelle definieren.
+> Placeholder bezeichnet einen Ort im Template andem das Menü ausgegeben wird. Standardmässig besitzt GeoNode 4 vordefinierte Positionen. Über das Template Tag `render_nav_menu 'CUSTOM_MENU'` könnten wir einen neuen Platzhalter an anderer Stelle definieren.
 
 
 ## Neuen Menüpunkt anlegen
