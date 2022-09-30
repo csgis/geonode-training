@@ -42,7 +42,7 @@ Wie auch in der Übersicht können Sie den User löschen oder Änderungen speich
   - Legt fest, dass der Benutzer alle Berechtigungen hat, ohne diese einzeln zuweisen zu müssen.
 
 
-# Mitarbeitern Rechte zuweisen
+#  Rechte zuweisen
 
 Wie wir gesehen haben dürfen Administratoren alle Django Admin Bereiche aufrufen und ausführen.  
 
@@ -50,7 +50,7 @@ Benutzer mit Mitarbeiter Status können sich zwar in die Django Oberfläche einl
 
 ![images](images/django-staff.jpeg)
 
-## Mitarbeiter Gruppe anlegen
+## Gruppe anlegen
 
 Um Mitarbeiter mit weiteren Rechten auszustatten, ist es nötig 
 
@@ -58,7 +58,7 @@ Um Mitarbeiter mit weiteren Rechten auszustatten, ist es nötig
 - der Gruppe die jeweiligen Rechte zu geben
 - die Mitarbeiter der Gruppe hinzuzufügen
 
-### Gruppe für Mitarbeiter erstellen
+### Gruppe / Rechte erstellen
 
 *Als Administrator* legen wir im Django Admin eine neue Gruppe mit frei wählbarem Namen an. Wir verwenden hier "Editoren".
 
@@ -74,6 +74,8 @@ In der folgenden Übersicht vergeben wir den Namen "Editoren", weisen aus der Li
 
 ![Django Gruppe anlegen](images/django_admin_create_group.jpeg)
 
+### Mitarbeiter hinzufügen
+
 In der Übersicht gehen wir hierauf auf Benutzer,
 
 ![Django Nutzer Link](images/django_user_link.jpeg)
@@ -86,10 +88,10 @@ Loggt sich der Mitarbeiter nun mit seinem Account ein besitzt er über erweitert
 
 ![Neue Berechtigungen](images/django-new-groups-added.jpeg)
 
-
 > Wir würden nun erwarten, dass der User im Frontend ebenfalls das Menü zum anlegen neuer Gruppen erhält. 
 
 ![Fehlender Link](images/missing_group_link.jpeg)
 
 > Dem ist leider nicht so, hierbei handelt es sich um einen Bug über GeoNode4. Die neue Gruppe kann jedoch trotzdem bei direkt aufruf des links https://geonode-training.csgis.de/groups/create/ oder über die Django Administrationsoberfläche erzeugt werden.
+
 
