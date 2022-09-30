@@ -9,6 +9,7 @@
         "django_admin_themes.md": "- Theme erstellen",
         "django_admin_menu.md": "- Menu erstellen",
         "django_admin_lisences.md": "- Lizenz anlegen",
+        "monitoring.md": "- Analytics",
         "django_admin_harvester.md": "- Harvester"
     }
 }
