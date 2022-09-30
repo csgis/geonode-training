@@ -32,7 +32,7 @@ Administratoren Rollen dürfen per se alles sehen, bearbeiten oder löschen.
 Das erste Administratoren Konto wird bei der Installation des Systems angelegt. Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
 
 
-## Beispiele für die vollständigen Rechte
+## Zusätzliche Menüpunkte
 
 Administoren werden im Menü zusätzliche Optionen angezeigt:
 
@@ -42,7 +42,6 @@ Dies sind:
 
 - Invite User
   - Neue Benutzer einladen
-
 - Add User
   - Neue User anlegen
 - Create Group
@@ -93,4 +92,4 @@ Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe änd
 
 ![Manage Group](images/manage_groups.jpeg)
 
-> Die umfangreiche Dokumentation finden Sie [hier](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group)
+> Die umfangreiche Dokumentation finden Sie [hier](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).

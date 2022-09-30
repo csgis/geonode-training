@@ -101,13 +101,18 @@ div#logo a {
     color: #959da5!important
 }
 
-#jumpMenu ul li a.second {
+#jumpMenu ul li a.second, #jumpMenu ul li a.third {
     padding-left: 18px;
 }
 
 #jumpMenu ul li a.second:before {
     content: "- ";
 }
+
+#jumpMenu ul li a.third:before {
+    content: "• ";
+}
+
 .container-lg{
     /* width: 91%!important; */
     max-width: 65%;
