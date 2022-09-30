@@ -10,7 +10,7 @@
 
 # Einführung in GeoNode 4.0 für Anwender
 
-**Inhalt:**
+## Inhalt:
 
 In dieser Schulung werden wir folgende Themen mit GeoNode behandeln:
 
@@ -22,7 +22,7 @@ In dieser Schulung werden wir folgende Themen mit GeoNode behandeln:
 - Kartenerstellung
 - Überblick: Geostories, Dashboards, Diagramme und Widgets
 
-**Ziel:**
+## Ziel:
 
 In diesem Kurs arbeiten Sie mit GeoNode mit konkreten Beispielen und Fragestellungen aus der Praxis.
 Wir bauen gemeinsam ein Geoportal auf. Schritt für Schritt lernen wir GeoNode kennen.
