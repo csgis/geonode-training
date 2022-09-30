@@ -2,6 +2,7 @@
     "admin-user" : {
         "index.md": "Index",
         "admin_role.md": "Die Admin Rolle",
+        "manage_group_permissions.md": "Gruppen Berechtigungen",
         "spacer.md": "spacer_Django Admin:",
         "django_admin_basics.md": "- Übersicht",
         "django_admin_themes.md": "- Themes",
