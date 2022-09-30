@@ -26,7 +26,6 @@ async function loadNames() {
     } else {
       menuDom = `<ul>${menuDom}</ul>`
     }
-    console.log(menuDom)
     menu.innerHTML = menuDom
 }
 
