@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Benutzer
+# Benutzer verwalten
 
 Betrachten wir zunächst einen sehr einfach jedoch wesentlichen Abschnitt des Django Admins. Die Benutzerverwaltung.
 
@@ -42,7 +42,7 @@ Wie auch in der Übersicht können Sie den User löschen oder Änderungen speich
   - Legt fest, dass der Benutzer alle Berechtigungen hat, ohne diese einzeln zuweisen zu müssen.
 
 
-#  Rechte zuweisen
+##  Rechte zuweisen
 
 Wie wir gesehen haben dürfen Administratoren alle Django Admin Bereiche aufrufen und ausführen.  
 
@@ -50,7 +50,7 @@ Benutzer mit Mitarbeiter Status können sich zwar in die Django Oberfläche einl
 
 ![images](images/django-staff.jpeg)
 
-## Gruppe anlegen
+### Gruppe anlegen
 
 Um Mitarbeiter mit weiteren Rechten auszustatten, ist es nötig 
 
