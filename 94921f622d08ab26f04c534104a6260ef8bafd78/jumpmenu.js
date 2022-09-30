@@ -5,7 +5,7 @@ function truncate(str, n){
 
 function createSubMenu(){
     var jumpMenu = document.getElementById("jumpMenu")
-    document.querySelectorAll("h1").remove();
+    document.querySelectorAll("h1")[0].remove();
     headlines = document.querySelectorAll("h1, h2, h3");
     let subMenu = ""
     headlines.forEach((headlineItem) => {
