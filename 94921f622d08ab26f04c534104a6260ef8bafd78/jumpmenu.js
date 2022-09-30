@@ -19,15 +19,21 @@ function createSubMenu(){
   
   document.addEventListener("DOMContentLoaded", () => {
     createSubMenu()
+
+    // Create Captions
+
+    var images = document.querySelectorAll("img");
+
+    images.forEach(function(el){
+              var title = el.alt;
+              var caption = document.createElement("small")
+              console.log(caption)
+              caption.innerText = title 
+              el.classList.add("caption");
+              if (title !== undefined)
+                el.parentNode.insertBefore(caption, el.nextSibling);
+          }); 
+
   });
   
 
-let images = document.querySelectorAll("img");
-
-images.forEach(function(el){
-          var title = el.alt;
-          var caption = document.createElement("small")
-          element.classList.add("caption");
-          caption.innerText = title 
-          el.parentNode.insertBefore(caption,el.nextSibling);
-      }); 
