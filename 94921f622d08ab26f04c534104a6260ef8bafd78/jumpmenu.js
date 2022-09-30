@@ -21,3 +21,13 @@ function createSubMenu(){
     createSubMenu()
   });
   
+
+let images = document.querySelectorAll("img");
+
+images.forEach(function(el){
+          var title = this.alt;
+          var caption = document.createElement("small")
+          element.classList.add("caption");
+          caption.innerText = title 
+          el.parentNode.insertBefore(caption,el.nextSibling);
+      }); 

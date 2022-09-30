@@ -26,7 +26,7 @@ Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreife
 
 ## Über den Django Admin
 
-![Ankündgigung aus dem Django Admin](images/admin-announcments-006.png)
+![Ankündigungen](images/admin-announcments-006.png)
 
 
 Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die "Ablehnungen" (dismissal) zu verwalten.
