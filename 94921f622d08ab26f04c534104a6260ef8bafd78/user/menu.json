@@ -1,6 +1,7 @@
 {
     "admin-user" : {
         "index.md": "Index",
-        "user_profil.md": "User Profil"
+        "user_profil.md": "User Profil",
+        "publikationen_ressourcen.md": "Publikation von Ressourcen"
     }
 }

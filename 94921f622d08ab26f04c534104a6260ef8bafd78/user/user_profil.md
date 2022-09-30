@@ -44,9 +44,13 @@ Außerdem können registrierte Benutzer:
 
 ![image5](images/image5.png)
 
-> *Weitere empfehlenswert GeoNode Dokumentationen sind:*
+>*Weitere empfehlenswert GeoNode Dokumentationen sind:*
 > - *[GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)*
 > - *[Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)*
+
+> *Auf der Startseite, im Menü Über  kann man visualisieren, filtern 	und sehen welche User im GeoNode registriert sind und welche Daten haben sie 	veröffentlicht*
+
+![image8](images/image8.png)
 
 ## Übung
 
