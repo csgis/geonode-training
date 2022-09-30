@@ -14,9 +14,9 @@ Nachdem sich einen Anwender erfolgreich registriert hat, kann sich gleich anmeld
 
 ![image2](images/image2.png)
 
-    *Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.*
-
-    *Standardmäßig läuft die Registrierung automatisch. Man kann aber schwingen dass einen Admin die Registrierung bestätigt (das ist oft sinnvoll um mehr 	kontroll über die angemeldeten Anwender zu haben)*
+>*Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.*
+>
+>*Standardmäßig läuft die Registrierung automatisch. Man kann aber schwingen dass einen Admin die Registrierung bestätigt (das ist oft sinnvoll um mehr 	kontroll über die angemeldeten Anwender zu haben)*
 
 # User Profil
 
@@ -29,7 +29,9 @@ Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 - Andere Anwender einladen Ihrer GeoNode Plattform zu benutzen
 
 
-    *Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind 	alle Optionen ausgewählt. Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)*
+>*Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind 	alle Optionen ausgewählt.*
+>
+>*Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)*
 
 ![Benachrichtigungen](images/image4.png)
 
@@ -42,9 +44,9 @@ Außerdem können registrierte Benutzer:
 
 ![image5](images/image5.png)
 
-> Weitere empfehlenswert GeoNode Dokumentationen sind:
-> - [GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)
-> - [Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)
+> *Weitere empfehlenswert GeoNode Dokumentationen sind:*
+> - *[GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)*
+> - *[Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)*
 
 ## Übung
 
