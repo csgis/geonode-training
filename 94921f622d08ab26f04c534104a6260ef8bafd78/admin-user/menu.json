@@ -5,7 +5,7 @@
         "manage_group_permissions.md": "Gruppen Berechtigungen",
         "spacer.md": "spacer_Django Admin:",
         "django_admin_basics.md": "- Übersicht",
-        "django_admin_profile.md": "- Mitarbeiter Rechte",
+        "django_admin_profile.md": "- Benutzer verwalten",
         "django_admin_themes.md": "- Themes",
         "django_admin_menu.md": "- Menus",
         "django_admin_lisences.md": "- Licenses",
