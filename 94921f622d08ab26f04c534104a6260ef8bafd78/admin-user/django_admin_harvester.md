@@ -34,6 +34,7 @@ Dieser Workflow wird meist manuell vom Benutzer ausgeführt.
 ### Neuen Harvester anlegen
 
 Klicken Sie im Django Admin auf den Link zur Harvester Übersicht.
+
 ![Link um neuen Harvester anzulegen](images/django_add_harvester.jpeg)
 
 Über den Button im rechten oberen Eck legen Sie einen neuen Harvester an.
