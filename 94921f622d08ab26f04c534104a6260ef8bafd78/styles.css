@@ -53,7 +53,7 @@ div#logo a {
     top: 0;
     left: 0rem;
     height: 100vh;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #F1F4F6;
     padding-top: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
@@ -73,7 +73,7 @@ div#logo a {
 #menu ul li {
     list-style-type: none;
     padding: 8px 5px 8px 15px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid ##D3DCE4;
     margin-top: 0!important;
     width: 220px;
 }
