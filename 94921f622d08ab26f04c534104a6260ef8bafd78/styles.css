@@ -27,7 +27,7 @@ li.item-link:hover {
 }
 
 li.spacer {
-    color: #989494;
+    color: #fff;
 }
 
 a[href*="github"]{display: none}
@@ -58,6 +58,7 @@ div#logo a {
     overflow-y: auto;
     min-width: 220px;
     position: fixed;
+    background: #ccc;
 }
 
 #menu ul {
