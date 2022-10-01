@@ -18,9 +18,42 @@ function createSubMenu(){
   }
   
   document.addEventListener("DOMContentLoaded", () => {
+    
+    // Create the submenu
     createSubMenu()
 
-    // Create Captions
+    // Highlight active
+
+    const jumpLinks = document.querySelectorAll(".first, .second, .third");
+
+init = 0;
+
+const inViewport = (entries, observer) => {
+    
+    jumpLinks.forEach(JL => {
+        JL.classList.remove("highlight_jumpling");
+      });
+
+    entries.forEach(entry => {
+      JL_target = document.querySelector('[href="#' + entry.target.id + '"]');
+      if (init == 1)
+        JL_target.classList.add("highlight_jumpling");
+    });
+
+    init = 1;
+  };
+  
+  const Obs = new IntersectionObserver(inViewport);
+  const obsOptions = {}; //See: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
+  
+  // Attach observer to every [data-inviewport] element:
+  const ELs_inViewport = document.querySelectorAll("h1, h2, h3");
+  ELs_inViewport.forEach(EL => {
+    Obs.observe(EL, obsOptions);
+  });
+
+
+    // Create Captions -- Refactor in own file
 
     var images = document.querySelectorAll("img");
 
