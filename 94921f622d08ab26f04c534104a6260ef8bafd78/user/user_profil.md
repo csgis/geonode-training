@@ -22,9 +22,13 @@ Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Ad
 Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss
 ```
 
-# User Profil
 
----
+    Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option       ändern sodass einen Admin die Registrierung bestätigten muss
+
+
+
+
+# User Profil
 
 Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 
