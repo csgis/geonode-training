@@ -10,7 +10,6 @@
         "django_admin_themes.md": "- Theme erstellen",
         "django_admin_menu.md": "- Menu erstellen",
         "django_admin_metadata.md": "- Metadaten",
-        "monitoring.md": "- Analytics",
         "django_admin_harvester.md": "- Harvesting",
         "announcements.md": "Ankündigungen"
     }
