@@ -14,11 +14,11 @@ GeoNode bietet standardmäßig einige Theming-Optionen, die direkt über die Adm
 
 Im Django Admin öffnen wir die Theme Administration über den Link Themes:
 
-![Django Theme link](images/django_theme.jpeg)
+![Theme link](images/django_theme.jpeg)
 
 Die hierauf folgende Ansicht listet alle vorhandenen Themes. Achten Sie auf den Status "is enabled".
 
-![Django Theme link](images/django_theme_enabled.jpeg)
+![Theme aktiviert / nicht aktiviert](images/django_theme_enabled.jpeg)
 
 Über die bekannte Schaltfläche im Rechten oberen Eck "geonode theme customisation hinzufügen" legen wir ein neues Thema an.
 
@@ -47,11 +47,11 @@ Die Oberfläche gibt uns folgende Möglichkeiten:
 - Jumbotron content
   - Der im Banner angezeigte Text
 
-![Django Theme Formular](images/django_theme_form.jpeg)
+![Theme Formular](images/django_theme_form.jpeg)
 
 zeigt sich auf der Startseite
 
-![GeoNode Theme](images/theming.jpeg)
+![Theme ist sichtbar](images/theming.jpeg)
 
 # Weiterführende Links
 

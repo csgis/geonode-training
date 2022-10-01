@@ -16,15 +16,15 @@
 
 Ihren Datensätzen und Karten können neben Userrechte über das Menü teilen Gruppen Rechte hinzugefügt werden.
 
-![share](images/dataset_teilen.jpeg)
+![Teilen link für Berechtigungen verwenden](images/dataset_teilen.jpeg)
 
 Im bekannten Panel zur Rechtevergabe wählen Sie die jeweilgen Gruppen:
 
-![group perms](images/add_group_sahre.jpeg)
+![[Ebenen Berechtigungen einstellen](images/add_group_sahre.jpeg)
 ![choose group](images/csgis_group.jpeg)
 
 Und vergeben hiernach die gewünschte Sichtbarkeit:
-![Gruppen Rechte](images/csgis_perms.jpeg)
+![Gruppen Rechte definieren](images/csgis_perms.jpeg)
 
 # Übungen
 

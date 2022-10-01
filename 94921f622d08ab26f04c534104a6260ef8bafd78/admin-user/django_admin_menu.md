@@ -12,20 +12,20 @@
 
 GeoNode bietet einige integrierte Funktionen, mit denen Sie das Menü in der oberen Leiste schnell und einfach anpassen können (siehe das Beispiel unten).
 
-![Custom Menu](images/admin-panel-menus-0000.png)
+![Eigenes Menu](images/admin-panel-menus-0000.png)
 
 ##  Neues Menü anlegen
 
 Die relevanten Punkte finden wir im Django Admin unter "Menu Items", "Menu placeholders", "Menus".
 
-![Django Menu links](images/django_menu_links.jpeg)
+![Menu Verwaltung](images/django_menu_links.jpeg)
 
 Wir öffnen Menus und klicken in der darauf folgenden Maske auf "menu hinzufügen".
 In der darauffolgenden Maske vergeben wir einen Titel für das Menü (wird nur intern verwendet).
 Die Position (Feld Placehoder), sowie die Reihenfolge falls mehrere Menus unter dem Placeholder erscheinen sollen.
 
 
-![Django Menu links](images/django_new_menu.jpeg)
+![Neues Menu anlegen](images/django_new_menu.jpeg)
 
 Und speichern das Menü ab.
 
@@ -41,13 +41,13 @@ Nachdem wir ein neues Menü definiert haben, legen wir in diesem Schritt zwei Ne
 
 In der Django Übersicht wählen wir nun den Mnüpunkt "Menu Items"
 
-![Django Menu Items](images/django_menu_items.jpeg)
+![Neuen Menüpunkt anlegen](images/django_menu_items.jpeg)
 
 ### Erster Menüpunkt
 
 Und legen uns in der darauffolgenden Maske über den bekannten rechten Buton "menu item hinzufügen" ein neues Menu Item an:
 
-![Django Menu Items](images/django_new_menu_item.jpeg)
+![Neuen Menüpunkt anlegen](images/django_new_menu_item.jpeg)
 
 Die sich hierauf öffnende Maske bietet die Formularfelder:
 
@@ -75,13 +75,13 @@ Url | https://geonode-training.csgis.de/about/
 
 Hiernach klicken wir auf "Sicher und neu hinzufügen".
 
-![Django Menu Item1 ](images/django_menu_item1.jpeg)
+![Erster Menüpunkt](images/django_menu_item1.jpeg)
 
 ### Zweiter Menüpunkt
 
 Für unseren nächsten Datensatz öffnen wir ein neues Browserfenster. Navigieren zu den Datensätzen und setzen den Haken bei Vektor und kopieren uns die URL aus der Adresszeile:
 
-![Django Menu Item2 ](images/vektor_url.jpeg)
+![Zweiter Menüpunkt](images/vektor_url.jpeg)
 
 Zurück in der Maske des neuen Menüpunkt füllen wir die Werte wie folgt:
 
@@ -99,17 +99,17 @@ Wir speichern und schließen den Menpunkt über speichern und betrachten das Erg
 ### Darstellung des Menüs
 
 Unser neues Menü zeigt sich der der oberen Navigationsleiste der Seite.
-![Neues Frontend Menü](images/fe_new_menu.jpeg)
+![Neues Menu wird sichtbar](images/fe_new_menu.jpeg)
 
 Ein Klick auf About bringt die User zur About Seite:
 
-![About](images/about.jpeg)
+![Verlinkte about Seite](images/about.jpeg)
 
 > Wie Sie diese Seite überschreiben sehen Sie im nächsten Abschnitt "Einführung in die Entwicklung".
 
 Ein Klick auf auf "Unsere Vektordaten" zeigt eine vorab gefiltere Liste an Vektor Datensätzen.
 
-![About](images/about.jpeg)
+![Verlinkte Vector Daten](images/vector_only.jpeg)
 
 > Mit dieser Technik ließen sich natürlich auch Links speziell einer Gruppe oder in einer Region denken.
 

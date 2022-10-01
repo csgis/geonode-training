@@ -22,11 +22,11 @@ Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreife
 
 ## Über die GeoNode-GUI, aus dem Profil-Panel
 
-![Ankündigungen](images/admin-announcments-005.png)
+![Ankündigungen im Frontend verwalten](images/admin-announcments-005.png)
 
 ## Über den Django Admin
 
-![Ankündigungen](images/admin-announcments-006.png)
+![Ankündigungen im Django Admin verwalten](images/admin-announcments-006.png)
 
 
 Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die "Ablehnungen" (dismissal) zu verwalten.

@@ -43,17 +43,17 @@ In diesem Beispiel legen wir eine neue auswählbare Lizenz an. Im Django Admin n
 
 zur Liste der Lizenzen wo wir auf "lizenz hinzufügen" klicken
 
-![Neue Lizenz](django_add_lisence.jpeg)
+![Neue Lizenz](images/django_add_lisence.jpeg)
 
 > Natürlich hätten wir hierüber auch die Möglichkeit bestehende zu verändern oder zu löschen.
 
 In der folgenden Maske legen wir unsere Test Lizenz an und speichern diese ab:
 
-![Neue Lizenz](images/django_lic_form.jpeg)
+![Maske neue Lizenz](images/django_lic_form.jpeg)
 
 Hiernach steht den Usern die neue Lizenz im Frontend zur Auswahl bereit:
 
-![Neue Lizenze](images/fe-private.png)
+![Neue Lizenz wird sichtbar](images/fe-private.png)
 
 
 ## Metadata Topic Categories
@@ -62,20 +62,20 @@ Als zweite Änderung wollen wir eine bestehende "Metadata Topic Kategorie" entfe
 
 Im Django Admin wählen wir den Link "Metadata Topic Category":
 
-![Django Metadata Link](images/django_metadata_topic.jpeg)
+![Metadata verwalten](images/django_metadata_topic.jpeg)
 
 In der hierauf folgenden Maske scrollen wir etwas nach unten und klicken auf "society".
 
-![Django Society Link](images/django_edit_society.jpeg)
+![Society Details öffnen](images/django_edit_society.jpeg)
 
-Wir entfernen den Haken bei "is Choise" und speichern den Datensatz ab:
+Wir entfernen den Haken bei "is choice" und speichern den Datensatz ab:
 
-![Django Society speichern](images/django_disable_soc.jpeg)
+![Society speichern](images/django_disable_soc.jpeg)
 
 Zurück in der Liste aller Topic Kategorien wählen wir über den Rechten oberen Button "Hinzufügen topic category" und füllen das Formular mit Beispiel Daten.
 
-![Django Soil Data](images/django_soil_data.jpeg)
+![Neue Kategorie: Soil Data](images/django_soil_data.jpeg)
 
 Beim betrachten der Metadatenmaske verschwindet "Society" aus der Auswahl. Weiterhin zeigt sich unsere neue Metadaten Kategorie "Soil data".
 
-![Frontend](images/fe-soil_data.png)
+![Veränderte Möglichkeiten zeigen sich im Frontend](images/fe-soil_data.png)

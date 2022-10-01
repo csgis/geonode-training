@@ -21,8 +21,8 @@ Um auf die Administrationsoberfläche zugreifen zu können, muss ein User Mitarb
 
 Die Administrationsoberfläche erreichen Sie nach dem Login über das Menü, welches die eingestellte Sprache berücksichtigt.
 
-![Django Admin](images/admin_menu.jpeg)
+![Django Admin link](images/admin_menu.jpeg)
 
 Die hierauf folgende Übersicht listet alle "Django Apps" die GeoNode besitzt.
 
-![Django Admin Überblick](images/django_admin_start.jpeg)
+![Django Admin Startseite](images/django_admin_start.jpeg)

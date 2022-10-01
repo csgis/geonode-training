@@ -15,7 +15,7 @@ Gehen wir eine Stufe weiter und werfen einen Blick auf die Dataset Verwaltung.
 
 > Datasets hießen vor Version 3.3 Layer
 
-![Django Admin Datasets](images/django_dataset_list.jpeg)
+![Datasets verwalten](images/django_dataset_list.jpeg)
 
 Die Tabelle gibt uns wieder einen kurzen Überblick über nützliche Infos. Zum Beispiel wann der Datensatz erzeugt wurde, den Titel, oder die ID. 
 
@@ -42,5 +42,5 @@ Dies entspricht der Möglichkeit aus dem Forntend die Metadaten des Datensatzes 
 Andere Felder ergeben sich rein aus der Tatsache dass der Django Admin "einen Spiegel" des Datenbanksatze darstellt. Und hierdurch zahlreiche Felder, von den Administratoren (ohne tiefes Hintergrundwissen) nicht editiert werden sollten.
 Als Beispiel das CSW Feld:
 
-![Datensatz CSW Feld](images/django_csw.jpeg)
+![Komplexes Feld aus Datenbank ausgabe](images/django_csw.jpeg)
 

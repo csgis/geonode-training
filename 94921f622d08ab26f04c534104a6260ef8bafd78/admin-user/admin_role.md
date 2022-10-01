@@ -36,7 +36,7 @@ Das erste Administratoren Konto wird bei der Installation des Systems angelegt. 
 
 Administoren werden im Menü zusätzliche Optionen angezeigt:
 
-![admin_menu](images/admin-menu.jpeg)
+![Erweitertes Menü für Administratoren](images/admin-menu.jpeg)
 
 Dies sind:
 
@@ -50,18 +50,18 @@ Dies sind:
 ### Invite User
 Über die Maske Invite User besteht die Möglichkeit, eine E-Mail Einladung / Aufforderung an Dritte zu senden. Die E-Mail bittet um Registrierung.
 
-![Benutzer einladen](images/benutzer_einladen.jpeg)
+![Maske Benutzer einladen](images/benutzer_einladen.jpeg)
 
 ### Add User
 
 Über die Maske "Add User" besteht die Möglichkeit neue Nutzer anzulegen.
 
-![Add User](images/add_user.jpeg)
+![Benutzer hinzufügen](images/add_user.jpeg)
 
 ### Create Group
 
 Über die Maske "Create Group" können Gruppen angelegt werden.
-![Create Group](images/create_group.jpeg).
+![Gruppe erstellen](images/create_group.jpeg).
 
 Gruppen sind eine Möglichkeit User zusammenzufassen. Dies ist sinnvoll um Datensätze schnell mit Rechten für einen größeren Personenkreis zu geben.
 
@@ -86,12 +86,12 @@ Beim anlegen einer neuen Gruppe stehen folgende Eingabefelder zur Verfügung:
   
 Nach dem anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppen Übersicht
 
-![View Groups](images/view_gropus.jpeg)
+![Übersicht der Gruppen](images/view_gropus.jpeg)
 
 Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe ändern.
 > In der Pause haben wir zu diesem Zweck Ihren Accounts Administratoren Rechte gegeben.
 
-![Manage Group](images/manage_groups.jpeg)
+![Gruppen verwalten](images/manage_groups.jpeg)
 
 # Übungen
 ## Neue Gruppe
