@@ -27,7 +27,7 @@ li.item-link:hover {
 }
 
 li.spacer {
-    color: #fff;
+    color: #333;
 }
 
 a[href*="github"]{display: none}
