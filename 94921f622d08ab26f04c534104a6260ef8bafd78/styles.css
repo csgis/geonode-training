@@ -96,10 +96,12 @@ div#logo a {
 #jumpMenu ul li {
     list-style-type: none;
     padding: 0;
+    margin: 0
 }
 
 #jumpMenu ul li  a {
-    color: #959da5!important
+    color: #959da5!important;
+    font-size: 0.9rem
 }
 
 #jumpMenu ul li a.second, #jumpMenu ul li a.third {
