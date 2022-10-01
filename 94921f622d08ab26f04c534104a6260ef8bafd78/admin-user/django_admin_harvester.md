@@ -116,7 +116,7 @@ Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 ![Neue Resource speichern](images/django_harvest_res.jpeg)
 
 
-# Periodischen harvesten
+# Periodisches harvesten
 
 
 # Weiterführende Links
