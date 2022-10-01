@@ -78,7 +78,7 @@ div#logo a {
 #jumpMenu {
     position: fixed;
     top: 0;
-    right: 0;
+    right: 8px;
     height: 100vh;
     padding-top: 3rem;
     overflow-x: hidden;
