@@ -26,12 +26,12 @@ Stzandardmässig unterstützung GeoNode das Harvesting von:
 
 Weiterhin besteht die Möglichkeit eigene Harvester zu programmieren.
 
-# Einmaligen Harvester anlegen
+# Einmaliges Harvestern
 
 Dieser Workflow wird meist manuell vom Benutzer ausgeführt.
 
 
-### Neuen Harvester anlegen
+### Manuellen Harvester anlegen
 
 Klicken Sie im Django Admin auf den Link zur Harvester Übersicht.
 
@@ -116,11 +116,7 @@ Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 ![Neue Resource speichern](images/django_harvest_res.jpeg)
 
 
-- Der Benutzer ruft den Vorgang "Liste der harvestfähigen Ressourcen aktualisieren" auf;
-- Wenn der vorherige Vorgang abgeschlossen ist, geht der Benutzer die Liste der erzeugten erntefähigen Ressourcen durch und setzt für jede relevante erntefähige Ressource das Attribut should_be_harvested auf True;
-- Anschließend ruft der Benutzer die Operation perform harvesting auf. Dies bewirkt, dass die entfernten Ressourcen geharvested werden. Diese werden nun als Ressourcen auf dem lokalen GeoNode angezeigt.
-
-# Periodischen Harvester anlegen
+# Periodischen harvesten
 
 
 # Weiterführende Links
