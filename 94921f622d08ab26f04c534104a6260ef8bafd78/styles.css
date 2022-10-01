@@ -163,3 +163,7 @@ small.caption {
     margin-left: 3rem;
     color: #8b8a8a;
 }
+
+.highlight_jumpling {
+    text-decoration: underline;
+}
