@@ -104,6 +104,8 @@ Zurück im Django Hauptmenü rufen wir die Liste der "Harvestable resources" auf
 Und sehen die geharvestete Resource.
 Um diese lokal zu speichern setzen wir am linken Rand der Tabelle den Haken, und wählen im unteren Auswahlfeld "Harvest selected resources".
 
+![Datensatz abholen](images/django_harvest_res.jpeg)
+
 Nach einiger Zeit und neu laden der Maske sollte uns ein grünes Symbol über das erfolgreiche speichern des Datensatzes angezeigt werden.
 
 Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
@@ -118,6 +120,47 @@ Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 
 # Periodisches harvesten
 
+Das periodisches abholen und speichern entfernter Datensätze funktioniert fast identisch zum manuellen Workflow.
+Um die Funktion zu illustrieren, werden wir den vorab angelegten Harvester leicht abändern.
+
+### löschen der bestehenden Ebene
+
+Im Django Admin navigieren wir zur [Verwaltung von Datensätzen](https://geonode-training.csgis.de/de-de/admin/layers/dataset/) (diesmal im Django Admin). Und löschen die vorab hinzugefügte Ebene "geonode:tl_2018_02_anrc0".
+
+![Datensatz im Django Admin löschen](images/django_delete_Dataset.jpeg)
+
+Die hierauf folgende Rückfrage zum löschen, bestätigen wir mit "Ja, ich bin sicher".
+
+In der [Übersicht der Harvestable resources](https://geonode-training.csgis.de/de-de/admin/harvesting/harvestableresource/), löschen wir den vorab gefundenen Datensatz:
+
+![resource löschen](images/django_delete_harvest.jpeg)
+
+Zurück in der [Übersicht aller Harvester](https://geonode-training.csgis.de/de-de/admin/harvesting/harvester/) editieren wir den vorab angelegten Harvester "Manueller Harvester".
+
+![bestehende Harvester](images/django_new_Harvester_in_list.jpeg)
+
+In der Maske ändern wir folgende Angaben:
+
+Konfiguration|Wert
+---|---
+Name | Automatischer Harvester
+Scheduling enable | Checkbox angehakt
+Harvesting session update frequency | 2
+Refresh harvestable resources update frequency | 2
+Harvest new resources by default | Checkbox angehakt
+Delete orphan resources automatically | Checkbox angehakt
+
+![Maske für automatischen Harvester ändern](images/django_auto_harvester.jpeg)
+
+Und speichern die Konfiguration ab.
+
+Nach einiger Zeit sollte die geharvestete Resource in der [Übersicht der zu harvesten Resourcen](https://geonode-training.csgis.de/de-de/admin/harvesting/harvestableresource/) auftauchen.
+
+![automatisch hinzugefügter Datensatz](images/django_auto_added_harvester.jpeg)
+
+Sowie die Ebene im Portal sichtbar werden.
+
+![Neuer sichtbarer Datensatz](images/fe_harvested_res.jpeg)
 
 # Weiterführende Links
 
