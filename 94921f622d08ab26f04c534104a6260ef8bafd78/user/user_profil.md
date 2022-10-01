@@ -10,18 +10,21 @@
 
 # Registrieren
 
+---
+
 Im ersten Schritt erfolgt eine Registrierung in den GeoNode Plattform. Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente, etc.) visualisiert und geteilt aber nicht bearbeitet werden.
 Nachdem sich einen Anwender erfolgreich registriert hat, kann sich gleich anmelden GeoNode im vollen Umfang benutzen.
 
 ![Anmeldung](images/image2.png)
 
 ```
-*Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.*
+Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.
+Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss
 ```
 
-> *Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss *
-
 # User Profil
+
+---
 
 Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 
@@ -34,8 +37,6 @@ Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 > *Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind     alle Optionen ausgewählt.*
 > 
 > *Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)*
-> 
-> 
 
 ![Benachrichtigungen](images/image4.png)
 
@@ -51,11 +52,9 @@ Außerdem können registrierte Benutzer:
 > *Weitere empfehlenswert GeoNode Dokumentationen sind:*
 > 
 > - *[GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)*
-> -  *[Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)*  
+> - *[Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)*  
 > 
 > *Auf der Startseite, im Menü Über  kann man visualisieren, filtern und sehen welche User im GeoNode registriert sind und welche Daten haben sie   veröffentlicht*
-> 
-> 
 
 ![Benutzer](images/image8.png)
 
