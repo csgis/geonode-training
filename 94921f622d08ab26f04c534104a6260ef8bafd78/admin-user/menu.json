@@ -4,13 +4,13 @@
         "admin_role.md": "Die Admin Rolle",
         "manage_group_permissions.md": "Gruppen Berechtigungen",
         "spacer.md": "spacer_Django Admin:",
-        "django_admin_basics.md": "$nbsp;$nbsp; | Übersicht",
-        "django_admin_profile.md": "$nbsp;$nbsp; | Benutzer verwalten",
-        "django_admin_dataset.md": "$nbsp;$nbsp; | Dataset verwalten",
-        "django_admin_themes.md": "$nbsp;$nbsp; | Theme erstellen",
-        "django_admin_menu.md": "$nbsp;$nbsp; | Menu erstellen",
-        "django_admin_metadata.md": "$nbsp;$nbsp; | Metadaten",
-        "django_admin_harvester.md": "$nbsp;$nbsp; | Harvesting",
+        "django_admin_basics.md": "&nbsp; | Übersicht",
+        "django_admin_profile.md": "&nbsp; | Benutzer verwalten",
+        "django_admin_dataset.md": "&nbsp; | Dataset verwalten",
+        "django_admin_themes.md": "&nbsp; | Theme erstellen",
+        "django_admin_menu.md": "&nbsp; | Menu erstellen",
+        "django_admin_metadata.md": "&nbsp; | Metadaten",
+        "django_admin_harvester.md": "&nbsp; | Harvesting",
         "announcements.md": "Ankündigungen"
     }
 }
