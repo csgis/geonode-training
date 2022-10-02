@@ -29,6 +29,7 @@ li.item-link:hover {
 
 li.spacer {
     color: #333;
+    font-size: 14px;
 }
 
 a[href*="github"]{display: none}
