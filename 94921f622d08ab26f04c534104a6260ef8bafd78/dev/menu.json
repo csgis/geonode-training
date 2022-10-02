@@ -1,10 +1,10 @@
 {
     "admin" : {
         "index.md": "Index",
-        "source.md": "GeoNode Source",
-        "template.md": "Templates",
+        "source.md": "GeoNode Quelltext",
+        "template.md": "Templates überschreiben",
         "email.md": "E-Mail Texte anpassen",
-        "custom_page.md": "Seiten ergänzen",
-        "geoapp.md": "Geoapps"
+        "custom_page.md": "Eigene Seiten anblegen",
+        "geoapp.md": "Was sind Geoapps?"
     }
 }
