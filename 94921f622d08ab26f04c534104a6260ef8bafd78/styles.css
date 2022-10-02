@@ -53,13 +53,13 @@ div#logo a {
     top: 0;
     left: 0rem;
     height: 100vh;
-    border-right: 1px solid #F3F6F9;
+    border-right: 1px solid rgba(211,220,228,1.00);
     padding-top: 3rem;
     overflow-x: hidden;
     overflow-y: auto;
     min-width: 220px;
     position: fixed;
-    background: #d2d2d2;
+    background: #F4F7F9;
     z-index: 1;
 }
 
@@ -73,7 +73,7 @@ div#logo a {
 #menu ul li {
     list-style-type: none;
     padding: 8px 5px 8px 15px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(211,220,228,1.00);
     margin-top: 0!important;
     width: 220px;
 }
