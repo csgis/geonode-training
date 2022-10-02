@@ -8,6 +8,7 @@ h1:first-child {
 
 #menu a {
     color: #24292f;
+    font-size: 14px;
 }
 
 #menu a:hover {
@@ -18,11 +19,11 @@ h1:first-child {
 #menu a.active {}
 
 #menu li.item-active{
-    background: #F6F8FA;
+    background: #fff;
 }
 
 li.item-link:hover {
-    background: #F6F8FA;
+    background: #fff;
     cursor: pointer;
 }
 
@@ -46,6 +47,7 @@ div#logo {
 div#logo a {
     text-decoration: none;
     color: black!important;
+    font-size: 14px;
 }
 
 #menu {
@@ -104,7 +106,7 @@ div#logo a {
 
 #jumpMenu ul li  a {
     color: #959da5!important;
-    font-size: 0.9rem
+    font-size: 14px;
 }
 
 #jumpMenu ul li a.second, #jumpMenu ul li a.third {
