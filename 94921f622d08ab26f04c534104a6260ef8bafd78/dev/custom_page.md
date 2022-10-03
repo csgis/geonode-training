@@ -38,7 +38,7 @@ Zunächst legen wir wiederrum im Templates Ordner unsere neue HTML Datei `dsgvo.
 ```
 
 
-### url.py
+### url.py bearbeiten
 
 In einem zweiten Schritt verlinken wir eine URL ANfrage an `dsgvo` mit unserer neu angelegten Datei:
 
