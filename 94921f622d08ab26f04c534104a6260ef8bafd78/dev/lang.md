@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Übersetzng anlegen
+# Übersetzung anlegen
 
 In diesem Abschnitt wollen wir einen Blick auf das Internationalisierungssytem von Django werfen.
 
