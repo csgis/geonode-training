@@ -20,7 +20,7 @@ Diese Seite generiert sich wie folgt:
 
 Die Datei `url.py` verlinkt alle Anfragen an `about` über die durch Django bereitgestellte  Funktion [TemplateView](https://docs.djangoproject.com/en/4.1/topics/class-based-views/), direkt mit der statischen HTML Datei [about.html[](https://github.com/GeoNode/geonode/blob/4.0.x/geonode/templates/about.html) im Templates Ordner
 
-```
+```python
 url(r'^about/$',
     TemplateView.as_view(template_name='about.html'),
     name='about'),
@@ -35,7 +35,7 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
 
 *templates/about.html*
 
-```
+```html
 {% raw %}
 {% extends "geonode_base.html" %}
 
