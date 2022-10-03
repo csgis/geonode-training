@@ -37,21 +37,19 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
 ```html
     {% raw %}
     {% extends "geonode_base.html" %}
-
     {% load i18n %}
     {% block title %}Unsere Forschungsdaten{% endblock %}
 
     {% block body_outer %}
-    <div class="page-header">
-    <h2>Unsere Forschungsdaten</h2>
-    </div>
-    <p>
-    Diese Plattform dient der Publikation von Daten zum Thema Weltraum.</p>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
-    <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
-
+        <div class="page-header">
+        <h2>Unsere Forschungsdaten</h2>
+        </div>
+        <p>
+        Diese Plattform dient der Publikation von Daten zum Thema Weltraum.</p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
     {% endblock %}
     {% endraw %}
 ```

@@ -22,19 +22,17 @@ Zunächst legen wir wiederrum im Templates Ordner unsere neue HTML Datei `dsgvo.
 ```html
     {% raw %}
     {% extends "geonode_base.html" %}
-
     {% load i18n %}
     {% block title %}DSGVO{% endblock %}
 
     {% block body_outer %}
-    <div class="page-header">
-    <h2>Datenschutzgrundverordnung</h2>
-    </div>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
-    <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
-
+        <div class="page-header">
+        <h2>Datenschutzgrundverordnung</h2>
+        </div>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
     {% endblock %}
     {% endraw %}
 ```
