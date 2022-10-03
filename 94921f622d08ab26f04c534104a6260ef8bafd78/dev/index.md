@@ -10,7 +10,20 @@
 
 
 
-# 1. Entwicklung
+# 1. Einführung in die Entwicklung mit GeoNode
 
-docker-compose ist ein Tool zur Definition und Ausführung von Multi-Container-Docker-Anwendungen. Mit docker-compose verwenden Sie eine YAML-Datei, um die Dienste Ihrer Anwendung zu konfigurieren. Dann erstellen und starten Sie mit einem einzigen Befehl alle Dienste aus Ihrer Konfiguration. Um mehr über alle Funktionen von Compose zu erfahren, lesen Sie die Liste der [Funktionen](https://docs.docker.com/compose/overview/#features).
+In diesem Bereich werden wir uns einführend mit der Entwicklung mit GeoNode beschägtigen.
+Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut. Je nachdem an welchem Bereich Sie arbeiten wollen werden Kenntnisse in folgenden Punkten benörigt:
+
+- Python3
+- CSS
+- Less
+- HTML
+- React
+- Redux
+- RSJX
+- Django
+- Jinja2
+- sql
+  
 
