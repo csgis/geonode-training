@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequ
 
 Da der Entwicklungsserver nach jeder Änderung automatisch neu startet sollten die Änderungen hiernach direkt im Browser sichtbar werden:
 
-[Überschriebene About Seite im Browser](images/about_override.jpeg)
+![Überschriebene About Seite im Browser](images/about_override.jpeg)
 
 In einem Live System sind folgende Schritte nötig:
 
