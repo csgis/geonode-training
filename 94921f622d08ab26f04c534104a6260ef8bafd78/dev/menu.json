@@ -3,8 +3,8 @@
         "index.md": "Index",
         "source.md": "GeoNode Quelltext und Entwicklungsumgebung",
         "template.md": "Templates überschreiben",
-        "email.md": "E-Mail Texte anpassen",
         "custom_page.md": "Eigene Seiten anlegen",
+        "email.md": "E-Mail Texte anpassen",
         "geoapp.md": "Was sind Geoapps?"
     }
 }
