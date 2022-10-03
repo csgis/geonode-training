@@ -15,9 +15,9 @@ In diesem Abschnitt wollen wir einen Blick auf das Internationalisierungssytem v
 Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift 
 
 ```shell
-{raw}
+{% raw %}
 <h1>{% trans "Our privacy policy" %}</h1>
-{endraw}
+{% endraw %}
 ```
 
 mit einer Übersetzung zu versehen. Django erlaubt das anlegen von Übersetzungen über sogenannte `po` und `mo` Dateien.  
