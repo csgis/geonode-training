@@ -36,6 +36,7 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
 *templates/about.html*
 
 ```
+{% raw %}
 {% extends "geonode_base.html" %}
 
 {% load i18n %}
@@ -53,6 +54,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique as
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
 
 {% endblock %}
+{% endraw %}
 ```
 
 Da der Entwicklungsserver nach jeder Änderung automatisch neu startet sollten die Änderungen hiernach direkt im Browser sichtbar werden:
