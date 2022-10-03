@@ -43,10 +43,10 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
 
     {% block body_outer %}
     <div class="page-header">
-    <h2>Forschungsdaten der DBFZ</h2>
+    <h2>Unsere Forschungsdaten</h2>
     </div>
     <p>
-    Diese Plattform dient der Publikation von Daten zum Thema Weltraum</p>
+    Diese Plattform dient der Publikation von Daten zum Thema Weltraum.</p>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
     <p>
@@ -71,5 +71,5 @@ Entweder:
 
 - [Das Django Template System](https://docs.djangoproject.com/en/4.1/topics/templates/)
 - [GeoNode Docs – Templates überschreiben](https://docs.geonode.org/en/master/basic/theme/index.html#theming-your-geonode-project)
-- - [GeoNode Docs – Homepage anpassen](https://docs.geonode.org/en/master/basic/theme/index.html#modify-geonode-homepage)
+- [GeoNode Docs – Homepage anpassen](https://docs.geonode.org/en/master/basic/theme/index.html#modify-geonode-homepage)
 - [GeoNode Docs – Frontend Development](https://docs.geonode.org/en/master/contribute/frontend-development/index.html)
