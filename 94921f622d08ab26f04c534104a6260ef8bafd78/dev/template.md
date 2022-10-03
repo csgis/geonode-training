@@ -21,13 +21,12 @@ Diese Seite generiert sich wie folgt:
 Die Datei `url.py` verlinkt alle Anfragen an `about` über die durch Django bereitgestellte  Funktion [TemplateView](https://docs.djangoproject.com/en/4.1/topics/class-based-views/), direkt mit der statischen HTML Datei [about.html[](https://github.com/GeoNode/geonode/blob/4.0.x/geonode/templates/about.html) im Templates Ordner
 
 ```python
-url(r'^about/$',
-    TemplateView.as_view(template_name='about.html'),
-    name='about'),
+    url(r'^about/$',
+        TemplateView.as_view(template_name='about.html'),
+        name='about'),
 ```
 
-
-https://github.com/GeoNode/geonode/blob/4.0.x/geonode/urls.py#L75-L77
+[Code auf GitHub](https://github.com/GeoNode/geonode/blob/4.0.x/geonode/urls.py#L75-L77)
 
 ### Neue about.html anlegen
 
@@ -36,25 +35,25 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
 *templates/about.html*
 
 ```html
-{% raw %}
-{% extends "geonode_base.html" %}
+    {% raw %}
+    {% extends "geonode_base.html" %}
 
-{% load i18n %}
-{% block title %}Unsere Forschungsdaten{% endblock %}
+    {% load i18n %}
+    {% block title %}Unsere Forschungsdaten{% endblock %}
 
-{% block body_outer %}
-<div class="page-header">
-  <h2>Forschungsdaten der DBFZ</h2>
-</div>
-<p>
-Diees Plattform dient der Publikation von Daten zum Thema Weltraum</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
-<p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
+    {% block body_outer %}
+    <div class="page-header">
+    <h2>Forschungsdaten der DBFZ</h2>
+    </div>
+    <p>
+    Diees Plattform dient der Publikation von Daten zum Thema Weltraum</p>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint, labore sequi autem impedit quidem quis vitae explicabo consectetur, obcaecati iste eaque velit rerum. Odio et in laborum corporis consectetur.</p>
 
-{% endblock %}
-{% endraw %}
+    {% endblock %}
+    {% endraw %}
 ```
 
 Da der Entwicklungsserver nach jeder Änderung automatisch neu startet sollten die Änderungen hiernach direkt im Browser sichtbar werden:
