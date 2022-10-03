@@ -12,7 +12,7 @@
 
 In diesem Abschnitt wollen wir einen Blick auf das Internationalisierungssytem von Django werfen.
 
-Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift `<h1>{% trans "Our privacy policy" %}</h1>` mit einer Übersetzung zu versehen. Django erlaubt das anlegen von Übersetzungen über sogenannte `po` und `mo` Dateien.  
+Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift `{raw}<h1>{% trans "Our privacy policy" %}</h1>{endraw}` mit einer Übersetzung zu versehen. Django erlaubt das anlegen von Übersetzungen über sogenannte `po` und `mo` Dateien.  
 Die `po` Datei stellt hierbei die Quelldatei. Die `mo` Datei die kompilierte Datei mit Übersetzungen dar.
 
 Zunächst können wir den Umfang der Sprachen in unserer settings.py Datei wie folgt einschränken
