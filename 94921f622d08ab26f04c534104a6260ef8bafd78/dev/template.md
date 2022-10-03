@@ -65,6 +65,8 @@ Entweder:
 - neuen Build des Django Image erstellen (docker-compose build django; docker-compose up -d django)
 - oder host Verzeichnis in Docker Container mounten: https://github.com/GeoNode/geonode-project/blob/master/docker-compose.yml#L11 und den Container neu starten (docker-compose up -d django).
 
+> Tipp: Sie können nicht nur Templates sondern so auch die Ausgabe der E-Mails überschreiben.
+
 # Weiterführende Links
 
 - [Das Django Template System](https://docs.djangoproject.com/en/4.1/topics/templates/)

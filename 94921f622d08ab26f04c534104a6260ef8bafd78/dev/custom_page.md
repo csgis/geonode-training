@@ -27,7 +27,7 @@ Zunächst legen wir wiederrum im Templates Ordner unsere neue HTML Datei `dsgvo.
 
     {% block body_outer %}
         <div class="page-header">
-        <h2>Datenschutzgrundverordnung</h2>
+        <h2>{% trans "Our privacy policy" %}</h2>
         </div>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
