@@ -46,7 +46,7 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
     <h2>Forschungsdaten der DBFZ</h2>
     </div>
     <p>
-    Diees Plattform dient der Publikation von Daten zum Thema Weltraum</p>
+    Diese Plattform dient der Publikation von Daten zum Thema Weltraum</p>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore similique asperiores magni iste dicta nesciunt nostrum nihil ad esse! In corrupti temporibus neque dolor aliquam tenetur et sunt dolorum expedita?</p>
     <p>
