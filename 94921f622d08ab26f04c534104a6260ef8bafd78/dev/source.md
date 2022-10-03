@@ -158,3 +158,11 @@ Weiterhin das Projekt im Browser unter http://localhost:8000 aufrufen können.
 - [GeoNode Docs – Docker als Entwicklungsumgebung](https://docs.geonode.org/en/master/devel/docker/index.html)
 
 
+# Weiterführende Links
+
+- [Das Django Template System](https://docs.djangoproject.com/en/4.1/topics/templates/)
+- [GeoNode Docs – Templates überschreiben](https://docs.geonode.org/en/master/basic/theme/index.html#theming-your-geonode-project)
+- - [GeoNode Docs – Homepage anpassen](https://docs.geonode.org/en/master/basic/theme/index.html#modify-geonode-homepage)
+- [GeoNode Docs – Frontend Development](https://docs.geonode.org/en/master/contribute/frontend-development/index.html)
+
+
