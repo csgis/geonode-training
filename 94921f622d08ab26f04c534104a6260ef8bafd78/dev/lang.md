@@ -64,7 +64,7 @@ locale
 
 Hiernach sollten wir die neuen Ordner je Sprache sowie die Quelldateien im Ordner "locale" vorfinden.
 
-## *.po Dateien bearbeiten
+## po Dateien bearbeiten
 
 Im nächsten Schritt legen wir in `locale/de/LC_MESSAGES/django.po` eine Übersetzung für unsere Überschrift an:
 
@@ -75,7 +75,7 @@ Im nächsten Schritt legen wir in `locale/de/LC_MESSAGES/django.po` eine Überse
  ... 
  ```
 
-## *.po Dateien in *.mo Dateien kompilieren
+## po Dateien in mo Dateien kompilieren
 
 Nachdem wir die Quelldateien übersetzt haben können wir Django anweisen die Dateien zu kompilieren.
 
