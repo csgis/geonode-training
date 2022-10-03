@@ -13,7 +13,7 @@
 # 1. Einführung in die Entwicklung mit GeoNode
 
 In diesem Bereich werden wir uns einführend mit der Entwicklung mit GeoNode beschägtigen.
-Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut. Je nachdem an welchem Bereich Sie arbeiten wollen werden Kenntnisse in folgenden Punkten benörigt:
+Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut. Je nachdem an welchem Bereich Sie arbeiten wollen werden Kenntnisse in folgenden Punkten benötigt:
 
 - Python3
 - CSS
@@ -25,5 +25,7 @@ Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebau
 - Django
 - Jinja2
 - sql
+- git
+- GIS spezifisches Wissen wie Projektionssysteme etc.
   
 

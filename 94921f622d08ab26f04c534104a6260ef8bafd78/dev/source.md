@@ -60,9 +60,9 @@ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 mkvirtualenv --python=/usr/bin/python3 my_geonode
 pip install Django==3.2.14
 
-django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile my_geonode
+django-admin startproject --template=./geonode-project -e py,sh,md,rst,json,yml,ini,env,sample,properties -n monitoring-cron -n Dockerfile geonode_training_dev
 
-cd my_geonode
+cd geonode_training_dev
 ```
 
 > Beachtenwert ist hierbei die Datei `src/requirements.txt` sie zeigt dass der GeoNode Kern Quelltext in Form eines Python Pakets als Abhängigkeit installiert wird.
@@ -72,43 +72,43 @@ git+https://github.com/GeoNode/geonode.git@master#egg=GeoNode
 ```
 
 
+
+
 ### Settings erzeugen
 
-Das Herzstück der Konfiguration ist die Datei src/settings.py in GeoNode (wir werden Sie im letzten Abschnitt noch im Detail betrachten). Um unser Projekt zu starten muss diese Konfiguration in einem nächsten Schritt erzeugt werden.
+Das Herzstück der Konfiguration ist die Datei src/settings.py (wir werden Sie im letzten Abschnitt noch im Detail betrachten), die über Umgebungsvariablen in der Datei `.env` gespeist wird.  
+Wir erzeugen die Datei `.env` mit folgendem Befehl:
 
-
-Wir erstellen im aktuellen Hauptverzeichnis der Datei, eine json Datei mit folgendem Inhalt:
-
-*file.json*
-
-```
-{
-  "hostname": "value",
-  "https": "value",
-  "email": "value",
-  "geonodepwd": "value",
-  "geoserverpwd": "value",
-  "pgpwd": "value",
-  "dbpwd": "value",
-  "geodbpwd": "value",
-  "clientid": "value",
-  "clientsecret": "value"
-} 
+```shell
+python create-envfile.py --geoserverpwd geoserver
 ```
 
-Hiernach sollten wir die Einstellungsdatei `.env` mit folgendem Befehl erzeugen können.
+### Datenbank anlegen
 
-python create-envfile.py -f ./file.json \
-  --hostname localhost \
-  --https \
-  --email random@email.com \
-  --geonodepwd gn_password \
-  --geoserverpwd gs_password \
-  --pgpwd pg_password \
-  --dbpwd db_password \
-  --geodbpwd _db_password \
-  --clientid 12345 \
-  --clientsecret abc123 
+Anders als in der README des GeoNode-Project Repository müssen wir vorab noch zwei Postgres Datenbanen anlegen.
+
+```
+
+-- Geodatenbank anlegen
+CREATE USER geonode_training_dev_data;
+ALTER USER geonode_training_dev_data with encrypted password '< GEONODE_DATABASE_PASSWORD aus .override_dev_env >';
+CREATE DATABASE geonode_training_dev_data;
+GRANT ALL PRIVILEGES ON DATABASE geonode_training_dev_data TO geonode_training_dev_data;
+
+-- Django Datenbank anlegen
+CREATE USER geonode_training_dev;
+ALTER USER geonode_training_dev with encrypted password '< GEONODE_GEODATABASE_PASSWORD aus .override_dev_env >';
+CREATE DATABASE geonode_training_dev;
+GRANT ALL PRIVILEGES ON DATABASE geonode_training_dev TO geonode_training_dev;
+
+-- in beiden Datenbanken Postgis installieren
+CREATE EXTENSION IF NOT EXISTS postgis;
+GRANT ALL ON geometry_columns TO PUBLIC;
+GRANT ALL ON spatial_ref_sys TO PUBLIC;
+```
+
+
+### Abhängigkeiten installieren
 
 Ebenfalls ist es erforderlich noch Abhängigkeiten zu installieren sowie einige Management Dateien zu generieren:
 
@@ -122,6 +122,7 @@ pip install pygdal=="`gdal-config --version`.*"
 
 # Dev scripts
 mv ../.override_dev_env.sample ../.override_dev_env
+sed -i '' 's/MONITORING_ENABLED=True/MONITORING_ENABLED=False/' ../.override_dev_env
 mv manage_dev.sh.sample manage_dev.sh
 mv paver_dev.sh.sample paver_dev.sh
 
@@ -141,7 +142,7 @@ sh ./paver_dev.sh sync
 sh ./paver_dev.sh start
 ```
 
-Und wenn alles korrekt verlaufen ist in der Terminal Ausgabe folgende Meldung sehen:
+Wenn alles korrekt verlaufen ist in der Terminal Ausgabe folgende Meldung sehen:
 
 ![Gestarteter Entwicklungsserver im Terminal](images/dev_server_terminal.jpeg)
 
@@ -149,8 +150,6 @@ Und wenn alles korrekt verlaufen ist in der Terminal Ausgabe folgende Meldung se
 Weiterhin das Projekt im Browser unter http://localhost:8000 aufrufen können.
 
 ![Entwicklungsserver im Browser](images/dev_server_im_browser.jpeg)
-
-> Beachte: Der Entwicklungsserver verwendet Spatialite als Datenbank. Diese verursacht oftmals Probleme. Es wird daher empfohlen eine lokale Postgres/Postgis Installation aufzustzen und diese in der .env zu vermerken. (Siehe Weiterführende Links)
 
 # Weiterführende Links
 
