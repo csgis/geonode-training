@@ -16,11 +16,11 @@ Um im folgenden Änderungen oder Neuentwicklungen an unserer Instanz vorzunehmen
 
 Der eigentliche Programm-Code befindet sich hier im Ordner "geonode".
 
-[GeoNode Github Repository](images/github_geonode.jpeg)
+![GeoNode Github Repository](images/github_geonode.jpeg)
 
 Die sich hierunter befindenen Ordner, stehen für sogenannte "Django-Apps". Wir erinnern uns, Django, das Web-Framework hinter Django ermöglicht die einzelnen Programmbereiche in Module aufzuteilen.
 
-[GeoNode Apps](images/github_apps.jpeg)
+![GeoNode Apps](images/github_apps.jpeg)
 
 Dem/der aufmerksamen Zuhörer*in  wird nun auffallen, dass sich die einzelnen Ordner, im "Django Admin" des vorhergehenden Artikels wiederfinden. Grund hierfür ist, dass Django die Administrationsoberfläche automatisiert aus den einzelnen Apps erstellen kann.  
 
@@ -41,9 +41,7 @@ Im Ordner templates, befinden sich alle Dateien die für die Ein-/Ausgabe zustä
 ### views.py
 views.py stellt Funktionen, die als Bindeglied zwischen Datenbankdefinitionen (models.py) und Ein-/Ausgabe Ansichten (templates/*) stehen.
 
-
-
-[Github App "people", Ansicht aus Platzgründen gekürzt](images/github_people.jpeg)
+![Github App "people", Ansicht aus Platzgründen gekürzt](images/github_people.jpeg)
 
 Beachtenswert ist ebenfalls noch die sich sogut wie in allen Apps befindliche Datei "urls.py". Sie enthält die URL Definitionen Bereit um Browseranfragen an die richtige Stelle zu leiten. 
 
@@ -145,12 +143,12 @@ sh ./paver_dev.sh start
 
 Und wenn alles korrekt verlaufen ist in der Terminal Ausgabe folgende Meldung sehen:
 
-[Gestarteter Entwicklungsserver im Terminal](images/dev_server_terminal.jpeg)
+![Gestarteter Entwicklungsserver im Terminal](images/dev_server_terminal.jpeg)
 
 
 Weiterhin das Projekt im Browser unter http://localhost:8000 aufrufen können.
 
-[Entwicklungsserver im Browser](images/dev_server_im_browser.jpeg)
+![Entwicklungsserver im Browser](images/dev_server_im_browser.jpeg)
 
 > Beachte: Der Entwicklungsserver verwendet Spatialite als Datenbank. Diese verursacht oftmals Probleme. Es wird daher empfohlen eine lokale Postgres/Postgis Installation aufzustzen und diese in der .env zu vermerken. (Siehe Weiterführende Links)
 
