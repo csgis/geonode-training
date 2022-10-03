@@ -37,7 +37,8 @@ LANGUAGES = (
 Im Hauptverzeichnis unseres GeoNode-Projekts legen wir den neuen Ordner locale an.
 
 ```shell
- mkdir locale
+cd .. # wir verlassen den Ordner src
+(e) tonischonbuchner@Tonis-MacBook-Pro ~/dev/geonode4_project/geonode_training_dev/src $%  mkdir ocale
 ```
 
 Über das durch Django bereitgestellte Kommando `makemessages` lassen wir alle zur Übersetzung angelegten Textfragmente in `po` Dateien einsammeln:
@@ -99,12 +100,19 @@ locale
         └── django.po
 ```
 
-Um die Änderungen online zu stellen kopieren wir den locale Ordner eine Ebene tiefer ins Projektverzeichnis.
+Um die Änderungen online zu stellen kopieren wir den locale Ordner eine Ebene tiefer ins src Verzeichnis.
 
 > Das Projektverzeichnis erhält beim erstellen von GeoNode-Project den von Ihnen angegebenen Namen. Es handelt sich hierbei um dieses Verzeichnis: https://github.com/GeoNode/geonode-project/tree/master/src/project_name
 
 ```shell
-cp -r locale geonode_training
+cp -r locale src/geonode_training_dev
+```
+
+Wir starten den Development Server neu:
+
+```shell
+paver stop
+paver start
 ```
 
 Hiernach sollten die Übersetzungen der Sprachen im Browser angezeigt werden.
