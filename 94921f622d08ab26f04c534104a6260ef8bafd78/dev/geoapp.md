@@ -196,14 +196,11 @@ Abschließend erstellen wir im Verzeichniss unserer App ein neues Verzeichnis na
       </tr>
     </thead>
     <tbody>
-        <!-- Iterate over object_list -->
         {% for object in object_list %}
-        <!-- Display Objects -->
         <tr>
             <th scope="row"><input type="checkbox" name="layerselect" value="{{ object.alternate }}"></th>
             <td>{{ object.title }}</td>
         </tr>    
-        <!-- If object_list is empty  -->
         {% empty %}
             No objects yet.
         {% endfor %}
