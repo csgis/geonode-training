@@ -104,7 +104,7 @@ def gpkg_json_result(request):
     wfs_template = get_wfs_Template(datasets)
     wps_return = http_client(wfs_template)
     data = {"result_link": wps_return}
-    
+
     return JsonResponse(data, safe=False)
 ```
 
@@ -172,9 +172,13 @@ def get_wfs_Template(datasets):
 def http_client(geoserver_payload):
     """Hilfefunktion um HTTP POST request abzusetzen."""
     try:
-        geoserver_response = requests.post(geoserver_url, data=geoserver_payload.encode('utf-8'), auth=(
-            geoserver_user, geoserver_user_password))
-        print(geoserver_response.text)
+        geoserver_response = requests.post(
+            geoserver_url, 
+            data=geoserver_payload.encode('utf-8'),
+             auth=(
+                geoserver_user, 
+                geoserver_user_password
+            ))
 
         if (geoserver_response.status_code < 200 or geoserver_response.status_code > 201):
             logger.error(geoserver_response.content)        
