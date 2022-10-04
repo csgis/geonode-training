@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Frontendänderungen in GeoNode Version 4
+# Geändertes Frontend in GeoNode Version 4
 
 In den vorausgehenden Kapiteln haben wir gesehen wie wir Templates überschreiben können.
 Vergleichen wir jedoch die Oberfläche der GeoNode Version 3.3 mit der Oberfläche der Version 4, stechen große Untschiede ins Auge.
