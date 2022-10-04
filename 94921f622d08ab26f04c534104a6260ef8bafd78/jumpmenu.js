@@ -7,6 +7,8 @@ function createSubMenu(){
     var jumpMenu = document.getElementById("jumpMenu")
     document.querySelectorAll("h1")[0].remove();
     headlines = document.querySelectorAll("h1, h2, h3");
+    if (headlines.length < 2)
+      return;
     let subMenu = ""
     headlines.forEach((headlineItem) => {
       let subClassName = headlineItem.nodeName == 'H1' ? 'first' : (headlineItem.nodeName == 'H2') ? 'second' : 'third'
