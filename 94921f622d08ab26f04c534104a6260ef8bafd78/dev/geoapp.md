@@ -312,5 +312,15 @@ Treffen wir eine Auswahl und klicken "Genereiere Geopackage von Auswahl" sollte 
 
 # Fazit
 
+Wie wir gesehen haben, ist es relativ einfach auf vorhandene Datensätze zuzugreifen oder eigenen Seiten zu erstellen die 
+Nutzereingaben entgegen nehmen. Das Thema Entwicklung unter GeoNode bleibt dennoch komplex, verlangt es dem Entwickler doch ein breites Wissen
+in unterschiedlichen Bereichen ab.
+
+Selbstverständlich ließe sich dieses Beispiel noch weiter ausarbeiten. Zum Beispiel ein eigenes Datenbank Modell erstellen um Daten zu speichern
+und die Django Administrationsoberfläche zu verwenden. 
+
 # Weiterführende Links
 
+- [Einführung in Django Apps](https://docs.djangoproject.com/en/4.1/intro/tutorial03/)
+- [Django Datenbank Abstraktion](https://docs.djangoproject.com/en/4.1/topics/db/models/)
+- [GeoServer WPS Endpunkt Dokumentation](https://docs.geoserver.org/main/en/user/community/geopkg/output.html)
