@@ -15,7 +15,7 @@ Vergleichen wir jedoch die Oberfläche der GeoNode Version 3.3 mit der Oberfläc
 
 ![GeoNode Oberfläche Version 3](images/v3.3.jpeg)
 
-![GeoNode Oberfläche Version 4](images/4.jpeg)
+![GeoNode Oberfläche Version 4](images/v4.jpeg)
 
 Der Vergleich zeigt dass die Oberfläche für die Version 4 weitreichende Änderungen erfahren hat.
 
