@@ -10,7 +10,11 @@
 
 
 
-# 1. Sys Admin
+# 1. System Administration
 
-docker-compose ist ein Tool zur Definition und Ausführung von Multi-Container-Docker-Anwendungen. Mit docker-compose verwenden Sie eine YAML-Datei, um die Dienste Ihrer Anwendung zu konfigurieren. Dann erstellen und starten Sie mit einem einzigen Befehl alle Dienste aus Ihrer Konfiguration. Um mehr über alle Funktionen von Compose zu erfahren, lesen Sie die Liste der [Funktionen](https://docs.docker.com/compose/overview/#features).
+In diesem Abschnitt beschäftigen wir uns mit der eigentlichen Systemarchitektur.  
+Wir werden sehen welche Komponenten es überhaupt gibt und wie diese zusammenhängen.
+Weiterhin einen kurzen Blick auf Backups und Command Line Kommandso für System Administratoren werfen.
+
+
 
