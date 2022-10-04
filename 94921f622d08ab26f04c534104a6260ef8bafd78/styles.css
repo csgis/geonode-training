@@ -32,7 +32,7 @@ li.spacer {
     font-size: 14px;
 }
 
-a[href*="github"]{display: none}
+/* a[href*="github"]{display: none} */
 a[href*="docs.csgis.de"]{display: none}
 a.backlink{color: #bbb4b4}
 a.backlink:hover{color: #000}
