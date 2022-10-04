@@ -12,9 +12,19 @@
 
 In diesem Abschnitt wollen wir uns die Grundzüge einer eigenen App ansehen.  
 Unsere APP wird Usern die Möglichkeit geben Vektor-Datensätze auszuwählen und diese
-gesammelt in einem geopackage herunter zu laden.
+gesammelt in einem geopackage herunter zu laden.  
+Die Hauptarbeit wird hierbei von dem im Hintergrund agierenden Kartenserver `geoserver` erledigt. Dieser stellt über den WPS Endpunkt bereits die Möglichkeit Ebenen als Geopackage zu exportieren. Als Input erwartet er ein XML Dokument mit den Layer Definitionen.
 
 > ACHTUNG: Der gezeigte Code ist nicht produktionsfähig. Er vermisst wichtige Sicherheitsabfragen und Fehlerbehandlungen.
+
+Programm Ablauf:
+
+```
+-> User wählt Datensätze zum Export über Checkboxen
+    -> JS sendet Namen der Ebenen an JSON View als POST request 
+       -> Django sendet request an GeoServer WPS Endpunkt um das geopackage erstellen zu lasen 
+          -> JS nimmt link zu Geopackage Download entgegen und gibt diesen an User aus
+```
 
 ## Eine neue Django APP erstellen
 
