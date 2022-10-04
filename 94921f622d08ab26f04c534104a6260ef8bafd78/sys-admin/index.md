@@ -13,8 +13,8 @@
 # 1. System Administration
 
 In diesem Abschnitt beschäftigen wir uns mit der eigentlichen Systemarchitektur.  
-Wir werden sehen welche Komponenten es überhaupt gibt und wie diese zusammenhängen.
-Weiterhin einen kurzen Blick auf Backups und Command Line Kommandso für System Administratoren werfen.
+Wir werden sehen welche Komponenten agieren und wie diese zusammenhängen.  
+Weiterhin einen kurzen Blick auf Backups und Command Line Kommandos und weitere Möglichkeiten für System Administratoren werfen.
 
 User die in diesem Bereich arbeiten sollten ein fundiertes Wissen in
 
