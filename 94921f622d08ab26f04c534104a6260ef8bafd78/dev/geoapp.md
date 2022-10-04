@@ -82,6 +82,7 @@ from django.views.generic.list import ListView
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.decorators.http import require_http_methods
 from geonode.base.models import ResourceBase
 from .helper import get_wfs_Template, http_client
 import json
@@ -89,25 +90,22 @@ import json
 
 class GpkgList(LoginRequiredMixin, ListView):
     """Django List View um alle Datensätze auszugeben"""
-
     queryset = ResourceBase.objects.filter(subtype="vector")
 
 
 @login_required
+@require_http_methods(['POST'])
 def gpkg_json_result(request):
     """View um Datensätze entgegen zu nehmen und 
     die URL zum Datensatz zurück zu geben.
     """
-    if (request.method == 'POST'):
-        request_payload = json.loads(request.body.decode("utf-8"))
-        datasets = request_payload['datasets']
-        wfs_template = get_wfs_Template(datasets)
-        wps_return = http_client(wfs_template)
-
-        data = {"result_link": wps_return}
-        return JsonResponse(data, safe=False)
-    else:
-        return JsonResponse({"method": "not allowed"}, safe=False)
+    request_payload = json.loads(request.body.decode("utf-8"))
+    datasets = request_payload['datasets']
+    wfs_template = get_wfs_Template(datasets)
+    wps_return = http_client(wfs_template)
+    data = {"result_link": wps_return}
+    
+    return JsonResponse(data, safe=False)
 ```
 
 ### Anlegen der helpers.py
@@ -219,7 +217,7 @@ Abschließend erstellen wir im Verzeichniss unserer App ein neues Verzeichnis na
 
     <script>
 
-    /* Hilffunktion um Django korrekten Cookie zu setzen */
+    /* Hilffunktion um korrekten Cookie zu denden */
     function getCookie(name) {
         var cookieValue = null;
         if (document.cookie && document.cookie !== '') {
