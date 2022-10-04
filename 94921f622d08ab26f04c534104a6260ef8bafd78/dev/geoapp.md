@@ -21,13 +21,13 @@ gesammelt in einem geopackage herunter zu laden.
 Django macht uns den Start für eigene Entwicklungen sehr leicht.
 Das Kommando 
 
-```shell
+```bash
  python manage.py startapp geopackage_collection
  ```
 
  erzeugt uns einen neuen Ordner innerhalb unserer Verzeichnisstruktur mit den wichtigsten Dateien wie `views.py`, `models.py` etc. bereits angelegt.
 
-```shell
+```bash
 geopackage_collection
 ├── __init__.py
 ├── __pycache__
