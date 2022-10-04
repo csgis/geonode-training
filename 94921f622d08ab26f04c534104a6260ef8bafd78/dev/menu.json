@@ -5,6 +5,6 @@
         "template.md": "Templates überschreiben",
         "custom_page.md": "Eigene Seiten anlegen",
         "lang.md": "Übersetzung anlegen",
-        "geoapp.md": "Geopackage export APP"
+        "geoapp.md": "Export Geopackage APP"
     }
 }
