@@ -144,11 +144,9 @@ wfs_template = """<?xml version="1.0" encoding="UTF-8"?><wps:Execute version="1.
 
 def get_build_partials(datasets):
     """Erzeuge für jede zu ladende Ebene einen XML Knoten."""
-    partials_source = '' \
-                      '<features identifier="{dataset}" name="places">' \
+    partials_source = '<features identifier="{dataset}" name="places">' \
                       '<featuretype>{dataset}</featuretype>' \
-                      '</features>' \
-                      ''                        
+                      '</features>'                       
 
     partials_payload = ""
     for dataset in datasets:
