@@ -47,6 +47,8 @@ Die Oberfläche gibt uns folgende Möglichkeiten:
 - Jumbotron content
   - Der im Banner angezeigte Text
 
+> Tipp verwenden Sie den [Theme generator](https://geonode.org/geonode-mapstore-client/docs/customizations/theme.html) um die Custom CSS rules zu erzeugen und hierdurch die komplette Farbgebung zu beeinflussen. 
+
 ![Theme Formular](images/django_theme_form.jpeg)
 
 zeigt sich auf der Startseite
