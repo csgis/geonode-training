@@ -122,7 +122,6 @@ pip install pygdal=="`gdal-config --version`.*"
 
 # Dev scripts
 mv ../.override_dev_env.sample ../.override_dev_env
-sed -i '' 's/MONITORING_ENABLED=True/MONITORING_ENABLED=False/' ../.override_dev_env
 mv manage_dev.sh.sample manage_dev.sh
 mv paver_dev.sh.sample paver_dev.sh
 
