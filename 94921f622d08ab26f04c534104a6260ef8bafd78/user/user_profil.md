@@ -52,6 +52,9 @@ Außerdem können registrierte Benutzer:
 > 
 > *Auf der Startseite, im Menü Über  kann man visualisieren, filtern und sehen welche User im GeoNode registriert sind und welche Daten haben sie   veröffentlicht*
 
+| :exclamation:  This is very important   |
+|-----------------------------------------|
+
 ![Benutzer](images/image8.png)
 
 ## Übung
