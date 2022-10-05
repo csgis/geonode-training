@@ -30,6 +30,9 @@ Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 - Benachrichtigungseinstellungen
 - Andere Anwender einladen Ihrer GeoNode Plattform zu benutzen
 
+| :warning: be careful to baz the quux before initializing the retro encabulator! |
+| --- |
+
 > :warning: Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind     alle Optionen ausgewählt.
 > 
 > Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)
