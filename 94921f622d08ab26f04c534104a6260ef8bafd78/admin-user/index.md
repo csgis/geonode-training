@@ -10,8 +10,14 @@
 
 
 
-# Geonode Admin User
+# Geonode mit Admin Rechten
 
-Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administratoren.
-<br>
-Benutzen Sie das Menü auf der Rechten Seite um zwischen den Themen zu navigieren.
+## Inhalt:
+
+Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administratoren.  
+Wir werden uns mit folgenden Tehmen befassen:
+
+- Welche Berechtigung besitzt die Admin Rolle
+- Wie werden Gruppen Rechte vergeben
+- Die Benutzung des Django Admins um beispielsweise User, oder Datasets zu verwalten
+- Was sind Ankündigungen
