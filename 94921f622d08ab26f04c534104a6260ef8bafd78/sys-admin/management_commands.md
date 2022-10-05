@@ -48,6 +48,9 @@ Um sicher zu gehen dass Django mit den korrekten Settings arbeitet wird dem Befe
 `Projekt_name` bezeichnet hierbei den Namen Ihres GeoNode Projekts den sie auch in den `settings.py` verwenden.
 In Docker Umgebungen kann hierauf verzichtet werden.
 
+> Tipp: Sehen Sie sich auch die Ausgabe von `python manage.py --help` an. Sie enthält weitere Befehle die direkt durch Django bereit gestellt werden. 
+
+
 # Übersicht über GeoNode spezifische Kommandos
 
 
