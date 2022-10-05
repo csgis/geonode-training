@@ -101,6 +101,9 @@ const inViewport = (entries, observer) => {
             document.head.appendChild(styleSheet)
           }
 
+            window.status = 'ready_to_print';
+        
+
 
   });
   
