@@ -30,9 +30,9 @@ Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 - Benachrichtigungseinstellungen
 - Andere Anwender einladen Ihrer GeoNode Plattform zu benutzen
 
-> *Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind     alle Optionen ausgewählt.*
+> :warning: Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind     alle Optionen ausgewählt.
 > 
-> *Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)*
+> Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)
 
 ![Benachrichtigungen](images/image4.png)
 
