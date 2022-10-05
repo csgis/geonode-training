@@ -15,10 +15,10 @@ Nachdem sich einen Anwender erfolgreich registriert hat, kann sich gleich anmeld
 
 ![Anmeldung](images/image2.png)
 
-```
-Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.
-Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss
-```
+
+> Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.
+> Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss
+
 
 # User Profil
 
