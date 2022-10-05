@@ -21,4 +21,4 @@ Auf der linken Seite finden Sie Übungen und Informationen für
 - System Administroren die auf Server Ebene das Portal warten
 
 
-> Wir verwenden in der Dokumentation größtenteils `User` oder `Nutzer`. Gemeint sind hiermit jedoch alle Geschlechter. 
+> Wir verwenden in der Dokumentation größtenteils `User` oder `Benutzer`. Gemeint sind hiermit jedoch alle Geschlechter. 
