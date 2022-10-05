@@ -61,7 +61,7 @@ KEYCLOAK_PASSWORD=os.getenv('KEYCLOAK_PASSWORD', None)
 KEYCLOAK_USER_REALM=os.getenv('KEYCLOAK_USER_REALM', None)
 ```
 
-> Beachten Sie die [Readme](https://github.com/GeoNode/geonode-contribs/tree/master/keycloak-sync) des Repositiroy
+> Beachten Sie die [Readme](https://github.com/GeoNode/geonode-contribs/tree/master/keycloak-sync) des Repository.
 
 # Weiterführende Links
 
