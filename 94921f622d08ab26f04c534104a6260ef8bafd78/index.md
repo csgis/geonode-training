@@ -12,3 +12,5 @@
 Willkommen auf der Schulungsplattform der [CSGIS gbr](https://csgis.de).  
 Diese Dokumentation führt in die Benutzung von [GeoNode 4](https://geonode.org) ein.  
 GeoNode ist ein Content Management System für räumliche Daten.
+
+> Wir verwenden in der Dokumentation größtenteils `User` oder `Nutzer`. Gemeint sind hiermit jedoch alle Geschlechter. 
