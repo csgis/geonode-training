@@ -22,5 +22,5 @@ Auf der linken Seite finden Sie Übungen und Informationen für
 
 [Download der Dokumentation als PDF](./documentation_geonode4_csgis.pdf){:target="_blank"}
 
-> Aus Gründen der besseren Lesbarkeit wird im Text verallgemeinernd das generische Maskulinum verwendet. Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen; alle sind damit selbstverständlich gleichberechtigt angesprochen.
+> Aus Gründen der besseren Lesbarkeit wird im Text verallgemeinernd das generische Maskulinum verwendet. Diese Formulierungen umfassen gleichermaßen weibliche männliche und diverse Personen; alle sind damit selbstverständlich gleichberechtigt angesprochen.
 
