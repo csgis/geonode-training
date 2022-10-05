@@ -12,20 +12,26 @@
 
 # 1. Einführung in die Entwicklung mit GeoNode
 
-In diesem Bereich werden wir uns einführend mit der Entwicklung mit GeoNode beschägtigen.
-Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut. Je nachdem an welchem Bereich Sie arbeiten wollen werden Kenntnisse in folgenden Punkten benötigt:
+In diesem Bereich werden wir uns mit die ersten Schritten zur Entwicklung mit GeoNode ansehen.
+Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut.  
+Je nachdem an welchem Bereich Sie arbeiten wollen werden, Kenntnisse in folgenden Punkten benötigt:
 
-- Python3
-- CSS
-- Less
-- HTML
-- React
-- Redux
-- RSJX
-- Django
-- Jinja2
-- sql
-- git
-- GIS spezifisches Wissen wie Projektionssysteme etc.
+Technik | Beschreibung
+---|---
+
+
+Python3 | Die Programmiersprache Python
+CSS | Cascading Stylesheets – Auszeichnungssprache für HTML
+Less | Ein "preprocessor" für CSS
+HTML | Hyper Text Markup Language - Definiert die Elemente von Internetseiten
+React | Ein Javascript Framework zur Erstellung von Frontends
+Redux | Ein Komponente für React um den "state" zu verwalten
+Mapstore2 | Ein Karten Framework 
+RSJX | Eine Javascript Bibliothek für "reaktives Javascript"
+Django | Ein Webframework basierend auf Python
+Jinja2 | Eine Templatesprache für Django
+sql | Die von dem Datenbankserver verwendete Sprache um Abfragen zu tätigen
+git | Eine Versionsverwaltung von Code
+GIS | spezifisches Wissen bezüglich räumlicher Daten
   
 

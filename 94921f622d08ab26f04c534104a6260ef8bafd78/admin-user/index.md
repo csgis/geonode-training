@@ -14,7 +14,7 @@
 
 ## Inhalt:
 
-Dieser Schulungsbereich gibt eine einführende Zusammenfassung für Administratoren.  
+Dieser Schulungsbereich gibt eine Einführung für Administratoren.  
 Wir werden uns mit folgenden Tehmen befassen:
 
 - Welche Berechtigung besitzt die Admin Rolle
