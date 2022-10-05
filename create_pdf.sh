@@ -9,7 +9,7 @@
 
 # echo $concat_string
 
-ROOT_DIR=94921f622d08ab26f04c534104a6260ef8bafd78
+ROOT_DIR=fa156bc2541dd85c6d8f3f6518456047370ff868
 FILENAME=documentation_geonode4_csgis.pdf
 rm $ROOT_DIR/$FILENAME
 wkhtmltopdf --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css \
