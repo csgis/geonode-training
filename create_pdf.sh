@@ -12,7 +12,7 @@
 ROOT_DIR=94921f622d08ab26f04c534104a6260ef8bafd78
 FILENAME=documentation_geonode4_csgis.pdf
 rm $ROOT_DIR/$FILENAME
-wkhtmltopdf --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css \
+wkhtmltopdf --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css \
     "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78" \
     "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/index.html" \
     "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/user_profil.html" \
