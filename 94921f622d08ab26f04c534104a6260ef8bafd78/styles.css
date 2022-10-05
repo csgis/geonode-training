@@ -94,9 +94,11 @@ div#logo a {
 }
 
 .markdown-body blockquote {
-    padding: 0 1em;
     color: #6a737d;
-    border-left: 0.25em solid #e91c1c;
+    border-left: none;
+    background: #ffe2ae;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 #jumpMenu ul li {
