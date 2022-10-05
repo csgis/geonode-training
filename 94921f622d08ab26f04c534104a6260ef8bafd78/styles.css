@@ -93,6 +93,12 @@ div#logo a {
     position: fixed;
 }
 
+.markdown-body blockquote {
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #e91c1c;
+}
+
 #jumpMenu ul li {
     list-style-type: none;
     padding: 0;

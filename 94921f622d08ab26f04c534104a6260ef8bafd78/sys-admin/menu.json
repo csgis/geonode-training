@@ -7,7 +7,7 @@
         "management_commands.md": "CLI Kommandos",
         "shell.md": "Django Shell",
         "contrib_apps.md": "Contrib Apps",
-        "database": "Datenbanken verwalten",
+        "database.md": "Datenbanken verwalten",
         "backups.md": "Backups",
         "troubles.md": "Erste Hilfe bei Problemen"
     }
