@@ -57,32 +57,64 @@ Ihre Variablen werden in Docker Umgebungen standardmässig beim starten als Umge
 # Beachtenswerte Einstellungsmöglichkeiten
 
 Betrachten wir anhand der `.env` Datei einige wichtige Einstellungen die Sie kennen sollten.
+Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen müssen.
 
 
-Name|Zweck
---|--
-COMPOSE_PROJECT_NAME={{project_name}} | 
-DJANGO_SETTINGS_MODULE={{project_name}}.settings | 
-POSTGRES_PASSWORD={pgpwd} | 
-GEONODE_DATABASE={{project_name}} | 
-GEONODE_DATABASE_PASSWORD={dbpwd} | 
-GEONODE_GEODATABASE={{project_name}}_data | 
-GEONODE_GEODATABASE_PASSWORD={geodbpwd} | 
-DATABASE_URL=postgis://{{project_name}}:{dbpwd}@db:5432/{{project_name}} | 
-GEODATABASE_URL=postgis://{{project_name}}_data:{geodbpwd}@db:5432/{{project_name}}_data | 
-SITEURL={siteurl}/ | 
-ALLOWED_HOSTS="['django', '*', '{hostname}']" | 
-GEONODE_LB_HOST_IP={hostname} | 
-PUBLIC_PORT={public_port} | 
-HTTP_HOST={http_host} | 
-HTTPS_HOST={https_host} | 
-GEOSERVER_WEB_UI_LOCATION={geoserver_ui}/geoserver/ | 
-GEOSERVER_PUBLIC_LOCATION={geoserver_ui}/geoserver/ | 
-GEOSERVER_ADMIN_PASSWORD={geoserverpwd} | 
-ADMIN_PASSWORD={geonodepwd} | 
-ADMIN_EMAIL={email} | 
-DEFAULT_FROM_EMAIL='{email}' | 
-OAUTH2_CLIENT_ID={clientid} | 
-OAUTH2_CLIENT_SECRET={clientsecret} | 
-DEBUG={debug} | 
-SECRET_KEY="{secret_key}" | 
+{% raw %}
+- COMPOSE_PROJECT_NAME={{project_name}} 
+  - Wird für die Namen der Docker Container verwendet
+- DJANGO_SETTINGS_MODULE={{project_name}}.settings 
+  - Definiert den Namen der zu ladenden Settings Datei
+- POSTGRES_PASSWORD={pgpwd} 
+  - Das password für den Datenbank Super Usdr
+- GEONODE_DATABASE={{project_name}} 
+  - Der Name der Django Datenbank
+- GEONODE_DATABASE_PASSWORD={dbpwd}
+  - Das Passwort des Django Datenbank Users 
+- GEONODE_GEODATABASE={{project_name}}_data
+  - Die Postgis Datenbank für Vector Daten 
+- GEONODE_GEODATABASE_PASSWORD={geodbpwd} 
+  - Das Password für die Geodatenbank
+- DATABASE_URL=postgis://{{project_name}}:{dbpwd}@db:5432/{{project_name}} 
+  - Die Verbindungsparameter zur Datenbank
+- GEODATABASE_URL=postgis://{{project_name}}_data:{geodbpwd}@db:5432/{{project_name}}_data 
+  -   Die Verbindungsparameter zur Geodatenbank
+- SITEURL={siteurl}/ 
+  - Die IP oder DOmain der Seite inklusive http(s). Wird in vielen Templates verwendet
+- ALLOWED_HOSTS="['django', '*', '{hostname}']" 
+  - Von den hier definierten Domains darf das Portal aufgerufen werden. Der * steht für erlaube alle
+- GEONODE_LB_HOST_IP={hostname} 
+  - Die öffentliche Domain. Wird unter Docker für das Networking benötigt.
+- PUBLIC_PORT={public_port} 
+  - Der öffentliche Port
+- HTTP_HOST={http_host} 
+  - Die öffentliche Domain
+- HTTPS_HOST={https_host} 
+  - Die öffentliche https Domain, falls https verwendet wird
+- GEOSERVER_WEB_UI_LOCATION={geoserver_ui}/geoserver/ 
+  - Die öffentliche URL des GeoServers
+- GEOSERVER_PUBLIC_LOCATION={geoserver_ui}/geoserver/ 
+  - Die öffentliche URL des GeoServers
+- GEOSERVER_ADMIN_PASSWORD={geoserverpwd} 
+- ADMIN_PASSWORD={geonodepwd} 
+  - Das Password der bei Installation erstellten Admin Rolle
+- ADMIN_EMAIL={email} 
+  - Die Email des Admins
+- DEFAULT_FROM_EMAIL='{email}'
+  - Absender von System Emails 
+- OAUTH2_CLIENT_ID={clientid} 
+  - Die ID der Geoserver oauth2 app
+- OAUTH2_CLIENT_SECRET={clientsecret}
+  - Der Key der Geoserver oauth2 app  
+- DEBUG={debug} 
+  - Debug Modus an oder aus? (True oder False). In Production immer False!
+- SECRET_KEY="{secret_key}" 
+  - Ein Schlüssel den Django zur Verschlüsselung voon beispielsweise Formulardaten verwendet.
+{% endraw %}
+
+Eine vollständige Übersicht aller Variablen finden Sie [hier](https://docs.geonode.org/en/master/basic/settings/index.html?highlight=GEOSERVER_PUBLIC_LOCATION#geoserver-public-location).
+
+
+# Weiterführende Links
+
+- [Geonode Docs - Übersicht der Variablen](https://docs.geonode.org/en/master/basic/settings/index.html?highlight=GEOSERVER_PUBLIC_LOCATION#geoserver-public-location) 
