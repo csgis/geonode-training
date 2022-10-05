@@ -12,6 +12,8 @@
 
 # 1. Einführung in die Entwicklung mit GeoNode
 
+## Inhalt
+
 In diesem Bereich werden wir uns mit die ersten Schritten zur Entwicklung mit GeoNode ansehen.
 Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut.  
 Je nachdem an welchem Bereich Sie arbeiten wollen werden, Kenntnisse in folgenden Punkten benötigt:
