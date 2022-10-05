@@ -296,7 +296,7 @@ urlpatterns = [
 ```
 
 
-# Ergebnis
+## Ergebnis
 
 Unter unserer neuen URL `http://localhost:8000/gpkg` sollten wir alle Vektor Datensätze aufgelistet bekokmmen. 
 
@@ -310,7 +310,7 @@ Treffen wir eine Auswahl und klicken "Genereiere Geopackage von Auswahl" sollte 
 
 ![Geopackage Export in QGIS geöffnet](images/qgis_geopackage.jpeg)
 
-# Fazit
+## Fazit
 
 Wie wir gesehen haben, ist es relativ einfach auf vorhandene Datensätze zuzugreifen oder eigenen Seiten zu erstellen die 
 Nutzereingaben entgegen nehmen. Das Thema Entwicklung unter GeoNode bleibt dennoch komplex, verlangt es dem Entwickler doch ein breites Wissen
@@ -319,7 +319,7 @@ in unterschiedlichen Bereichen ab.
 Selbstverständlich ließe sich dieses Beispiel noch weiter ausarbeiten. Zum Beispiel ein eigenes Datenbank Modell erstellen um Daten zu speichern
 und die Django Administrationsoberfläche zu verwenden. 
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [Einführung in Django Apps](https://docs.djangoproject.com/en/4.1/intro/tutorial03/)
 - [Django Datenbank Abstraktion](https://docs.djangoproject.com/en/4.1/topics/db/models/)

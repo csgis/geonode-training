@@ -15,12 +15,10 @@ Der Prozess lässt sich weiterhin wie in der [Dokumentation](https://docs.geonod
 
 > Wir raten von der Verwendung der Funktion ab, da Sie in der Vergangenheit in der User Community zu Problemen geführt hat.
 
-# Backup Script
+## Backup Script
 
 Eine alternative zur in GeoNode integrierten Backup-Funktionalität, stellt die Verwendung eines eigenen Backups Scripts dar.
 Dieses kann etnweder über einen Cronjob zu festgelegten Zeiten ausgeführt werden. Oder in Docker Umgebungen über einen eigenen Docker Service automatisiert werden.
-
-## Einfaches Backup Script
 
 Ein sehr einfaches Backups Script könnte wie folgt aussehen:
 
@@ -70,7 +68,7 @@ Die Daten die gesichert werden ist:
 
 Einen Beispiel Service dieses Scripts finden sie [hier](https://github.com/csgis/geonode-backup-service).
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs - Backup und Restore](https://docs.geonode.org/en/master/intermediate/backup/index.html)
 - [Beispiel backup Service über Docker](https://github.com/csgis/geonode-backup-service)

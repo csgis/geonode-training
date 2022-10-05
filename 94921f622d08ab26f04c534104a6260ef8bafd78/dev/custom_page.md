@@ -62,7 +62,7 @@ Hiernach sollte die neue DSGVO Seite im Browser sichtbar werden.
 > Tipp: in Kombination mit einem "Custom Menu" lassen sich so einfach eigene Seiten erzeugen.
 
 
-# Weiterführende links
+## Weiterführende links
 
 - [Django Docs - URLs definieren](https://docs.djangoproject.com/en/4.1/topics/http/urls/)
 

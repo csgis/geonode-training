@@ -42,7 +42,7 @@ Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es �
 - Dauerhafte Ablehnungen Erlaubt:   
   - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
 
-# Announcement im Frontend über Profil anlegen
+## Announcement im Frontend über Profil anlegen
 
 Klicken Sie im Profilbereich auf den Link Ankündigungen
 

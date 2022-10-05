@@ -26,7 +26,7 @@ Stzandardmässig unterstützung GeoNode das Harvesting von:
 
 Weiterhin besteht die Möglichkeit eigene Harvester zu programmieren.
 
-# Einmaliges Harvestern
+## Einmaliges Harvestern
 
 Dieser Workflow wird meist manuell vom Benutzer ausgeführt.
 
@@ -118,7 +118,7 @@ Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 ![Neue Resource speichern](images/django_harvest_res.jpeg)
 
 
-# Periodisches harvesten
+## Periodisches harvesten
 
 Das periodisches abholen und speichern entfernter Datensätze funktioniert fast identisch zum manuellen Workflow.
 Um die Funktion zu illustrieren, werden wir den vorab angelegten Harvester leicht abändern.
@@ -162,6 +162,6 @@ Sowie die Ebene im Portal sichtbar werden.
 
 ![Neuer sichtbarer Datensatz](images/fe_harvested_res.jpeg)
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs: Harvesting](https://docs.geonode.org/en/master/intermediate/harvesting/index.html?)

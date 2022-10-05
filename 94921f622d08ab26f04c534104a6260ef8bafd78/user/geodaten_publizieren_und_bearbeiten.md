@@ -46,7 +46,6 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 1. Digitalisieren Sie einen neuen benachbarten Polygon (Snap Optionen)
 
 > Zum selektieren in die Karte nur ein Mal klicken
->
 > Selektieren von mehreren Objekten können wir über Filter machen
 
 ## Stil bearbeiten

@@ -26,10 +26,10 @@ Im bekannten Panel zur Rechtevergabe wählen Sie die jeweilgen Gruppen:
 Und vergeben hiernach die gewünschte Sichtbarkeit:
 ![Gruppen Rechte definieren](images/csgis_perms.jpeg)
 
-# Übungen
+## Übungen
 
 1. Vergeben Sie bei Ihrem Datensatz Gruppen Rechte für eine beliebige Gruppe.
 
-# Weiterführende Links
+## Weiterführende Links
 
 1. [GeoNode Docs, Share Options](https://docs.geonode.org/en/master/usage/managing_datasets/dataset_permissions.html?highlight=share)

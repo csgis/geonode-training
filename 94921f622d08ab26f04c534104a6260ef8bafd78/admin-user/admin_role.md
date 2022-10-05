@@ -23,7 +23,7 @@ Nach der Installation von GeoNode kennt das System folgende Rollen:
 
 Im folgenden Betrachten wir die dritte und vierte Rolle Mitarbeiter und Administrator.
 
-# Der Administrator im Frontend
+## Der Administrator im Frontend
 
 > Frontend meint den für die Öffentlichkeit sichtbaren Bereich. Ihm gegenüber steht das Backend, welches das System im Hintergrund bezeichnet.
 
@@ -32,7 +32,7 @@ Administratoren Rollen dürfen per se alles sehen, bearbeiten oder löschen.
 Das erste Administratoren Konto wird bei der Installation des Systems angelegt. Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
 
 
-## Zusätzliche Menüpunkte
+### Zusätzliche Menüpunkte
 
 Administoren werden im Menü zusätzliche Optionen angezeigt:
 
@@ -52,7 +52,7 @@ Dies sind:
 
 ![Maske Benutzer einladen](images/benutzer_einladen.jpeg)
 
-### Add User
+#### Add User
 
 Über die Maske "Add User" besteht die Möglichkeit neue Nutzer anzulegen.
 
@@ -93,12 +93,12 @@ Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe änd
 
 ![Gruppen verwalten](images/manage_groups.jpeg)
 
-# Übungen
-## Neue Gruppe
+## Übungen
+### Neue Gruppe
 
 1. Legen Sie eine neue Gruppe an und weisen Sie der neuen Gruppe einige Mitglieder zu.
 
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs – Gruppen anlegen](https://docs.geonode.org/en/master/admin/admin_panel/index.html?highlight=group#managing-a-group).

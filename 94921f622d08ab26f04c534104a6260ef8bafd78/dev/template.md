@@ -67,7 +67,7 @@ Entweder:
 
 > Tipp: Sie können nicht nur Templates sondern so auch die Ausgabe der E-Mails überschreiben.
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [Das Django Template System](https://docs.djangoproject.com/en/4.1/topics/templates/)
 - [GeoNode Docs – Templates überschreiben](https://docs.geonode.org/en/master/basic/theme/index.html#theming-your-geonode-project)

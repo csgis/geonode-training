@@ -12,7 +12,7 @@
 
 [testlink](../dev/source.html)
 
-Eine Geostory ist ein GeoNode Ressource  mit der man ein Artikel mit interaktive Inhalten (Videos, Text, Bilder, Webseiten, dynamische Karten, andere GeoNode Ressourcen, etc.) veröffentlichen kann.
+> Eine Geostory ist ein GeoNode Ressource  mit der man ein Artikel mit interaktive Inhalten (Videos, Text, Bilder, Webseiten, dynamische Karten, andere GeoNode Ressourcen, etc.) veröffentlichen kann.
 
 Eine Geostory kann mit folgenden Elementen aufgebaut werden:
 
@@ -27,8 +27,7 @@ Eine Geostory kann mit folgenden Elementen aufgebaut werden:
 - Webseitenabschnitt
 
 > Ein Beispiel mit allen Elementen einer Geostory finden Sie [hier](https://geonode-training.csgis.de/catalogue/#/geostory/22)
->
->Im [Handbuch von Mapstore](https://mapstore2.readthedocs.io/en/latest/user-guide/exploring-stories/) sind alle Funktionen detailliert beschrieben.
+> Im [Handbuch von Mapstore](https://mapstore2.readthedocs.io/en/latest/user-guide/exploring-stories/) sind alle Funktionen detailliert beschrieben.
 
 Mit der nächsten Übung bauen wir selber eine Geostory auf.
 

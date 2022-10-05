@@ -113,6 +113,6 @@ Ein Klick auf auf "Unsere Vektordaten" zeigt eine vorab gefiltere Liste an Vekto
 
 > Mit dieser Technik ließen sich natürlich auch Links speziell einer Gruppe oder in einer Region denken.
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs: Menus, Items und Placeholder](https://docs.geonode.org/en/master/admin/admin_panel/index.html#menus-items-and-placeholders)

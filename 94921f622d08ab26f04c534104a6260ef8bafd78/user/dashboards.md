@@ -26,14 +26,14 @@ Sie eignen sich gut für die Präsentation von Ergebnisse oder Zusammenfassungen
 
 1. Danach bringen Sie in den dashboard folgende Diagramm mit den Einwohnerzahlen.
 
-    >In Dashboard können die Inhalte dynamisch verknüpft mit anderen Inhalte sein 	(zum Beispiel wenn man in die Karte zoom würde das Diagramm nur die Daten 	anzeigen die man gerade in die Karte sieht)
-    >![Inhalte verknüpfen](images/image78_2.png)
+> In Dashboard können die Inhalte dynamisch verknüpft mit anderen Inhalte sein 	(zum Beispiel wenn man in die Karte zoom würde das Diagramm nur die Daten 	anzeigen die man gerade in die Karte sieht)
+> ![Inhalte verknüpfen](images/image78_2.png)
 
 1. Fügen Sie die Tabelle der places in den Dashboard hinzu. Diese Daten sollen auch mit der Karte und Diagramm verknüpft werden.
 Mit  “Verbindungen ausblenden“ sehen Sie eine rote Umrandung oben über die 	widgets die Ihnen informieren welche Elementen des Dashboards miteinander verknünpft sind.
 
 1. Als letztes können Sie zum Beispiel einen Zähler hinzufügen mit der gesamten Einwohnerzahl.
 
-    ![Dashboard Beispiel](images/image79_2.png)
+![Dashboard Beispiel](images/image79_2.png)
 
-    ![Dashboard Beispiel](images/image80_2.png)
+![Dashboard Beispiel](images/image80_2.png)

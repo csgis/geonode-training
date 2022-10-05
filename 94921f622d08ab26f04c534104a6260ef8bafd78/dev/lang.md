@@ -123,7 +123,7 @@ Hiernach sollten die Übersetzungen der Sprachen im Browser angezeigt werden.
 ![Übersetzte deutsche Überschrift](images/german_trans.jpeg)
 
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [Django Docs – Internationalization and localization](https://docs.djangoproject.com/en/4.0/topics/i18n/)
 

@@ -32,7 +32,7 @@ Für diese Seitenbereiche ist es unter Umständen erforderlich die Mapstore2 Kom
 
 Aufgrund der Komplexität der Komponente ist die Entwicklung hier nur _sehr_ erfahrenen Javascript Entwicklern anzuraten.
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [Github GeoNode Mapstore Client Readme](https://github.com/GeoNode/geonode-mapstore-client)
 - [Video Tutorial Developing with Mapstore](https://www.youtube.com/watch?v=ybuivDWypdQ)

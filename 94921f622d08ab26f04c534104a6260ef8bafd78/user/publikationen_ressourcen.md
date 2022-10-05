@@ -36,9 +36,7 @@ Diese Dateitypen sind unterstützt:
 > - *Nur die Person, die den GeoNode Ressource  gehört (i.d.R. die Person, die den Ressource erzeugt hat) kann die Daten bearbeiten. Diese Person kann aber weitere Berechtigungen hinzufügen und erlauben dass andere Benutzer die Daten **ansehen, herunterladen, bearbeiten** oder **verwalten** können*
 >
 > ![Berechtigungen](images/image14_2.png)
->
-> - *Der Besitzer des GeoNode Ressources kann entscheiden, ob einen anderen Benutzer die Daten gehören sollen (siehe optionale Metadaten):*
->
+> - Der Besitzer des GeoNode Ressources kann entscheiden, ob einen anderen Benutzer die Daten gehören sollen (siehe optionale Metadaten):
 > ![Eigentümer](images/image16_2.png)
 
 ## Übung

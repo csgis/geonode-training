@@ -51,10 +51,7 @@ In Docker Umgebungen kann hierauf verzichtet werden.
 > Tipp: Sehen Sie sich auch die Ausgabe von `python manage.py --help` an. Sie enthält weitere Befehle die direkt durch Django bereit gestellt werden. 
 
 
-# Übersicht über GeoNode spezifische Kommandos
-
-
-
+## Übersicht über GeoNode spezifische Kommandos
 ### migrate_baseurl
 
 Mit dem Verwaltungsbefehl migrate_baseurl können Sie alle GeoNode-Links korrigieren. Dies ist zum Beispiel nötig wenn Sie den Domänennamen oder die IP-Adresse Ihres Portas ändern wollen.
@@ -153,6 +150,6 @@ Beispiel: Lösche alle Ebenen die `Wasser` enthalten; dem User admin gehörten u
 manage.py delete_resources -l 'Q(pk__in: [1, 2]) | Q(title__icontains:"water")' 'Q(owner__name=admin)' -d '*'  '*'
 ```
 
-# Weiterführende links
+## Weiterführende links
 
 - [Geonode Dokumentation - Management Kommandos](https://docs.geonode.org/en/master/admin/mgmt_commands/index.html)

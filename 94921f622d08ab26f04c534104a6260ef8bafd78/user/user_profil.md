@@ -1,5 +1,4 @@
 <!-- the Menu -->
-
 <link rel="stylesheet" media="all" href="../styles.css" />
 <div id="logo"><a href="https://csgis.de">© CSGIS 2022</a></div>
 <div id="menu"></div>
@@ -30,8 +29,7 @@ Im Profil stehen den user u.a. folgende Funktionen zur Verfügung:
 - Benachrichtigungseinstellungen
 - Andere Anwender einladen Ihrer GeoNode Plattform zu benutzen
 
-> Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind     alle Optionen ausgewählt.
-> 
+> Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind alle Optionen ausgewählt.
 > Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)
 
 ![Benachrichtigungen](images/image4.png)
@@ -45,12 +43,12 @@ Außerdem können registrierte Benutzer:
 
 ![Profil](images/image5.png)
 
-> *Weitere empfehlenswert GeoNode Dokumentationen sind:*
+> Weitere empfehlenswert GeoNode Dokumentationen sind:
 > 
-> - *[GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)*
-> - *[Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)*  
+> - [GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)
+> - [Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)* 
 > 
-> *Auf der Startseite, im Menü Über  kann man visualisieren, filtern und sehen welche User im GeoNode registriert sind und welche Daten haben sie   veröffentlicht*
+> Auf der Startseite, im Menü Über  kann man visualisieren, filtern und sehen welche User im GeoNode registriert sind und welche Daten haben sie   veröffentlicht
 
 
 ![Benutzer](images/image8.png)

@@ -46,13 +46,13 @@ views.py stellt Funktionen, die als Bindeglied zwischen Datenbankdefinitionen (m
 Beachtenswert ist ebenfalls noch die sich sogut wie in allen Apps befindliche Datei "urls.py". Sie enthält die URL Definitionen Bereit um Browseranfragen an die richtige Stelle zu leiten. 
 
 
-# GeoNode Entwicklungsumgebung
+## GeoNode Entwicklungsumgebung
 
 Eine grundlegende Regel bei der Entwicklung mit GeoNode ist, den Code-Kern wenn möglich nie anzufassen. [https://github.com/GeoNode/geonode-project](https://github.com/GeoNode/geonode-project) gibt uns jedoch die Möglichkeit einzelne Bereiche in GeoNode zu überschreiben. Zudem kann das Projekt lokal gestartet werden um Änderungen direkt live verfolgen zu können oder automatisierte Tests ablaufen zu lassen.
 
 > Da es unter Windows zu vielerleit Problemen mit abhängigen Bibliotheken kommt, soll die lokale Entwicklungsumgebung lediglich unter Linux oder OSX gestartet werden.
 
-## Neues GeoNode Project erzeugen
+### Neues GeoNode Project erzeugen
 
 ```
 git clone https://github.com/GeoNode/geonode-project.git -b master
@@ -70,8 +70,6 @@ cd geonode_training_dev
 ```
 git+https://github.com/GeoNode/geonode.git@master#egg=GeoNode
 ```
-
-
 
 
 ### Settings erzeugen
@@ -150,7 +148,7 @@ Weiterhin das Projekt im Browser unter http://localhost:8000 aufrufen können.
 
 ![Entwicklungsserver im Browser](images/dev_server_im_browser.jpeg)
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs – GeoNode Project](https://docs.geonode.org/en/master/install/advanced/project/index.html)
 - [GeoNode Docs – Docker als Entwicklungsumgebung](https://docs.geonode.org/en/master/devel/docker/index.html)

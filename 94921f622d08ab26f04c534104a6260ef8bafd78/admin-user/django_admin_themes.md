@@ -55,6 +55,6 @@ zeigt sich auf der Startseite
 
 ![Theme ist sichtbar](images/theming.jpeg)
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs Theming](https://docs.geonode.org/en/master/admin/admin_panel/index.html#simple-theming)

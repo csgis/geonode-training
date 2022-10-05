@@ -21,7 +21,7 @@ https://github.com/GeoNode/geonode-contribs
 > In Django Umgebungen sind die Contrib Apps bereits installiert.
 Auf zwei Erweiterungen soll hingewiesen werden.
 
-# ldap Erweiterung
+## ldap Erweiterung
 
 Erlaubt die Authentifizierung von Usern über LDAP.
 Die Konfiguration finden sie bereits in der bekannten `settings.py`
@@ -40,7 +40,7 @@ LDAP_GROUP_PROFILE_MEMBER_ATTR=uniqueMember
 ```
 Siehe: https://github.com/GeoNode/geonode-project/blob/master/.env.sample#L214-L223
 
-# keyloak-sync Erweiterung
+## keyloak-sync Erweiterung
 
 Diese Contrib App erlaubt die Authentifizierung von Usern über einen eigenständigen [Keycloak Server](https://www.keycloak.org/).
 Keycloak als Authentifizierungsserver unterstützt wiederum eine vielzahl an Authentifizierungsquellen.
@@ -63,7 +63,7 @@ KEYCLOAK_USER_REALM=os.getenv('KEYCLOAK_USER_REALM', None)
 
 > Beachten Sie die [Readme](https://github.com/GeoNode/geonode-contribs/tree/master/keycloak-sync) des Repository.
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [GeoNode Docs – Contrib Apps](https://docs.geonode.org/en/master/advanced/contrib/index.html)
 - [LDAP Contrib App](https://github.com/GeoNode/geonode-contribs/tree/master/ldap)

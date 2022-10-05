@@ -21,7 +21,7 @@ GeoNode kann auf unterschiedliche Weise in zwei verschiedenen Ausprägungen inst
 3. SPC-Geonode 
    1. taucht verzeinzelt noch in der Dokumentation auf. Obsolete Geonode Konfiguration.
 
-# Installationswege
+## Installationswege
 
 Für beide Ausprägungen sind alle Installationswege möglich.
 
@@ -34,7 +34,7 @@ Für beide Ausprägungen sind alle Installationswege möglich.
 4. *Vagrant*
    1. Ist eine Automatisierung um Virtuelle Maschinen zu konfigurieren. Eine Konfigurationsdatei findet sich [hier](https://github.com/GeoNode/geonode-project/blob/master/Vagrantfile). Sie wird verwendet um schnell eine virtuelle Testinstanz mit Docker zu erstellen.
 
-# Weiterführende Links
+## Weiterführende Links
 
 - [docs.geonode.org | Installationsanleitungen](https://docs.geonode.org/en/master/install/advanced/index.html)
 

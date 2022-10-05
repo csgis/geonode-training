@@ -122,18 +122,14 @@ div#logo a {
     font-size: 14px;
 }
 
-#jumpMenu ul li a.second, #jumpMenu ul li a.third {
+#jumpMenu ul li a.third {
     padding-left: 12px;
 }
 
- #jumpMenu ul li a.third {
-    padding-left: 25px;
-}
 
-
-#jumpMenu ul li a.second:before {
+/* #jumpMenu ul li a.second:before {
     content: "- ";
-}
+} */
 
 #jumpMenu ul li a.third:before {
     content: "• ";
