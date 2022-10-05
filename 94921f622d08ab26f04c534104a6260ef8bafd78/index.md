@@ -21,7 +21,7 @@ Auf der linken Seite finden Sie Übungen und Informationen für
 - System Administroren die auf Server Ebene das Portal warten
 
 
-> Wir verwenden in der Dokumentation aus Einfachheit größtenteils `User` oder `Benutzer`.  
-> Gemeint sind hiermit jedoch alle Geschlechter. 
+
+> Aus Gründen der besseren Lesbarkeit wird im Text verallgemeinernd das generische Maskulinum verwendet. Diese Formulierungen umfassen gleichermaßen weibliche und männliche Personen; alle sind damit selbstverständlich gleichberechtigt angesprochen.
 
 [Download der Dokumentation als PDF](./documentation_geonode4_csgis.pdf){:target="_blank"}
