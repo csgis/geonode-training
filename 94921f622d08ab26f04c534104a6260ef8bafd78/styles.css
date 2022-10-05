@@ -96,9 +96,12 @@ div#logo a {
 .markdown-body blockquote {
     color: #41474d;
     border-left: none;
-    background: #F4F7F9;
+    border-left: 0.25em solid #fe6558;
+    border-right: 0.25em solid #fe6558;
+    border-bottom: 0.1em solid #fe6558;
+    border-top: 0.1em solid #fe6558;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 0.3rem 1rem;
     font-weight: 500;
 }
 
