@@ -23,3 +23,5 @@ Auf der linken Seite finden Sie Übungen und Informationen für
 
 > Wir verwenden in der Dokumentation aus Einfachheit größtenteils `User` oder `Benutzer`.  
 > Gemeint sind hiermit jedoch alle Geschlechter. 
+
+[Download der Dokumentation als PDF](./documentation_geonode4_csgis.pdf){:target="_blank"}
