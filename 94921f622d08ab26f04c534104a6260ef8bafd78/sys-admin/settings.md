@@ -109,11 +109,13 @@ Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen
 - DEBUG={debug} 
   - Debug Modus an oder aus? (True oder False). In Production immer False!
 - SECRET_KEY="{secret_key}" 
-  - Ein Schlüssel den Django zur Verschlüsselung voon beispielsweise Formulardaten verwendet.
+  - Ein Schlüssel den Django zur Verschlüsselung von beispielsweise Formulardaten verwendet.
 {% endraw %}
 
 Eine vollständige Übersicht aller Variablen finden Sie [hier](https://docs.geonode.org/en/master/basic/settings/index.html?highlight=GEOSERVER_PUBLIC_LOCATION#geoserver-public-location).
 
+
+> Tipp: Lesen Sie die Datei settings.py. Hier finden sich einige hilfreiche Kommentare der Entwickler.
 
 # Weiterführende Links
 
