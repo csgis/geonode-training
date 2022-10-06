@@ -15,9 +15,9 @@
 ## Inhalt:
 
 Dieser Schulungsbereich gibt eine Einführung für Administratoren.  
-Wir werden uns mit folgenden Tehmen befassen:
+Wir werden uns mit folgenden Themen befassen:
 
-- Welche Berechtigung besitzt die Admin Rolle
-- Wie werden Gruppen Rechte vergeben
+- Welche Berechtigung besitzt die Admin-Rolle
+- Wie werden Gruppenrechte vergeben
 - Die Benutzung des Django Admins um beispielsweise User, oder Datasets zu verwalten
 - Was sind Ankündigungen

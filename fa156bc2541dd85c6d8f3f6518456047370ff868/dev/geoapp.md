@@ -12,7 +12,7 @@
 
 In diesem Abschnitt wollen wir uns die Grundzüge einer eigenen App ansehen.  
 Unsere APP wird Usern die Möglichkeit geben Vektor-Datensätze auszuwählen und diese
-gesammelt in einem geopackage herunter zu laden.  
+gesammelt in einem geopackage herunterzuladen.  
 Die Hauptarbeit wird hierbei von dem im Hintergrund agierenden Kartenserver `geoserver` erledigt. Dieser stellt über den [WPS Endpunkt](https://docs.geoserver.org/main/en/user/community/geopkg/output.html) bereits die Möglichkeit, Ebenen als Geopackage zu exportieren. Als Input erwartet er ein XML Dokument mit den Layer Definitionen.
 
 > ACHTUNG: Der gezeigte Code ist nicht produktionsfähig!  
@@ -23,7 +23,7 @@ Programm Ablauf:
 ```
 -> User wählt Datensätze zum Export über Checkboxen
     -> JS sendet Namen der Ebenen an JSON View als POST request 
-       -> Django sendet request an GeoServer WPS Endpunkt um das geopackage erstellen zu lasen 
+       -> Django sendet request an GeoServer WPS Endpunkt um das geopackage erstellen zu lassen 
           -> JS nimmt link zu Geopackage Download entgegen und gibt diesen an User aus
 ```
 
@@ -111,7 +111,7 @@ def gpkg_json_result(request):
 
 ### Anlegen der helpers.py
 
-Die angelegte views.py greift auf einige Hilfefunktionen zurück. So zum Beispiel eine Funktion die das XML für die Anfrage an GeoServer erstellt, oder einen einfach abstrahierten HTTP Clienten. Wir legen die Funktionen in einer neuen Datei namens `helpers.py` an.
+Die angelegte views.py greift auf einige Hilfefunktionen zurück. So zum Beispiel eine Funktion, die das XML für die Anfrage an GeoServer erstellt, oder einen einfach abstrahierten HTTP Klienten. Wir legen die Funktionen in einer neuen Datei namens `helpers.py` an.
 
 ```python
 from django.conf import settings
@@ -190,7 +190,7 @@ def http_client(geoserver_payload):
 
 ## Template anlegen
 
-Abschließend erstellen wir im Verzeichniss unserer App ein neues Verzeichnis namens `templates`, hierin ein Verzeichnis mit dem Namen `base` und legen die Datei `resourcebase_list.html` mit folgendem Inhalt an:
+Abschließend erstellen wir im Verzeichnis unserer App ein neues Verzeichnis namens `templates`, hierin ein Verzeichnis mit dem Namen `base` und legen die Datei `resourcebase_list.html` mit folgendem Inhalt an:
 
 ```html
 {% raw %}
@@ -298,25 +298,25 @@ urlpatterns = [
 
 ## Ergebnis
 
-Unter unserer neuen URL `http://localhost:8000/gpkg` sollten wir alle Vektor Datensätze aufgelistet bekokmmen. 
+Unter unserer neuen URL `http://localhost:8000/gpkg` sollten wir alle Vektor Datensätze aufgelistet bekommen. 
 
 ![Oberfläche der eigenen APP](images/geopackage_app.jpeg)
 
-Treffen wir eine Auswahl und klicken "Genereiere Geopackage von Auswahl" sollte der Link zum Download des Geopackage nach einiger Zeit angezeigt werden:
+Treffen wir eine Auswahl und klicken "Generiere Geopackage von Auswahl" sollte der Link zum Download des Geopackage nach einiger Zeit angezeigt werden:
 
 ![Link zu geopackage download](images/geopackage_link.jpeg)
 
-Öffnen wir die heruntergeladene Datei in QGIS sehen wir die beiden exportieren Ebenen:
+Öffnen wir die heruntergeladene Datei in QGIS sehen wir, die beiden exportieren Ebenen:
 
 ![Geopackage Export in QGIS geöffnet](images/qgis_geopackage.jpeg)
 
 ## Fazit
 
 Wie wir gesehen haben, ist es relativ einfach auf vorhandene Datensätze zuzugreifen oder eigenen Seiten zu erstellen die 
-Nutzereingaben entgegen nehmen. Das Thema Entwicklung unter GeoNode bleibt dennoch komplex, verlangt es dem Entwickler doch ein breites Wissen
+Nutzereingaben entgegennehmen. Das Thema Entwicklung unter GeoNode bleibt dennoch komplex, verlangt es dem Entwickler doch ein breites Wissen
 in unterschiedlichen Bereichen ab.
 
-Selbstverständlich ließe sich dieses Beispiel noch weiter ausarbeiten. Zum Beispiel ein eigenes Datenbank Modell erstellen um Daten zu speichern
+Selbstverständlich ließe sich dieses Beispiel noch weiter ausarbeiten. Zum Beispiel ein eigenes Datenbankmodell erstellen, um Daten zu speichern
 und die Django Administrationsoberfläche zu verwenden. 
 
 ## Weiterführende Links

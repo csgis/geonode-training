@@ -36,14 +36,14 @@ except ImportError:
     from geonode.settings import *
 ```
 
-Zu Beginn der settings.py wird versucht eine Datei Namens `local_settings.py` zu laden. Sie soll erlauben GeoNode mit eigenen Einstellungen zu erweitern bzw. bestehende zu ergänzen.
+Zu Beginn der settings.py wird versucht eine Datei namens `local_settings.py` zu laden. Sie soll erlauben GeoNode mit eigenen Einstellungen zu erweitern bzw. bestehende zu ergänzen.
 
-Wie schon bei der Entwicklung angesprochen soll weiterhin tunlichst vermieden werden die Quelldateien abzuändern.
+Wie schon bei der Entwicklung angesprochen soll weiterhin tunlichst vermieden werden, die Quelldateien abzuändern.
 Ein weitaus besserer Weg ist die Anpassung über Umgebungsvariablen.
 
 # Die .env Datei
 
-Betrachtet man alle Einstellungen der `settings.py` fällt auf das für jede versucht wird zunächst die Einstellung über eine Umgebungsvariable zu setzen.
+Betrachtet man alle Einstellungen der `settings.py` fällt auf, dass für jede versucht wird zunächst die Einstellung über eine Umgebungsvariable zu setzen.
 
 Beispiel
 
@@ -51,13 +51,13 @@ Beispiel
 LANGUAGE_CODE = os.getenv('LANGUAGE_CODE', "en")
 ```
 
-Dies ermöglicht uns das komplette System über die Datei `.env` zu konfigurieren.  
-Ihre Variablen werden in Docker Umgebungen standardmässig beim starten als Umgebungsvariablen gesetzt.
+Dies ermöglicht uns, das komplette System über die Datei `.env` zu konfigurieren.  
+Ihre Variablen werden in Docker Umgebungen standardmässig beim Starten als Umgebungsvariablen gesetzt.
 
 # Beachtenswerte Einstellungsmöglichkeiten
 
-Betrachten wir anhand der `.env` Datei einige wichtige Einstellungen die Sie kennen sollten.
-Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen müssen.
+Betrachten wir anhand der `.env` Datei einige wichtige Einstellungen, die Sie kennen sollten.
+Diese sind jene, die Sie bei nicht Verwendung des Scripts zu Installation setzen müssen.
 
 
 {% raw %}
@@ -66,7 +66,7 @@ Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen
 - DJANGO_SETTINGS_MODULE={{project_name}}.settings 
   - Definiert den Namen der zu ladenden Settings Datei
 - POSTGRES_PASSWORD={pgpwd} 
-  - Das password für den Datenbank Super Usdr
+  - Das password für den Datenbank Super User
 - GEONODE_DATABASE={{project_name}} 
   - Der Name der Django Datenbank
 - GEONODE_DATABASE_PASSWORD={dbpwd}
@@ -80,7 +80,7 @@ Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen
 - GEODATABASE_URL=postgis://{{project_name}}_data:{geodbpwd}@db:5432/{{project_name}}_data 
   -   Die Verbindungsparameter zur Geodatenbank
 - SITEURL={siteurl}/ 
-  - Die IP oder DOmain der Seite inklusive http(s). Wird in vielen Templates verwendet
+  - Die IP oder Domain der Seite inklusive http(s). Wird in vielen Templates verwendet
 - ALLOWED_HOSTS="['django', '*', '{hostname}']" 
   - Von den hier definierten Domains darf das Portal aufgerufen werden. Der * steht für erlaube alle
 - GEONODE_LB_HOST_IP={hostname} 
@@ -99,9 +99,9 @@ Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen
 - ADMIN_PASSWORD={geonodepwd} 
   - Das Password der bei Installation erstellten Admin Rolle
 - ADMIN_EMAIL={email} 
-  - Die Email des Admins
+  - Die E-Mail des Admins
 - DEFAULT_FROM_EMAIL='{email}'
-  - Absender von System Emails 
+  - Absender von System E-Mails 
 - OAUTH2_CLIENT_ID={clientid} 
   - Die ID der Geoserver oauth2 app
 - OAUTH2_CLIENT_SECRET={clientsecret}
@@ -109,7 +109,7 @@ Diese sind jene die Sie bei nicht Verwendeung des Scripts zu Installation setzen
 - DEBUG={debug} 
   - Debug Modus an oder aus? (True oder False). In Production immer False!
 - SECRET_KEY="{secret_key}" 
-  - Ein Schlüssel den Django zur Verschlüsselung von beispielsweise Formulardaten verwendet.
+  - Ein Schlüssel, den Django zur Verschlüsselung von beispielsweise Formulardaten verwendet.
 {% endraw %}
 
 Eine vollständige Übersicht aller Variablen finden Sie [hier](https://docs.geonode.org/en/master/basic/settings/index.html?highlight=GEOSERVER_PUBLIC_LOCATION#geoserver-public-location).

@@ -22,30 +22,30 @@ Die relevanten Punkte finden wir im Django Admin unter "Menu Items", "Menu place
 
 Wir öffnen Menus und klicken in der darauf folgenden Maske auf "menu hinzufügen".
 In der darauffolgenden Maske vergeben wir einen Titel für das Menü (wird nur intern verwendet).
-Die Position (Feld Placehoder), sowie die Reihenfolge falls mehrere Menus unter dem Placeholder erscheinen sollen.
+Die Position (Feld Placehoder), sowie die Reihenfolge, falls mehrere Menus unter dem Placeholder erscheinen sollen.
 
 
 ![Neues Menu anlegen](images/django_new_menu.jpeg)
 
 Und speichern das Menü ab.
 
-> Placeholder bezeichnet einen Ort im Template andem das Menü ausgegeben wird. Standardmässig besitzt GeoNode 4 vordefinierte Positionen. Über das Template Tag `render_nav_menu 'CUSTOM_MENU'` könnten wir einen neuen Platzhalter an anderer Stelle definieren.
+> Placeholder bezeichnet einen Ort im Template, an dem das Menü ausgegeben wird. Standardmäßig besitzt GeoNode 4 vordefinierte Positionen. Über das Template Tag `render_nav_menu 'CUSTOM_MENU'` könnten wir einen neuen Platzhalter an anderer Stelle definieren.
 
 
 ## Neuen Menüpunkt anlegen
 
-Nachdem wir ein neues Menü definiert haben, legen wir in diesem Schritt zwei Neue Menüpunkte an:
+Nachdem wir ein neues Menü definiert haben, legen wir in diesem Schritt zwei neue Menüpunkte an:
 
 - über diese Plattform
 - Alle Vectordaten
 
-In der Django Übersicht wählen wir nun den Mnüpunkt "Menu Items"
+In der Django Übersicht wählen wir nun den Menüpunkt "Menu Items"
 
 ![Neuen Menüpunkt anlegen](images/django_menu_items.jpeg)
 
 ### Erster Menüpunkt
 
-Und legen uns in der darauffolgenden Maske über den bekannten rechten Buton "menu item hinzufügen" ein neues Menu Item an:
+Und legen uns in der darauffolgenden Maske über den bekannten rechten Button "menu item hinzufügen" ein neues Menu Item an:
 
 ![Neuen Menüpunkt anlegen](images/django_new_menu_item.jpeg)
 
@@ -54,15 +54,15 @@ Die sich hierauf öffnende Maske bietet die Formularfelder:
 - Title
   - Der Titel des Menüpunktes
 - Menu
-  - Das Menu indem der Butteon erscheinen sollen (wir haben vorhin eine Menü mit dem Namen "Unsere Forschungsdaten erstellt")
+  - Das Menu indem der Butteon erscheinen sollen (wir haben vorhin eie Menü mit dem Namen "Unsere Forschungsdaten erstellt")
 - Order
-  - Die Reihenfolge falls mehrere Menüpunkte erscheinen
+  - Die Reihenfolgen falls mehrere Menüpunkte erscheinen
 - Blank Target
-  - Gesetzt öffnet der Link in einem neuen Browser-Tab
+  - Der Link öffnet in einem neuen Browser-Tab
 - Url
   - die URL auf die der Link verweisen soll
 
-Für unseren ersten Menüunkt füllen wir die Felder wie folgt
+Für unseren ersten Menüpunkt füllen wir die Felder wie folgt
 
 ---|---
 Feld|Wert
@@ -83,7 +83,7 @@ Für unseren nächsten Datensatz öffnen wir ein neues Browserfenster. Navigiere
 
 ![Zweiter Menüpunkt](images/vektor_url.jpeg)
 
-Zurück in der Maske des neuen Menüpunkt füllen wir die Werte wie folgt:
+Zurück in der Maskedes neuen Menüpunkts füllen wir die Werte wie folgt:
 
 ---|---
 Feld|Wert
@@ -98,16 +98,16 @@ Wir speichern und schließen den Menpunkt über speichern und betrachten das Erg
 
 ### Darstellung des Menüs
 
-Unser neues Menü zeigt sich der der oberen Navigationsleiste der Seite.
+Unser neues Menü zeigt sich in der oberen Navigationsleiste der Seite.
 ![Neues Menu wird sichtbar](images/fe_new_menu.jpeg)
 
 Ein Klick auf About bringt die User zur About Seite:
 
 ![Verlinkte about Seite](images/about.jpeg)
 
-> Wie Sie diese Seite überschreiben sehen Sie im nächsten Abschnitt "Einführung in die Entwicklung".
+> Wie Sie diese Seite überschreiben, sehen Sie im nächsten Abschnitt "Einführung in die Entwicklung".
 
-Ein Klick auf auf "Unsere Vektordaten" zeigt eine vorab gefiltere Liste an Vektor Datensätzen.
+Ein Klick auf "Unsere Vektordaten" zeigt eine vorab gefiltere Liste an Vektor Datensätzen.
 
 ![Verlinkte Vector Daten](images/vector_only.jpeg)
 

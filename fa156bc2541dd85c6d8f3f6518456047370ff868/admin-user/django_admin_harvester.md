@@ -14,17 +14,17 @@
 
 GeoNode ist in der Lage, Ressourcen-Metadaten von mehreren entfernten Diensten zu sammeln.
 
-In diesem Bereich werfen wir den Blick auf auf die Konfiguriert um von entfernten Dienste, eine Liste relevanter Ressourcen abzurufen und hierdurch eine Kopie als lokale Ressourcen zu speichern. 
-Neben einem einmaligen "harvesten" besteht weiterhin die Möglichkeit die Quelle in definierten Zeitabschnitten erneut zu besuchen.
+In diesem Bereich werfen wir den Blick auf die Konfiguration, um von entfernten Dienste, eine Liste relevanter Ressourcen abzurufen und hierdurch eine Kopie als lokale Ressourcen zu speichern. 
+Neben einem einmaligen "harvesten" besteht weiterhin die Möglichkeit, die Quelle in definierten Zeitabschnitten erneut zu besuchen.
 
 
-Stzandardmässig unterstützung GeoNode das Harvesting von:
+Standardmäßig unterstützt GeoNode das Harvesting von:
 
 - Andere entfernte GeoNode-Instanzen;
 - OGC WMS-Servern;
 - ArcGIS REST-Dienste.
 
-Weiterhin besteht die Möglichkeit eigene Harvester zu programmieren.
+Weiterhin besteht die Möglichkeit, eigene Harvester zu programmieren.
 
 ## Einmaliges Harvestern
 
@@ -41,7 +41,7 @@ Klicken Sie im Django Admin auf den Link zur Harvester Übersicht.
 
 ![Button um neuen Harvester anzulegen](images/django_admin_btn_harvester.jpeg)
 
-Das sich hierauf öffnenen Menü zeigt folgende Konfigurationsmöglichkeiten:
+Das sich hierauf öffnende Menü zeigt folgende Konfigurationsmöglichkeiten:
 
 - Name
   - Der Name des Harvester zur internen Bezeichnung
@@ -64,7 +64,7 @@ Das sich hierauf öffnenen Menü zeigt folgende Konfigurationsmöglichkeiten:
 - harvester_type
   - Typ des Harvester-Workers, der für das Harvesting verwendet wird.
 - Harvester type specific configuration
-  - Spezifische Konfiguration für den gewählten Harvester Typ. Konfigurationsobjekt wird als JSON erwatet.
+  - Spezifische Konfiguration für den gewählten Harvester Typ. Konfigurationsobjekt wird als JSON erwartet.
 
 
 
@@ -86,11 +86,11 @@ Check availability frequency | admin
 Harvester type | geonode.harvesting.harvesters.geonodeharvester.GeonodeUnifiedHarvesterWorker
 Harvester type specific configuration | {"resource_title_filter": "tl_2018_02_anrc0"}
 
-Nach dem speichern des Objekts wird der neue Harvester gelistet.
+Nach dem Speichern des Objekts wird der neue Harvester gelistet.
 
 ![Neuer Harvester wird gelistet](images/django_new_Harvester_in_list.jpeg)
 
-Wir sehen der Status zeicht "ready" und unsere Konfiguration um nur Ebenen mit dem Titel  "tl_2018_02_anrc0" zu harvesten wurde gesetzt.
+Wir sehen der Status zeigt "ready" und unsere Konfiguration um nur Ebenen mit dem Titel  "tl_2018_02_anrc0" zu harvesten wurde gesetzt.
 
 Wir setzen den Haken vor dem Havester und wählen im unteren Menü die Option "Update harvestable resources for selected harvesters"
 
@@ -102,11 +102,11 @@ Zurück im Django Hauptmenü rufen wir die Liste der "Harvestable resources" auf
 ![Link zu Harvestable resources](images/django_list_harvestable_reousrces.jpeg)
 
 Und sehen die geharvestete Resource.
-Um diese lokal zu speichern setzen wir am linken Rand der Tabelle den Haken, und wählen im unteren Auswahlfeld "Harvest selected resources".
+Um diese lokal zu Speichern setzen wir am linken Rand der Tabelle den Haken, und wählen im unteren Auswahlfeld "Harvest selected resources".
 
 ![Datensatz abholen](images/django_harvest_res.jpeg)
 
-Nach einiger Zeit und neu laden der Maske sollte uns ein grünes Symbol über das erfolgreiche speichern des Datensatzes angezeigt werden.
+Nach einiger Zeit und neu laden der Maske sollte uns ein grünes Symbol über das erfolgreiche Speichern des Datensatzes angezeigt werden.
 
 Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 
@@ -115,7 +115,7 @@ Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 ![Erfolgreiche Speicherung](images/djagno_harvested_res.jpeg)
 
 
-![Neue Resource speichern](images/django_harvest_res.jpeg)
+![Neue Ressource speichern](images/django_harvest_res.jpeg)
 
 
 ## Periodisches harvesten
@@ -129,11 +129,11 @@ Im Django Admin navigieren wir zur [Verwaltung von Datensätzen](https://geonode
 
 ![Datensatz im Django Admin löschen](images/django_delete_Dataset.jpeg)
 
-Die hierauf folgende Rückfrage zum löschen, bestätigen wir mit "Ja, ich bin sicher".
+Die hierauf folgende Rückfrage zum Löschen, bestätigen wir mit "Ja, ich bin sicher".
 
 In der [Übersicht der Harvestable resources](https://geonode-training.csgis.de/de-de/admin/harvesting/harvestableresource/), löschen wir den vorab gefundenen Datensatz:
 
-![resource löschen](images/django_delete_harvest.jpeg)
+![Ressource löschen](images/django_delete_harvest.jpeg)
 
 Zurück in der [Übersicht aller Harvester](https://geonode-training.csgis.de/de-de/admin/harvesting/harvester/) editieren wir den vorab angelegten Harvester "Manueller Harvester".
 
@@ -154,7 +154,7 @@ Delete orphan resources automatically | Checkbox angehakt
 
 Und speichern die Konfiguration ab.
 
-Nach einiger Zeit sollte die geharvestete Resource in der [Übersicht der zu harvesten Resourcen](https://geonode-training.csgis.de/de-de/admin/harvesting/harvestableresource/) auftauchen.
+Nach einiger Zeit sollte die geharvestete Ressource in der [Übersicht der zu harvesten Ressourcen](https://geonode-training.csgis.de/de-de/admin/harvesting/harvestableresource/) auftauchen.
 
 ![automatisch hinzugefügter Datensatz](images/django_auto_added_harvester.jpeg)
 

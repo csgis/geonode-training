@@ -10,7 +10,7 @@
 
 # Die Django shell
 
-Neben den Mangement Kommandos des vorherigen Kapitels besitzen Administratoren mit Shell Zugang ein weiteres mächtiges Werkzeug. 
+Neben den Managementkommandos des vorherigen Kapitels besitzen Administratoren mit Shell Zugang ein weiteres mächtiges Werkzeug. 
 Die "Django Shell".
 
 Wir starten Sie mit
@@ -19,7 +19,7 @@ Wir starten Sie mit
 python ./manage.py shell
 ```
 
-In dieser Python sitzung haben wir Zugriff auf die GeoNode Datenbank und Ihre Datensätze.
+In dieser Python Sitzung haben wir Zugriff auf die GeoNode Datenbank und Ihre Datensätze.
 
 ## Beispiel: Ändern aller Titel bestehender Datensätze
 
@@ -32,11 +32,11 @@ In [3]: for dataset in all_datasets:
    ...: 
 ```
 
-Betrachten wir hiernach alle Titel, sehen wir dass die Datensätze bearbeitet wurden.
+Betrachten wir hiernach alle Titel, sehen wir, dass die Datensätze bearbeitet wurden.
 
 
 ![Bearbeitete Titel](images/added_titles.jpeg)
 
 # Weiterführende Links
 
-- [Django Dokumentation -  ./manage.py](https://docs.djangoproject.com/en/4.0/ref/django-admin/)
+- [Django Dokumentation - manage.py](https://docs.djangoproject.com/en/4.0/ref/django-admin/)

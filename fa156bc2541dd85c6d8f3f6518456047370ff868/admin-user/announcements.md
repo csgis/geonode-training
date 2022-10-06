@@ -39,7 +39,7 @@ Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es �
 - "Session Only Dismissal (*)_,
   - die Standardeinstellung, ermöglicht es, die Nachrichtenbox der Ankündigung für die aktuelle Browser-Sitzung zu schließen. Sie wird beim nächsten Zugriff wieder angezeigt.
 
-- Dauerhafte Ablehnungen Erlaubt:   
+- Dauerhafte Ablehnungen erlaubt:   
   - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
 
 ## Announcement im Frontend über Profil anlegen
@@ -60,8 +60,8 @@ Füllen Sie hierauf alle Felder des Formulars aus.
 
 Das Verwalten von Ankündigungen über das Admin-Panel ist im Grunde dasselbe; die Felder für das Formular sind identisch.
 
-![Ankndigung im Django Admin](images/admin-announcments-009.png)
+![Ankündigung im Django Admin](images/admin-announcments-009.png)
 
-Der Zugriff auf die Ankündigungsoptionen über das Admin-Panel ermöglicht Ihnen auch die Verwaltung von "Ablehnungen". Über diese Oberfläche können Sie selektiv entscheiden, welche Mitglieder eine bestimmte Ablehnungen sehen können und welche nicht, oder Sie können sie zwingen, die Nachrichten erneut zu sehen, indem Sie die Ablehnungen entsprechend löschen.
+Der Zugriff auf die Ankündigungsoptionen über das Admin-Panel ermöglicht Ihnen auch die Verwaltung von "Ablehnungen". Über diese Oberfläche können Sie selektiv entscheiden, welche Mitglieder eine bestimmte Ablehnung sehen können und welche nicht, oder Sie können sie zwingen, die Nachrichten erneut zu sehen, indem Sie die Ablehnungen entsprechend löschen.
 
 ![Django Ablehnungen verwalten](images/admin-announcments-010.png)

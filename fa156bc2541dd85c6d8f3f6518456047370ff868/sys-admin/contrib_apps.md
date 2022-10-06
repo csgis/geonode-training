@@ -10,7 +10,7 @@
 
 # Contrib Apps
 
-"Contrib Apps" sind Erweiterungen die sie GeoNode hinzufügen können.  
+"Contrib Apps" sind Erweiterungen, die sie GeoNode hinzufügen können.  
 Diese finden Sie in folgendem Repository:
 
 https://github.com/GeoNode/geonode-contribs
@@ -43,7 +43,7 @@ Siehe: https://github.com/GeoNode/geonode-project/blob/master/.env.sample#L214-L
 ## keyloak-sync Erweiterung
 
 Diese Contrib App erlaubt die Authentifizierung von Usern über einen eigenständigen [Keycloak Server](https://www.keycloak.org/).
-Keycloak als Authentifizierungsserver unterstützt wiederum eine vielzahl an Authentifizierungsquellen.
+Keycloak als Authentifizierungsserver unterstützt wiederum eine Vielzahl an Authentifizierungsquellen.
 
 Um das Modul zu konfigurieren müssen folgende Settings hinzugefügt werden.
 

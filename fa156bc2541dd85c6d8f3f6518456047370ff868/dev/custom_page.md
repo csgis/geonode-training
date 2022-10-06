@@ -11,12 +11,12 @@
 # Eigene Seite anlegen
 
 Im vorherigen Abschnitt haben wir die bestehende Seite "about.html" überschrieben. In diesem Kapitel wollen wir eine neue Seite anlegen.  
-Hierfür werden wir eine neue HTML Datei erstellen sowie die urls.py verwenden um die neue Seite zu verlinken.
+Hierfür werden wir eine neue HTML Datei erstellen sowie die urls.py verwenden, um die neue Seite zu verlinken.
 
 
 ### dsgvo.html anlegen
 
-Zunächst legen wir wiederrum im Templates Ordner unsere neue HTML Datei `dsgvo.html` an.
+Zunächst legen wir wiederum im Templates Ordner unsere neue HTML Datei `dsgvo.html` an.
 
 
 ```html
@@ -40,7 +40,7 @@ Zunächst legen wir wiederrum im Templates Ordner unsere neue HTML Datei `dsgvo.
 
 ### url.py bearbeiten
 
-In einem zweiten Schritt verlinken wir eine URL ANfrage an `dsgvo` mit unserer neu angelegten Datei:
+In einem zweiten Schritt verlinken wir eine URL-Anfrage an `dsgvo` mit unserer neu angelegten Datei:
 
 ```python
 from geonode.urls import urlpatterns

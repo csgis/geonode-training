@@ -10,10 +10,10 @@
 
 # Backups
 
-GeoNode besitzt eine Mangement Kommando um alle erforderlichen Daten einer Instanz zu sichern sowie diese wieder einzuspielen.  
+GeoNode besitzt ein Management Kommando, um alle erforderlichen Daten einer Instanz zu sichern sowie diese wieder einzuspielen.
 Der Prozess lässt sich weiterhin wie in der [Dokumentation](https://docs.geonode.org/en/master/intermediate/backup/index.html) über Jenkins automatisieren.
 
-> Wir raten von der Verwendung der Funktion ab, da Sie in der Vergangenheit in der User Community zu Problemen geführt hat.
+> Wir raten von der Verwendung der Funktion ab, da sie in der Vergangenheit in der User Community zu Problemen geführt hat.
 
 ## Backup Script
 
@@ -58,11 +58,11 @@ find /backups -maxdepth 1  -mtime +${DAYS_TO_KEEP} -exec rm -rf {} \; && echo "C
 
 > Achten Sie auf die richtige Setzung der Pfade.
 
-Die Daten die gesichert werden ist:
+Die Daten, die gesichert werden sollen:
 
 - Die Datenbanken
 - Das Geoserver Daten Verzeichnis
-- Die statischen Dateien von Django die Thumbnails und hochgeladene Dokumente besitzen
+- Die statischen Dateien von Django, die Thumbnails und hochgeladene Dokumente besitzen
 
 ## Backup als Docker Service
 

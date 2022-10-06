@@ -8,9 +8,9 @@
 <!-- the Menu -->
 
 
-# Übersetzung anlegen
+# Übersetzungen anlegen
 
-In diesem Abschnitt wollen wir einen Blick auf das Internationalisierungssytem von Django werfen.
+In diesem Abschnitt wollen wir einen Blick auf das Übersetzungssystem von Django werfen.
 
 Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift 
 
@@ -20,7 +20,7 @@ Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift
 {% endraw %}
 ```
 
-mit einer Übersetzung zu versehen. Django erlaubt das anlegen von Übersetzungen über sogenannte `po` und `mo` Dateien.  
+mit einer Übersetzung zu versehen. Django erlaubt das Anlegen von Übersetzungen über sogenannte `po` und `mo` Dateien.  
 Die `po` Datei stellt hierbei die Quelldatei. Die `mo` Datei die kompilierte Datei mit Übersetzungen dar.
 
 Zunächst können wir den Umfang der Sprachen in unserer settings.py Datei wie folgt einschränken
@@ -34,7 +34,7 @@ LANGUAGES = (
 
 ## Locale Dateien anlegen
 
-Im Hauptverzeichnis unseres GeoNode-Projekts legen wir den neuen Ordner locale an.
+Im Hauptverzeichnis unseres GeoNode-Projekts legen wir den neuen Ordner `locale` an.
 
 ```shell
 cd .. # wir verlassen den Ordner src
@@ -48,7 +48,7 @@ django-admin makemessages --no-location -l en -l de -d django -e "html"
 ```
 
 `--locale` gibt hierbei die zu erzeugenden Übersetzungen an.
-`-e "html"` gibt die Extension der Dateien an die wir berücksichtigen wollen 
+`-e "html"` gibt die Extension der Dateien an, die wir berücksichtigen wollen 
 
 ```shell
 (e) tonischonbuchner@Tonis-MacBook-Pro $% tree locale      
@@ -86,7 +86,7 @@ processing file django.po in /Users/tonischonbuchner/dev/github/gn-auth3/geonode
 processing file django.po in /Users/tonischonbuchner/dev/github/gn-auth3/ils/geonode_training/de/LC_MESSAGES
 ```
 
-Hiernach sollten wir in unserem locale Ordnern die neu kompilierten `*.mo` Dateien sehen.
+Hiernach sollten wir in unserem `locale` Ordnern die neu kompilierten `*.mo` Dateien sehen.
 
 ```shell
 locale
@@ -100,7 +100,7 @@ locale
         └── django.po
 ```
 
-Um die Änderungen online zu stellen kopieren wir den locale Ordner eine Ebene tiefer ins src Verzeichnis.
+Um die Änderungen online zu stellen, kopieren wir den `locale` Ordner eine Ebene tiefer ins `src` Verzeichnis.
 
 > Das Projektverzeichnis erhält beim erstellen von GeoNode-Project den von Ihnen angegebenen Namen. Es handelt sich hierbei um dieses Verzeichnis: https://github.com/GeoNode/geonode-project/tree/master/src/project_name
 
@@ -108,7 +108,7 @@ Um die Änderungen online zu stellen kopieren wir den locale Ordner eine Ebene t
 cp -r locale src/geonode_training_dev
 ```
 
-Wir starten den Development Server neu:
+Wir starten den Development-Server neu:
 
 ```shell
 paver stop

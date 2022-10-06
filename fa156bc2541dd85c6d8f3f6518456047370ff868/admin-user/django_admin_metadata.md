@@ -11,8 +11,7 @@
 # Metadaten Modell
 
 Besondere Bedeutung kommt den Metadaten jedes Datensatzes hinzu. 
-
-dabei Standard-Metadatenformaten wie den Metadatenstandards [ISO 19115](https://de.wikipedia.org/wiki/ISO_19115) zu.
+Das Metadaten-Modell von GeoNode orientiert sich an dem Metadatenstandard [ISO 19115](https://de.wikipedia.org/wiki/ISO_19115).
 
 Sobald der Upload abgeschlossen ist, kann der Nutzer die Metadaten der Ressource füllen. Dieser werden hiernach über die CSW (OGC Catalogue Service) Endpunkte und APIs verfügbar gemacht.
 
@@ -26,13 +25,13 @@ Sobald der Upload abgeschlossen ist, kann der Nutzer die Metadaten der Ressource
   - https://geonode-training.csgis.de/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities
 
 Dies erlaubt anderen Applikationen auf die GeoNode Daten in maschinenlesbarer Form zuzugreifen.
-Als Metadaten Server kommt [pycsw](https://pycsw.org/) zum einsatz. Das manchmal in Dokumentation genannte [geonetwork](https://www.geonetwork-opensource.org/) kann aktuell nicht als Backend genutzt werden.
+Als Metadaten Server kommt [pycsw](https://pycsw.org/) zum Einsatz. Das manchmal in Dokumentation genannte ["geonetwork"](https://www.geonetwork-opensource.org/) kann aktuell nicht als Backend genutzt werden.
 
 Wie bereits bekannt, können User den Metadatensatz Ihrer Daten setzen. Dies erfolgt im Frontend auf Ebene Datensatz über "Metadaten bearbeiten".
 
 ![Metadaten bearbeiten](images/fe_edit_metadata.jpeg)
 
-Administratoren können in beschrängkten Umfang Einfluss auf die angegeben Daten nehmen.
+Administratoren können in beschränkten Umfang Einfluss auf die angegebenen Daten nehmen.
 Zwei einfache Beispiele:
 
 ## Lizenzen anpassen
@@ -41,13 +40,13 @@ In diesem Beispiel legen wir eine neue auswählbare Lizenz an. Im Django Admin n
 
 ![Lizenzen anpassen](images/django_custom_lisence.jpeg)
 
-zur Liste der Lizenzen wo wir auf "lizenz hinzufügen" klicken
+zur Liste der Lizenzen wo wir auf "Lizenz hinzufügen" klicken
 
 ![Neue Lizenz](images/django_add_lisence.jpeg)
 
 > Natürlich hätten wir hierüber auch die Möglichkeit bestehende zu verändern oder zu löschen.
 
-In der folgenden Maske legen wir unsere Test Lizenz an und speichern diese ab:
+In der folgenden Maske legen wir unsere Testlizenz an und speichern diese ab:
 
 ![Maske neue Lizenz](images/django_lic_form.jpeg)
 
@@ -72,10 +71,10 @@ Wir entfernen den Haken bei "is choice" und speichern den Datensatz ab:
 
 ![Society speichern](images/django_disable_soc.jpeg)
 
-Zurück in der Liste aller Topic Kategorien wählen wir über den Rechten oberen Button "Hinzufügen topic category" und füllen das Formular mit Beispiel Daten.
+Zurück in der Liste aller Topic Kategorien wählen wir über den rechten oberen Button "Hinzufügen topic category" und füllen das Formular mit Beispiel-Daten.
 
 ![Neue Kategorie: Soil Data](images/django_soil_data.jpeg)
 
-Beim betrachten der Metadatenmaske verschwindet "Society" aus der Auswahl. Weiterhin zeigt sich unsere neue Metadaten Kategorie "Soil data".
+Beim Betrachten der Metadatenmaske verschwindet "Society" aus der Auswahl. Weiterhin zeigt sich unsere neue Metadaten-Kategorie "Soil data".
 
 ![Veränderte Möglichkeiten zeigen sich im Frontend](images/fe-soil_data.png)

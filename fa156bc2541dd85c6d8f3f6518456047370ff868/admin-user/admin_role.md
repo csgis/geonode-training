@@ -15,13 +15,13 @@ Nach der Installation von GeoNode kennt das System folgende Rollen:
 - Anonym
   - Alle nicht angemeldeten Besucher
 - Registriert
-  - Nutzer mit einem Benutzer Account
+  - Nutzer mit einem Benutzer-Account
 - Mitarbeiter
-  - Registrierte Nutzer mit erweiteren Rechten
+  - Registrierte Nutzer mit erweiterten Rechten
 - Administratoren
   - Registrierte Nutzer mit vollständigen Rechten.
 
-Im folgenden Betrachten wir die dritte und vierte Rolle Mitarbeiter und Administrator.
+Im folgenden betrachten wir die dritte und vierte Rolle Mitarbeiter und Administrator.
 
 ## Der Administrator im Frontend
 
@@ -29,12 +29,12 @@ Im folgenden Betrachten wir die dritte und vierte Rolle Mitarbeiter und Administ
 
 Administratoren Rollen dürfen per se alles sehen, bearbeiten oder löschen.
 
-Das erste Administratoren Konto wird bei der Installation des Systems angelegt. Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
+Das erste Administratoren-Konto wird bei der Installation des Systems angelegt. Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
 
 
 ### Zusätzliche Menüpunkte
 
-Administoren werden im Menü zusätzliche Optionen angezeigt:
+Administratoren werden im Menü zusätzliche Optionen angezeigt:
 
 ![Erweitertes Menü für Administratoren](images/admin-menu.jpeg)
 
@@ -54,7 +54,7 @@ Dies sind:
 
 #### Add User
 
-Über die Maske "Add User" besteht die Möglichkeit neue Nutzer anzulegen.
+Über die Maske "Add User" besteht die Möglichkeit, neue Nutzer anzulegen.
 
 ![Benutzer hinzufügen](images/add_user.jpeg)
 
@@ -65,26 +65,26 @@ Dies sind:
 
 Gruppen sind eine Möglichkeit User zusammenzufassen. Dies ist sinnvoll um Datensätze schnell mit Rechten für einen größeren Personenkreis zu geben.
 
-Standardmässig dürfen nur Administratoren neue Gruppen anlegen sowie Gruppen Administratoren festlegen. Wie wir auch der Mitarbeiter Rolle erlauben Gruppen anzulegen, sehen wir später.
+Standardmäßig dürfen nur Administratoren neue Gruppen anlegen sowie Gruppen Administratoren festlegen. Wie wir auch der Mitarbeiter-Rolle erlauben Gruppen anzulegen, sehen wir später.
 
-Beim anlegen einer neuen Gruppe stehen folgende Eingabefelder zur Verfügung:
+Beim Anlegen einer neuen Gruppe stehen folgende Eingabefelder zur Verfügung:
 
 - Titel der Gruppe
 - Logo der Gruppe
   - Wird für die Übersicht verwendet
 - Beschreibung der Gruppe
 - E-Mail
-  - E-Mail die verwendet wird, um ein oder alle Gruppenmitglieder, ähnlich einer Mailingliste, zu kontaktieren.
+  - E-Mail Adresse die verwendet wird, um ein oder alle Gruppenmitglieder, ähnlich einer Mailingliste, zu kontaktieren.
 - Schlüsselwörter
   - Eine durch Leerzeichen oder Kommas getrennte Stichwortliste
 - Zugriff
-  - Öffentlich: Jeder registrierte Nutzer kann eine öffentliche Gruppe betrachtenund dieser beitreten. 
+  - Öffentlich: Jeder registrierte Nutzer kann eine öffentliche Gruppe betrachten und dieser beitreten. 
   - Öffentlich (nur auf Einladung): Jeder registrierte Benutzer kann die Gruppe betrachten. Nur eingeladene Benutzer können beitreten. 
   - Nur eingeladene Benutzer können teilnehmen.
 - Kategorien
-  - Weitere Gruppierung der Gruppe. Funktioniert in GeoNode 4 nur fehlerbehaftet (Bug: Kann nicht mehr geläscht werden) 
+  - Weitere Gruppierung der Gruppe. Funktioniert in GeoNode 4 nur fehlerbehaftet (Bug: Kann nicht mehr gelöscht werden) 
   
-Nach dem anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppen Übersicht
+Nach dem Anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppen-Übersicht
 
 ![Übersicht der Gruppen](images/view_gropus.jpeg)
 

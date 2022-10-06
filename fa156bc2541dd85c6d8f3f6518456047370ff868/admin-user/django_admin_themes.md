@@ -12,7 +12,7 @@
 
 GeoNode bietet standardmäßig einige Theming-Optionen, die direkt über die Administrationsoberfläche verwaltet werden können. In den meisten Fällen können Sie mit diesen Optionen das Aussehen von GeoNode ganz einfach ändern, ohne eine einzige Zeile HTML oder CSS zu verändern.
 
-Im Django Admin öffnen wir die Theme Administration über den Link Themes:
+Im Django Admin öffnen wir die Theme-Administration über den Link Themes:
 
 ![Theme link](images/django_theme.jpeg)
 
@@ -20,7 +20,7 @@ Die hierauf folgende Ansicht listet alle vorhandenen Themes. Achten Sie auf den 
 
 ![Theme aktiviert / nicht aktiviert](images/django_theme_enabled.jpeg)
 
-Über die bekannte Schaltfläche im Rechten oberen Eck "geonode theme customisation hinzufügen" legen wir ein neues Thema an.
+Über die bekannte Schaltfläche im rechten oberen Eck "geonode theme customisation hinzufügen" legen wir ein neues Thema an.
 
 Die Oberfläche gibt uns folgende Möglichkeiten:
 
@@ -40,14 +40,14 @@ Die Oberfläche gibt uns folgende Möglichkeiten:
   - Angehakt wird der Text im Banner der Startseite unterdrückt
 -  Welcome theme
    -  Slideshow oder Jumbotron background
--  Jobotron Slideshow
-   -  Falls Slideshow gewählt ist, welche Slides solledn erscheinen.
+-  Jumbotron Slideshow
+   -  Falls Slideshow gewählt ist, Slides Auswahl
 - Jumbotron Title
   - Der Titel im Banner der Startseite
 - Jumbotron content
   - Der im Banner angezeigte Text
 
-> Tipp verwenden Sie den [Theme generator](https://geonode.org/geonode-mapstore-client/docs/customizations/theme.html) um die Custom CSS rules zu erzeugen und hierdurch die komplette Farbgebung zu beeinflussen. 
+> Tipp: Verwenden Sie den [Theme-Generator](https://geonode.org/geonode-mapstore-client/docs/customizations/theme.html), um die "Custom CSS rules" zu erzeugen und hierdurch die komplette Farbgebung zu beeinflussen. 
 
 ![Theme Formular](images/django_theme_form.jpeg)
 

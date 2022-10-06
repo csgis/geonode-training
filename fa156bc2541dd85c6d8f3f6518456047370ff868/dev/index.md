@@ -14,8 +14,8 @@
 
 ## Inhalt
 
-In diesem Bereich werden wir uns mit die ersten Schritten zur Entwicklung mit GeoNode ansehen.
-Leider ist die GeoNode Infrastruktur technsich alles andere als einfach aufgebaut.  
+In diesem Bereich werden wir uns mit den ersten Schritten zur Entwicklung mit GeoNode ansehen.
+Leider ist die GeoNode Infrastruktur technisch alles andere als einfach aufgebaut.  
 Je nachdem an welchem Bereich Sie arbeiten wollen werden, Kenntnisse in folgenden Punkten benötigt:
 
 Python3 | Die Programmiersprache Python
@@ -28,7 +28,7 @@ Mapstore2 | Ein Karten Framework
 RSJX | Eine Javascript Bibliothek für "reaktives Javascript"
 Django | Ein Webframework basierend auf Python
 Jinja2 | Eine Templatesprache für Django
-sql | Die von dem Datenbankserver verwendete Sprache um Abfragen zu tätigen
+sql | Die von dem Datenbankserver verwendete Sprache, um Abfragen zu tätigen
 git | Eine Versionsverwaltung von Code
 GIS | spezifisches Wissen bezüglich räumlicher Daten
   

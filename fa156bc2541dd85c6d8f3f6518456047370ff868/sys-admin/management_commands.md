@@ -44,17 +44,17 @@ optional arguments:
 
 Ein angefügtes --help gibt uns also die Hilfe zum jeweiligen Kommando an.
 
-Um sicher zu gehen dass Django mit den korrekten Settings arbeitet wird dem Befehl `DJANGO_SETTINGS_MODULE={Projekt_name}.settings` vorangestellt.
+Um sicher zu gehen dass Django mit den korrekten Settings arbeitet, wird dem Befehl `DJANGO_SETTINGS_MODULE={Projekt_name}.settings` vorangestellt.
 `Projekt_name` bezeichnet hierbei den Namen Ihres GeoNode Projekts den sie auch in den `settings.py` verwenden.
 In Docker Umgebungen kann hierauf verzichtet werden.
 
-> Tipp: Sehen Sie sich auch die Ausgabe von `python manage.py --help` an. Sie enthält weitere Befehle die direkt durch Django bereit gestellt werden. 
+> Tipp: Sehen Sie sich auch die Ausgabe von `python manage.py --help` an. Sie enthält weitere Befehle, die direkt durch Django bereit gestellt werden. 
 
 
 ## Übersicht über GeoNode spezifische Kommandos
 ### migrate_baseurl
 
-Mit dem Verwaltungsbefehl migrate_baseurl können Sie alle GeoNode-Links korrigieren. Dies ist zum Beispiel nötig wenn Sie den Domänennamen oder die IP-Adresse Ihres Portas ändern wollen.
+Mit dem Verwaltungsbefehl migrate_baseurl können Sie alle GeoNode-Links korrigieren. Dies ist zum Beispiel nötig, wenn Sie den Domänennamen oder die IP-Adresse Ihres Portals ändern wollen.
 
 Beispiel:
 ```python
@@ -82,7 +82,7 @@ python manage.py sync_geonode_datasets -u toni --updatethumbnails
 
 Dieser Befehl ist im Grunde ähnlich wie der vorherige, wirkt sich aber mit einigen Einschränkungen auf die Karten aus.
 
-Beispiel:  Ich möchte das Thumbnail der Karte neu generieren Dies ist eine Testkarte
+Beispiel:  Ich möchte das Thumbnail der Karte 'This is a test Map' neu generieren.
 
 ```python
 manage.py sync_geonode_maps --updatethumbnails -f 'This is a test Map'
@@ -101,10 +101,10 @@ python manage.py set_all_layers_metadata -d
 
 GeoNode bietet ein sehr nützliches management Kommando, mit dem ein Administrator auf einfache Weise Berechtigungen für Gruppen und Benutzer auf einem oder mehreren Datensätzen hinzufügen/entfernen kann.
 
-Beispiel: Weisen Sie den Benutzern user_A und user_B und der Gruppe group_C Schreibrechte für die Datasets layer_X und Dataset Y zu.
+Beispiel: Weisen Sie den Benutzern `user_A` und `user_B` und der Gruppe `group_C` Schreibrechte für die Datasets `layer_X` und `Dataset Y` zu.
 
 ```python
-manage.py set_layers-permissions -p write -u user_A user_B -g group_C -r layer_X 'Dataset Y'
+manage.py set_layers-permissions -p write -u user_A user_B -g group_C -r 'layer_X' 'Dataset Y'
 ```
 
 
@@ -114,11 +114,11 @@ Es gibt Situationen, in denen es nicht möglich oder nicht sinnvoll ist, das Upl
 
 - Der Datensatz ist zu groß, um ihn über die Weboberfläche hochzuladen.
 - Daten sollen von einem Speichermedium programmatisch importiert werden.
--  Tabellen aus einer Datenbank sollen publiziert werden.
+- Tabellen aus einer Datenbank sollen publiziert werden.
 
 ### importlayers
 
-Lädt Dateien aus einem lokalen Verzeichnis, einschließlich Unterordnern, in eoNode.
+Lädt Dateien aus einem lokalen Verzeichnis, einschließlich Unterordnern, in GeoNode.
 Die Datensätze werden zur Django-Datenbank, der GeoServer-Konfiguration und dem
 pycsw-Metadaten-Index hinzugefügt. Momentan werden nur Dateien vom Typ Esri Shapefile (.shp) und GeoTiff (.tif) unterstützt.
 Um den Import durchführen zu können, muss GeoNode in Betrieb sein.
@@ -131,9 +131,9 @@ manage.py importlayers /Users/tonischonbuchner/Desktop/langesgrenzen_shp
 
 ### updatelayers
 
-Während eswie gezeigt möglich ist, Datensätze direkt aus dem Dateisystem Ihres Servers in Ihren GeoNode zu importieren, haben Sie vielleicht einen bestehenden GeoServer, der bereits Daten/Ebenen enthält. Um diese in GeoNode zu publizieren steht das management Kommando `updatelayers` zur Verfügung
+Während es wie gezeigt möglich ist, Datensätze direkt aus dem Dateisystem Ihres Servers in Ihren GeoNode zu importieren, haben Sie vielleicht einen bestehenden GeoServer, der bereits Daten/Ebenen enthält. Um diese in GeoNode zu publizieren, steht das management Kommando `updatelayers` zur Verfügung.
 
-Beispiel: Importere einen bestehende Ebene mit dem Namen `_1_SARMIENTO_ENERO_2018` von GeoServer in Geonode.
+Beispiel: Importiere eine bestehende Ebene mit dem Namen `_1_SARMIENTO_ENERO_2018` von GeoServer in Geonode.
 ```python
 manage.py updatelayers -w geonode -f _1_SARMIENTO_ENERO_2018
 ```
@@ -142,9 +142,9 @@ manage.py updatelayers -w geonode -f _1_SARMIENTO_ENERO_2018
 
 ### delete_resources
 
-Der delete_resources Management-Befehl erlaubt es, Ressourcen zu entfernen, die eine bestimmte Bedingung erfüllen, die in Form eines "Django Q()"-Ausdrucks angegeben ist.
+Der `delete_resources` Management-Befehl erlaubt es, Ressourcen zu entfernen, die eine bestimmte Bedingung erfüllen, die in Form eines "Django Q()"-Ausdrucks angegeben ist.
 
-Beispiel: Lösche alle Ebenen die `Wasser` enthalten; dem User admin gehörten und dessen ID 1 oder 2 ist. Sowie alle hierzu gehörenden Karten.
+Beispiel: Lösche alle Ebenen die `Wasser` enthalten; dem User `admin` gehörten und dessen ID 1 oder 2 ist. Sowie alle hierzu gehörenden Karten.
 
 ```python
 manage.py delete_resources -l 'Q(pk__in: [1, 2]) | Q(title__icontains:"water")' 'Q(owner__name=admin)' -d '*'  '*'

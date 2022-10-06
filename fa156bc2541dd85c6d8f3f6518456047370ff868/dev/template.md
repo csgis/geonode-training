@@ -12,13 +12,13 @@
 
 In diesem sehr einfachen Beispiel werden wir die HTML Ausgabe eines Django Templates überschreiben.
 
-Unter der Seite `/about` (z.B.: https://geonode-training.csgis.de/about/) publiziert GeoNode eine Seite die über Sinn und Zweck der Plattform informiert.
+Unter der Seite `/about` (z.B.: https://geonode-training.csgis.de/about/) publiziert GeoNode eine Seite, die über Sinn und Zweck der Plattform informiert.
 
 Diese Seite generiert sich wie folgt:
 
 ### URL Defintion
 
-Die Datei `url.py` verlinkt alle Anfragen an `about` über die durch Django bereitgestellte  Funktion [TemplateView](https://docs.djangoproject.com/en/4.1/topics/class-based-views/), direkt mit der statischen HTML Datei [about.html](https://github.com/GeoNode/geonode/blob/4.0.x/geonode/templates/about.html) im Templates Ordner
+Die Datei `url.py` verlinkt alle Anfragen an `about` über die durch Django bereitgestellte Funktion [TemplateView](https://docs.djangoproject.com/en/4.1/topics/class-based-views/), direkt mit der statischen HTML Datei [about.html](https://github.com/GeoNode/geonode/blob/4.0.x/geonode/templates/about.html) im Templates Ordner
 
 ```python
     url(r'^about/$',
@@ -30,7 +30,7 @@ Die Datei `url.py` verlinkt alle Anfragen an `about` über die durch Django bere
 
 ### Neue about.html anlegen
 
-In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir im Ordner "Templates" eine Datei mit identischem Namen anlegen. 
+In Geonode-Projekt können wir diese Datei nun einfach überschreiben, indem wir im Ordner "Templates" eine Datei mit identischem Namen anlegen. 
 
 *templates/about.html*
 
@@ -54,18 +54,18 @@ In Geonode-Projekt können wir diese Datei nun einfach überschreiben indem wir 
     {% endraw %}
 ```
 
-Da der Entwicklungsserver nach jeder Änderung automatisch neu startet sollten die Änderungen hiernach direkt im Browser sichtbar werden:
+Da der Entwicklungsserver nach jeder Änderung automatisch neu startet, sollten die Änderungen hiernach direkt im Browser sichtbar werden:
 
 ![Überschriebene About Seite im Browser](images/about_override.jpeg)
 
-In einem Live System sind folgende Schritte nötig:
+In einem live System sind folgende Schritte nötig:
 
 Entweder:
 
 - neuen Build des Django Image erstellen (docker-compose build django; docker-compose up -d django)
 - oder host Verzeichnis in Docker Container mounten: https://github.com/GeoNode/geonode-project/blob/master/docker-compose.yml#L11 und den Container neu starten (docker-compose up -d django).
 
-> Tipp: Sie können nicht nur Templates sondern so auch die Ausgabe der E-Mails überschreiben.
+> Tipp: Sie können nicht nur Templates, sondern so auch die Ausgabe der E-Mails überschreiben.
 
 ## Weiterführende Links
 

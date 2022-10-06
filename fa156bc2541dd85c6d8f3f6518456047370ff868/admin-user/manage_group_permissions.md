@@ -10,26 +10,26 @@
 
 # Gruppenrechte
 
-> Um Ihren Datensätze Gruppenberechtigungen zuzuweisen müssen Sie keine Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt um diese zu erstellen.
+> Um Ihren Datensätze-Gruppenberechtigungen zuzuweisen, müssen Sie kein Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt, um diese zu erstellen.
 
 ## Rechte zuweisen 
 
-Ihren Datensätzen und Karten können neben Userrechte über das Menü teilen Gruppen Rechte hinzugefügt werden.
+Ihren Datensätzen und Karten können neben User-Rechte über das Menü teilen, Gruppen-Rechte hinzugefügt werden.
 
 ![Teilen link für Berechtigungen verwenden](images/dataset_teilen.jpeg)
 
-Im bekannten Panel zur Rechtevergabe wählen Sie die jeweilgen Gruppen:
+Im bekannten Panel zur Rechtevergabe wählen Sie die jeweiligen Gruppen:
 
 ![[Ebenen Berechtigungen einstellen](images/add_group_sahre.jpeg)
 ![choose group](images/csgis_group.jpeg)
 
 Und vergeben hiernach die gewünschte Sichtbarkeit:
-![Gruppen Rechte definieren](images/csgis_perms.jpeg)
+![Gruppenrechte definieren](images/csgis_perms.jpeg)
 
 ## Übungen
 
-1. Vergeben Sie bei Ihrem Datensatz Gruppen Rechte für eine beliebige Gruppe.
+1. Vergeben Sie bei Ihrem Datensatz Gruppenrechte für eine beliebige Gruppe.
 
 ## Weiterführende Links
 
-1. [GeoNode Docs, Share Options](https://docs.geonode.org/en/master/usage/managing_datasets/dataset_permissions.html?highlight=share)
+1. [GeoNode Docs, Share Option](https://docs.geonode.org/en/master/usage/managing_datasets/dataset_permissions.html?highlight=share)
