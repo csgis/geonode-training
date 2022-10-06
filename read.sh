@@ -14,12 +14,13 @@ for i in "${array[@]}"
 do
 	MENU="$FOLDER/$i/menu.json"
   CALL=$(jq --arg part "$HOST$FOLDER/$i/" -r  'map(keys_unsorted[] | $part + sub("\\.md$"; ".html")) | join(" ")' $MENU)
-  if [[ ${CALL} != *"spacer.html"* ]];then
-    FINAL_STR+="$CALL "
-  fi
+  s="$HOST$FOLDER\/$i\/spacer.html"
+  CALL=${CALL/$s/''}
+  FINAL_STR+="$CALL "
+
   
 done
 
-FINAL_STR="wkhtmltopdf --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css $FINAL_STR  $FOLDER/$FILENAME"
+FINAL_STR="wkhtmltopdf --load-error-handling ignore --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css $FINAL_STR  $FOLDER/$FILENAME"
 
 $FINAL_STR

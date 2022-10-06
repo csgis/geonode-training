@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Die Kompontenden im Zusammenspiel.
+# Die Komopnenten im Zusammenspiel.
 
 Das was wir als GeoNode beschreiben ist eigentlich ein Zusammenspiel aus unterschiedlichen Open-Source Komponenten.
 
