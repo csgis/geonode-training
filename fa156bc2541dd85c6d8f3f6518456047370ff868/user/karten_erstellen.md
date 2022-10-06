@@ -38,7 +38,7 @@ Zusätzlich können mehreren [Widgets](https://docs.geonode.org/en/master/usage/
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 
-  > In der Karte können wir die Symbole einer Ebene ändern ohne die Symbologie der ursprünglichen Ressource zu verändern
+  > In der Karte können wir die Symbole einer Ebene ändern ohne die Symbologie der ursprünglichen Ressource zu verändern  
   > ![Hinweis](images/image56.png)
 
 2. Prüfen Sie dass die Symbologie der GeoNode Ressource ***places*** sich nicht geändert hat.
