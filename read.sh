@@ -6,7 +6,7 @@ FOLDER=fa156bc2541dd85c6d8f3f6518456047370ff868
 HOST=https://docs.csgis.de/
 FILENAME=documentation_geonode4_csgis.pdf
 FINAL_STR="$HOST$FOLDER/index.html "
-rm $ROOT_DIR/$FILENAME
+rm $FOLDER/$FILENAME
 
 declare -a array=( $(cut -d '=' -f1  $FOLDER/print_structure.txt) )
 
