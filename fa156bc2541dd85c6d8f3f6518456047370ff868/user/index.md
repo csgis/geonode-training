@@ -8,7 +8,7 @@
 <!-- the Menu -->
 
 
-# Einführung in GeoNode 4.0 für Anwender
+# 1. Einführung in GeoNode 4.0 für Anwender
 
 ## Inhalt:
 

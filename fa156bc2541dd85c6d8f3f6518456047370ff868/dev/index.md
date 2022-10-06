@@ -10,7 +10,7 @@
 
 
 
-# 1. Einführung in die Entwicklung mit GeoNode
+# 3. Einführung in die Entwicklung mit GeoNode
 
 ## Inhalt
 
