@@ -1,53 +1,26 @@
-# KEYS=$(cat test.json | jq  -r '.[]|keys')
+#!/bin/bash
 
-# concat_string=""
-#for i in $KEYS
-#    do 
-#        md_name=${i/.md/.html}
-#        concat_string="$concat_string$md_name"
-#    done
-
-# echo $concat_string
-
-ROOT_DIR=fa156bc2541dd85c6d8f3f6518456047370ff868
+WEB=https://docs.csgis.de/
+FINAl=""
+FOLDER=fa156bc2541dd85c6d8f3f6518456047370ff868
+HOST=https://docs.csgis.de/
 FILENAME=documentation_geonode4_csgis.pdf
-rm $ROOT_DIR/$FILENAME
-wkhtmltopdf --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/index.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/user_profil.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/publikationen_ressourcen.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/geodaten_publizieren_und_bearbeiten.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/karten_erstellen.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/geostories.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/user/dashboards.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/index.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/admin_role.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/manage_group_permissions.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_basics.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_profile.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_dataset.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_themes.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_menu.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_metadata.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/django_admin_harvester.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/admin-user/announcements.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/index.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/source.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/template.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/custom_page.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/lang.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/geoapp.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/dev/react.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/index.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/architecture.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/installations.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/settings.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/management_commands.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/shell.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/contrib_apps.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/database" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/backups.html" \
-    "https://docs.csgis.de/94921f622d08ab26f04c534104a6260ef8bafd78/sys-admin/troubles.html" \
-    $ROOT_DIR/$FILENAME
+FINAL_STR="$HOST$FOLDER/index.html "
+rm $FOLDER/$FILENAME
 
+declare -a array=( $(cut -d '=' -f1  $FOLDER/print_structure.txt) )
+
+for i in "${array[@]}"
+do
+	MENU="$FOLDER/$i/menu.json"
+  CALL=$(jq --arg part "$HOST$FOLDER/$i/" -r  'map(keys_unsorted[] | $part + sub("\\.md$"; ".html")) | join(" ")' $MENU)
+  s="$HOST$FOLDER\/$i\/spacer.html"
+  CALL=${CALL/$s/''}
+  FINAL_STR+="$CALL "
+
+  
+done
+
+FINAL_STR="wkhtmltopdf --load-error-handling ignore --image-dpi 100 --disable-javascript --footer-right [page]/[topage] --user-style-sheet ./printstyle.css $FINAL_STR  $FOLDER/$FILENAME"
+
+$FINAL_STR
