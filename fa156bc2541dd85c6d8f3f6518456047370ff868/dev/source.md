@@ -22,7 +22,7 @@ Die sich hierunter befindenen Ordner, stehen für sogenannte "Django-Apps". Wir 
 
 ![GeoNode Apps](images/github_apps.jpeg)
 
-Dem/der aufmerksamen Zuhörer*in  wird nun auffallen, dass sich die einzelnen Ordner, im "Django Admin" des vorhergehenden Artikels wiederfinden. Grund hierfür ist, dass Django die Administrationsoberfläche automatisiert aus den einzelnen Apps erstellen kann.  
+Dem/der aufmerksamen Zuhörer*in  wird nun auffallen, dass sich die Namen der einzelnen Ordner, im "Django Admin" wiederfinden. Grund hierfür ist, dass Django die Administrationsoberfläche automatisiert aus den einzelnen Apps erstellt.  
 
 Betrachten wir uns eine App wie beispielsweise die "people"-App, die die Benutzer des Portals regelt, sollen 3 Dateien mit besonderem Augenmerk beachtet werden.
 
@@ -30,7 +30,7 @@ Betrachten wir uns eine App wie beispielsweise die "people"-App, die die Benutze
 - templates/*
 - views.py
 
-Diese Struktur bezeichnet sich als MVT. Ein Programmiermuster das die Grundlage aller Django-Apps darstellt.
+Diese Struktur bezeichnet sich als MVT (Model-View-Template). Ein Programmiermuster das die Grundlage aller Django-Apps darstellt.
 
 ### models.py
 Hierbei stellt die *models.py* die jeweilige Datenbank-Definition dar. Hierüber werden also alle benötigten Tabellen und Funktionen rund um die Datenbank definiert.
@@ -74,7 +74,7 @@ git+https://github.com/GeoNode/geonode.git@master#egg=GeoNode
 
 ### Settings erzeugen
 
-Das Herzstück der Konfiguration ist die Datei src/settings.py (wir werden Sie im letzten Abschnitt noch im Detail betrachten), die über Umgebungsvariablen in der Datei `.env` gespeist wird.  
+Das Herzstück der Konfiguration ist die Datei `src/settings.py` (wir werden Sie im letzten Abschnitt noch im Detail betrachten), die über Umgebungsvariablen in der Datei `.env` gespeist wird.  
 Wir erzeugen die Datei `.env` mit folgendem Befehl:
 
 ```shell
@@ -83,7 +83,7 @@ python create-envfile.py --geoserverpwd geoserver
 
 ### Datenbank anlegen
 
-Anders als in der README des GeoNode-Project Repository müssen wir vorab noch zwei Postgres Datenbanen anlegen.
+Anders als in der README des GeoNode-Project Repository müssen wir vorab noch zwei Postgres Datenbanken anlegen.
 
 ```
 
@@ -108,7 +108,7 @@ GRANT ALL ON spatial_ref_sys TO PUBLIC;
 
 ### Abhängigkeiten installieren
 
-Ebenfalls ist es erforderlich noch Abhängigkeiten zu installieren sowie einige Management Dateien zu generieren:
+Ebenfalls ist es erforderlich noch weitere Bibliotheken zu installieren sowie einige Management Dateien zu generieren:
 
 ```
 cd src
@@ -139,12 +139,12 @@ sh ./paver_dev.sh sync
 sh ./paver_dev.sh start
 ```
 
-Wenn alles korrekt verlaufen ist in der Terminal-Ausgabe folgende Meldung sehen:
+Wenn alles korrekt verlaufen ist, ist in der Terminal-Ausgabe folgende Meldung zu sehen:
 
 ![Gestarteter Entwicklungsserver im Terminal](images/dev_server_terminal.jpeg)
 
 
-Weiterhin das Projekt im Browser unter http://localhost:8000 aufrufen können.
+Weiterhin kann das Projekt im Browser unter http://localhost:8000 auaufgerufen werden.
 
 ![Entwicklungsserver im Browser](images/dev_server_im_browser.jpeg)
 

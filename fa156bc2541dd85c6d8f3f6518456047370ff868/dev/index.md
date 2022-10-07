@@ -16,7 +16,7 @@
 
 In diesem Bereich werden wir uns mit den ersten Schritten zur Entwicklung mit GeoNode ansehen.
 Leider ist die GeoNode Infrastruktur technisch alles andere als einfach aufgebaut.  
-Je nachdem an welchem Bereich Sie arbeiten wollen werden, Kenntnisse in folgenden Punkten benötigt:
+Je nachdem an welchem Bereich Sie arbeiten wollen, werden Kenntnisse in folgenden Punkten benötigt:
 
 Python3 | Die Programmiersprache Python
 CSS | Cascading Stylesheets – Auszeichnungssprache für HTML

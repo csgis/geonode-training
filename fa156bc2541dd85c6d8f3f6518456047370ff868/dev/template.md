@@ -12,7 +12,7 @@
 
 In diesem sehr einfachen Beispiel werden wir die HTML Ausgabe eines Django Templates überschreiben.
 
-Unter der Seite `/about` (z.B.: https://geonode-training.csgis.de/about/) publiziert GeoNode eine Seite, die über Sinn und Zweck der Plattform informiert.
+Unter der Seite `/about` (z.B.: [https://geonode-training.csgis.de/about/](https://geonode-training.csgis.de/about/)) publiziert GeoNode eine Seite, die über Sinn und Zweck der Plattform informiert.
 
 Diese Seite generiert sich wie folgt:
 
@@ -63,7 +63,7 @@ In einem live System sind folgende Schritte nötig:
 Entweder:
 
 - neuen Build des Django Image erstellen (docker-compose build django; docker-compose up -d django)
-- oder host Verzeichnis in Docker Container mounten: https://github.com/GeoNode/geonode-project/blob/master/docker-compose.yml#L11 und den Container neu starten (docker-compose up -d django).
+- oder host Verzeichnis in Docker Container mounten: [https://github.com/GeoNode/geonode-project/blob/master/docker-compose.yml#L11](https://github.com/GeoNode/geonode-project/blob/master/docker-compose.yml#L11) und den Container neu starten (docker-compose up -d django).
 
 > Tipp: Sie können nicht nur Templates, sondern so auch die Ausgabe der E-Mails überschreiben.
 
