@@ -10,11 +10,16 @@
 
 # Ankündigungen (announcements)
 
-Als Administrator müssen Sie von Zeit zu Zeit Ankündigungen über Ihr Portal veröffentlichen.
+Als Administrator müssen Sie von Zeit zu Zeit Ankündigungen an User veröffentlichen.
 
-GeoNode "announcements" ermöglichen genau das; ein Administrator hat die Möglichkeit, drei Arten von Nachrichten zu erstellen, entsprechend ihrem Schweregrad, ihre Gültigkeit in Bezug auf den Zeitraum zu bestimmen (Start- und Ablaufdatum der Ankündigung), wer sie sehen kann oder nicht (jeder oder nur die registrierten Mitglieder) und wann ein Benutzer die Nachricht ausblenden.
+GeoNode "announcements" ermöglichen genau das; ein Administrator hat die Möglichkeit:
 
-Es gibt drei Arten von Bekanntmachungen, die nach ihrem Schweregrad unterschieden werden: Allgemein, Warnung und Kritisch. Der Unterschied liegt in der Farbe der Ankündigungsbox.
+- drei Arten von Nachrichten entsprechend ihrem Schweregrad zu erstellen
+- ihre Gültigkeit in Bezug auf den Zeitraum zu bestimmen (Start- und Ablaufdatum der Ankündigung)
+- wer sie sehen kann oder nicht (jeder oder nur die registrierten Mitglieder) 
+- wann Benutzer die Nachricht ausblenden können
+
+Es gibt drei Arten von Bekanntmachungen, die nach ihrem Schweregrad unterschieden werden: **Allgemein**, **Warnung** und **Kritisch**. Der Unterschied liegt in der Farbe der Ankündigungsbox.
 
 Nur Administratoren und Mitarbeiter können Ankündigungen erstellen und verwalten.
 
