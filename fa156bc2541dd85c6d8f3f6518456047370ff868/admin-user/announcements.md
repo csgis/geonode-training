@@ -26,17 +26,6 @@ Nur Administratoren und Mitarbeiter können Ankündigungen erstellen und verwalt
 Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreifen und sie zu verwalten.
 Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die “Ablehnungen” (dismissal) zu verwalten.
 
-"Ablehnungen" sind Aufzeichnungen von Mitgliedern, die die Ankündigung gelesen und das Nachrichtenfeld geschlossen haben. Eine Ankündigung kann eine der drei folgenden "Ablehnungensgründen" haben:
-
-- Keine Ablehnungen erlaubt: 
-  - Das Mitteilungsfeld der Ankündigung kann nicht geschlossen werden.
-
-- "Session Only Dismissal",
-  - die Standardeinstellung, ermöglicht es, die Nachrichtenbox der Ankündigung für die aktuelle Browser-Sitzung zu schließen. Sie wird beim nächsten Zugriff wieder angezeigt.
-
-- Dauerhafte Ablehnungen erlaubt:   
-  - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
-
 ## Über die GeoNode-GUI, aus dem Profil-Panel
 
 ![Ankündigungen im Frontend verwalten](images/admin-announcments-005.png)
@@ -65,5 +54,14 @@ Das Verwalten von Ankündigungen über das Admin-Panel ist im Grunde dasselbe; d
 ![Ankündigung im Django Admin](images/admin-announcments-009.png)
 
 Der Zugriff auf die Ankündigungsoptionen über das Admin-Panel ermöglicht Ihnen auch die Verwaltung von "Ablehnungen". Über diese Oberfläche können Sie selektiv entscheiden, welche Mitglieder eine bestimmte Ablehnung sehen können und welche nicht, oder Sie können sie zwingen, die Nachrichten erneut zu sehen, indem Sie die Ablehnungen entsprechend löschen.
+
+- Keine Ablehnungen erlaubt: 
+  - Das Mitteilungsfeld der Ankündigung kann nicht geschlossen werden.
+
+- "Session Only Dismissal",
+  - die Standardeinstellung, ermöglicht es, die Nachrichtenbox der Ankündigung für die aktuelle Browser-Sitzung zu schließen. Sie wird beim nächsten Zugriff wieder angezeigt.
+
+- Dauerhafte Ablehnungen erlaubt:   
+  - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
 
 ![Django Ablehnungen verwalten](images/admin-announcments-010.png)
