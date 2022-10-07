@@ -15,8 +15,6 @@ Diese Einstellungsdatei ist allen Django Projekten genuin. Somit nichts GeoNode 
 
 Einen guten Einstiegspunkt liefert daher die [offizielle Django Dokumentation](https://docs.djangoproject.com/en/4.1/topics/settings/).
 
-## Spezifisches für GeoNode
-
 Im Haupt-Repository von GeoNode (core) befindet sich die Datei unter folgendem Pfad:
 
 - https://github.com/GeoNode/geonode/blob/master/geonode/settings.py
@@ -57,7 +55,7 @@ Ihre Variablen werden in Docker Umgebungen standardmässig beim Starten als Umge
 # Beachtenswerte Einstellungsmöglichkeiten
 
 Betrachten wir anhand der `.env` Datei einige wichtige Einstellungen, die Sie kennen sollten.
-Diese sind jene, die Sie bei nicht Verwendung des Scripts zu Installation setzen müssen.
+Diese sind jene, die Sie bei nicht Verwendung des Scripts zur Installation setzen müssen.
 
 
 {% raw %}

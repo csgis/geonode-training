@@ -18,7 +18,7 @@ Der Prozess lässt sich weiterhin wie in der [Dokumentation](https://docs.geonod
 ## Backup Script
 
 Eine alternative zur in GeoNode integrierten Backup-Funktionalität, stellt die Verwendung eines eigenen Backups Scripts dar.
-Dieses kann etnweder über einen Cronjob zu festgelegten Zeiten ausgeführt werden. Oder in Docker Umgebungen über einen eigenen Docker Service automatisiert werden.
+Dieses kann entweder über einen Cronjob zu festgelegten Zeiten ausgeführt werden. Oder in Docker Umgebungen über einen eigenen Docker Service automatisiert werden.
 
 Ein sehr einfaches Backups Script könnte wie folgt aussehen:
 
@@ -41,18 +41,18 @@ mkdir -p ${SPTH}
 GPTH=${BPTH}/geoserver-data-dir
 mkdir -p ${GPTH}
 
-# Datenbanken sichern. Beachte den erforderlichen Zugang zu 
+# Datenbanken sichern
 pg_dump -h db -U geonode -C -d geonode_training > ${DPTH}/${DATABASE}_daily.pgdump && echo "${DATABASE} dump successful"
 pg_dump -h db -U geonode -C -d geonode_training > ${DPTH}/${DATABASE_GEO}_daily.pgdump && echo "${DATABASE_GEO} dump successful"
 
-# Backup files
+# Backup der statischen Dateien und der GeoServer Dateien
 rclone copy /geonode_statics ${SPTH} --log-level ERROR && echo "geonode_statics copied successfully"
 rclone copy /geoserver-data-dir ${GPTH} --log-level ERROR && echo "geoserver-data-dir copied successfully"
 
-# create archive
+# Daten in Archiv packen
 tar cvfj /backups/bba-geonode.tar_$NOW.bz2 ${BPTH} && rm -R ${BPTH}
 
-# Delete old
+# Alte Backups löschen
 find /backups -maxdepth 1  -mtime +${DAYS_TO_KEEP} -exec rm -rf {} \; && echo "Clean of /backups dir done"
 ```
 
@@ -62,7 +62,7 @@ Die Daten, die gesichert werden sollen:
 
 - Die Datenbanken
 - Das Geoserver Daten Verzeichnis
-- Die statischen Dateien von Django, die Thumbnails und hochgeladene Dokumente besitzen
+- Die statischen Dateien von Django, die Thumbnails und hochgeladene Dokumente beinhalten
 
 ## Backup als Docker Service
 

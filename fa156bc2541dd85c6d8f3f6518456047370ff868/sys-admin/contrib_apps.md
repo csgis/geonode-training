@@ -13,7 +13,7 @@
 "Contrib Apps" sind Erweiterungen, die sie GeoNode hinzufügen können.  
 Diese finden Sie in folgendem Repository:
 
-https://github.com/GeoNode/geonode-contribs
+[https://github.com/GeoNode/geonode-contribs](https://github.com/GeoNode/geonode-contribs)
 
 
 ![Bestehende Erweiterungen](images/contrib.jpeg)
@@ -38,7 +38,7 @@ LDAP_GROUP_SEARCH_DN=cn=groups,dc=ad,dc=example,dc=org
 LDAP_GROUP_SEARCH_FILTERSTR=(|(cn=abt1)(cn=abt2)(cn=abt3)(cn=abt4)(cn=abt5)(cn=abt6))
 LDAP_GROUP_PROFILE_MEMBER_ATTR=uniqueMember
 ```
-Siehe: https://github.com/GeoNode/geonode-project/blob/master/.env.sample#L214-L223
+Siehe: [https://github.com/GeoNode/geonode-project/blob/master/.env.sample#L214-L223](https://github.com/GeoNode/geonode-project/blob/master/.env.sample#L214-L223)
 
 ## keyloak-sync Erweiterung
 

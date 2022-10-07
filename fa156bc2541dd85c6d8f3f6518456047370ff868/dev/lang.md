@@ -11,7 +11,6 @@
 # Übersetzungen anlegen
 
 In diesem Abschnitt wollen wir einen Blick auf das Übersetzungssystem von Django werfen.
-
 Ziel ist unsere vorab als zu übersetzend ausgezeichnete Überschrift 
 
 ```shell
@@ -38,7 +37,7 @@ Im Hauptverzeichnis unseres GeoNode-Projekts legen wir den neuen Ordner `locale`
 
 ```shell
 cd .. # wir verlassen den Ordner src
-(e) tonischonbuchner@Tonis-MacBook-Pro ~/dev/geonode4_project/geonode_training_dev/src $%  mkdir ocale
+(e) tonischonbuchner@Tonis-MacBook-Pro ~/dev/geonode4_project/geonode_training_dev/src $%  mkdir locale
 ```
 
 Über das durch Django bereitgestellte Kommando `makemessages` lassen wir alle zur Übersetzung angelegten Textfragmente in `po` Dateien einsammeln:
@@ -49,6 +48,8 @@ django-admin makemessages --no-location -l en -l de -d django -e "html"
 
 `--locale` gibt hierbei die zu erzeugenden Übersetzungen an.
 `-e "html"` gibt die Extension der Dateien an, die wir berücksichtigen wollen 
+
+Hiernach sollten wir die neuen Ordner je Sprache sowie die Quelldateien im Ordner "locale" vorfinden.
 
 ```shell
 (e) tonischonbuchner@Tonis-MacBook-Pro $% tree locale      
@@ -62,8 +63,6 @@ locale
 
 4 directories, 2 files
 ```
-
-Hiernach sollten wir die neuen Ordner je Sprache sowie die Quelldateien im Ordner "locale" vorfinden.
 
 ## po Dateien bearbeiten
 
@@ -102,7 +101,7 @@ locale
 
 Um die Änderungen online zu stellen, kopieren wir den `locale` Ordner eine Ebene tiefer ins `src` Verzeichnis.
 
-> Das Projektverzeichnis erhält beim erstellen von GeoNode-Project den von Ihnen angegebenen Namen. Es handelt sich hierbei um dieses Verzeichnis: https://github.com/GeoNode/geonode-project/tree/master/src/project_name
+> Das Projektverzeichnis erhält beim erstellen von GeoNode-Project den von Ihnen angegebenen Namen. Es handelt sich hierbei um dieses Verzeichnis: [https://github.com/GeoNode/geonode-project/tree/master/src/project_name](https://github.com/GeoNode/geonode-project/tree/master/src/project_name)
 
 ```shell
 cp -r locale src/geonode_training_dev

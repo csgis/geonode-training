@@ -29,7 +29,6 @@ In [2]: all_datasets = ResourceBase.objects.all()
 In [3]: for dataset in all_datasets:
    ...:     dataset.title += '_archive'
    ...:     dataset.save()
-   ...: 
 ```
 
 Betrachten wir hiernach alle Titel, sehen wir, dass die Datensätze bearbeitet wurden.

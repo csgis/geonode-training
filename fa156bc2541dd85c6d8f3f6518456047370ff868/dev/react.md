@@ -22,15 +22,14 @@ Der Vergleich zeigt dass, die Oberfläche für die Version 4 weitreichende Ände
 
 ### Django Templates durch React ersetzt
 
-Da bereits die Kartenkomponente von GeoNode3 dauf dem [React](https://reactjs.org/) basierte Framework [Mapstore2](https://mapstore2.readthedocs.io/en/latest/),
-basiert wurde entschieden weitere Komponenten (wie die Startseite) ebenfalls hierüber abwickeln zu lassen.
+Da bereits die Kartenkomponente von GeoNode3 auf dem [React](https://reactjs.org/) basierte Framework [Mapstore2](https://mapstore2.readthedocs.io/en/latest/) basierte, wurde entschieden weitere Komponenten (wie die Startseite) ebenfalls hierüber abwickeln zu lassen.
 
-> React ist eine JavaScript-Programmbibliothek[3] zur Erstellung von webbasierten Benutzeroberflächen.
+> React ist eine JavaScript-Programmbibliothek zur Erstellung von webbasierten Benutzeroberflächen.
 
 Das bedeutet leider, dass nicht mehr alle Templates, die vormals durch Django ausgegeben wurden, wie gezeigt überschrieben werden können.
 Für diese Seitenbereiche ist es unter Umständen erforderlich, die Mapstore2 Komponente zu "forken" und einen eigenen Build zu erstellen.
 
-Aufgrund der Komplexität der Komponente ist die Entwicklung hier nur _sehr_ erfahrenen Javascript Entwicklern anzuraten.
+> Aufgrund der Komplexität der Komponente ist die Entwicklung hier nur _sehr_ erfahrenen Javascript Entwicklern anzuraten.
 
 ## Weiterführende Links
 

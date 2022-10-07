@@ -190,7 +190,7 @@ def http_client(geoserver_payload):
 
 ## Template anlegen
 
-Abschließend erstellen wir im Verzeichnis unserer App ein neues Verzeichnis namens `templates`, hierin ein Verzeichnis mit dem Namen `base` und legen die Datei `resourcebase_list.html` mit folgendem Inhalt an:
+Nun erstellen wir im Verzeichnis unserer App ein neues Verzeichnis namens `templates`, hierin ein Verzeichnis mit dem Namen `base` und legen die Datei `resourcebase_list.html` mit folgendem Inhalt an:
 
 ```html
 {% raw %}
