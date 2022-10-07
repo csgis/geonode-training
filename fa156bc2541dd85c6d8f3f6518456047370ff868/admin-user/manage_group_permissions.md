@@ -23,7 +23,7 @@ Im bekannten Panel zur Rechtevergabe wählen Sie die jeweiligen Gruppen:
 ![Ebenen Berechtigungen einstellen](images/add_group_sahre.jpeg)
 ![choose group](images/csgis_group.jpeg)
 
-Und vergeben hiernach die gewünschte Sichtbarkeit:
+Hiernach vergeben Sie die gewünschte Sichtbarkeit
 ![Gruppenrechte definieren](images/csgis_perms.jpeg)
 
 ## Übungen
