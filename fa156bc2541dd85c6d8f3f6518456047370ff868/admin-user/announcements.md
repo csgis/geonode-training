@@ -41,12 +41,6 @@ Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es �
 
 ![Ankündigungen im Frontend verwalten](images/admin-announcments-005.png)
 
-## Über den Django Admin
-
-![Ankündigungen im Django Admin verwalten](images/admin-announcments-006.png)
-
-
-
 
 ## Announcement im Frontend über Profil anlegen
 
@@ -63,6 +57,8 @@ Klicken Sie entweder auf "Neue Ankündigung", um eine neue Bekanntmachung zu ers
 Füllen Sie hierauf alle Felder des Formulars aus.
 
 ## Ankündigung über den Django Admin
+
+![Ankündigungen im Django Admin verwalten](images/admin-announcments-006.png)
 
 Das Verwalten von Ankündigungen über das Admin-Panel ist im Grunde dasselbe; die Felder für das Formular sind identisch.
 
