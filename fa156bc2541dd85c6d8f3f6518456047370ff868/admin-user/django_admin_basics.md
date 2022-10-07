@@ -12,10 +12,10 @@
 
 Das GeoNode System basiert auf einem Python Web-Framework namens [Django](https://www.djangoproject.com/).
 
-Neben Hilfestellungen in vielerlei Bereichen, stellt es eine automatisierte Administrations-Oberfläche zur Verfügung.
+Neben Hilfestellungen in vielerlei Bereichen, stellt es eine automatisierte Administrations-Oberfläche zur Verfügung.  
 Die Oberfläche generiert sich hierbei aus den Datenbankdefinitionen der einzelnen “Apps”.
 
-> Im Django Kontext sind Apps, in Module aufgeteilte Abschnitte wie Shop, Benutzerverwalten etc. GeoNode besitzt zahlreiche GIS spezifische "Apps". Wie Datasets, Maps, etc.
+> Im Django Kontext sind Apps, in Module aufgeteilte Abschnitte einer Website wie Shop, Benutzerverwalten etc. GeoNode besitzt zahlreiche GIS spezifische "Apps". Wie Datasets, Maps, etc.
 
 Um auf die Administrations-Oberfläche zugreifen zu können, muss ein User Mitarbeiter, oder Administrator Status besitzen.
 

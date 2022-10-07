@@ -14,32 +14,41 @@ Betrachten wir zunächst einen sehr einfachen, jedoch wesentlichen Abschnitt des
 
 ![Django Benutzerverwaltung öffnen](images/django-admin-user.jpeg)
 
-In der hierauf öffnenden Übersicht zeigen sich alle im System vorhandenen Benutzer. Die Tabelle zeigt hierbei ID, Name, E-Mail Adresse, Status und Aktiv des Benutzers.
-
 ## aufllisten
+
+Klicken Sie auf "Benutzer".  
+In der hierauf öffnenden Übersicht zeigen sich alle im System vorhandenen Benutzer. Die Tabelle zeigt hierbei ID, Name, E-Mail Adresse, Aktiv-Status des Benutzers.
+
 
 ![Liste vorhandener User](images/django_admin_user_list.jpeg)
 
 > Achten Sie darauf, dass alle Nutzer eine E-Mail-Adresse hinterlegt haben!
 
-Über die Checkbox und das Menü am Seitenfuß können Sie User löschen. Sowie über den Button in der rechten oberen Ecke neue User anlegen.
 
 ## löschen
+
+Über die Checkbox und das Menü am Seitenfuß können Sie User löschen.  
+Weiterhin über den Button in der rechten oberen Ecke neue User anlegen.
+
 ![User löschen](images/django_user_edit.jpeg)
+
+
+## editieren
 
 Durch Klick auf die ID gelangen Sie zur Detailseite des jeweiligen Benutzers, um diesen zu editieren.
 
-## editieren
 ![User editieren](images/django_edit_user.jpeg)
 
-Wie auch in der Übersicht können Sie den User löschen oder Änderungen speichern (Seitenfuß). Das Passwort ändern, oder die Berechtigungen ändern:
+Über den Seitenfuß können Sie den User löschen oder Änderungen speichern.
+
+Zu beachten sind folgende Berechtigungen:
 
 - Aktiv
-  - Legt fest, ob dieser Benutzer aktiv ist. Kann deaktiviert werden, anstatt Benutzer zu löschen.
+  - Legt fest, ob dieser Benutzer aktiv ist
 - Mitarbeiter Status
-  - Legt fest, ob sich der Benutzer an der Administrationsseite anmelden kann.
+  - Legt fest, ob sich der Benutzer an der Administrationsseite anmelden kann
 - Administrator Status
-  - Legt fest, dass der Benutzer alle Berechtigungen hat, ohne diese einzeln zuweisen zu müssen.
+  - Legt fest, dass der Benutzer alle Berechtigungen hat, ohne diese einzeln zuweisen zu müssen
 
 
 ##  Rechte zuweisen
@@ -76,11 +85,11 @@ In der folgenden Übersicht vergeben wir den Namen "Editoren", weisen aus der Li
 
 ### Mitarbeiter hinzufügen
 
-In der Übersicht gehen wir hierauf auf Benutzer,
+In der Übersicht Klicken wir auf Benutzer,
 
 ![Nutzer-Verwaltung aufrufen](images/django_user_link.jpeg)
 
-Und weisen dem jeweiligen Mitarbeiter unsere neue Editoren-Rolle zu.
+und weisen dem jeweiligen Mitarbeiter unsere neue Editoren-Rolle zu.
 
 ![User Gruppe zuweisen](images/add_group.jpeg)
 
@@ -92,6 +101,6 @@ Loggt sich der Mitarbeiter nun mit seinem Account ein, besitzt er über erweiter
 
 ![Fehlender Link für Mitarbeiter (Nur sichtbar für Administratoren)](images/missing_group_link.jpeg)
 
-> Dem ist leider nicht so, hierbei handelt es sich um einen Bug über GeoNode4. Die neue Gruppe kann jedoch trotzdem bei direkt Aufruf des links https://geonode-training.csgis.de/groups/create/ oder über die Django Administrationsoberfläche erzeugt werden.
+> Dem ist leider nicht so, hierbei handelt es sich um einen Bug in GeoNode4. Die neue Gruppe kann jedoch trotzdem bei direkt Aufruf des links https://geonode-training.csgis.de/groups/create/ oder über die Django Administrationsoberfläche erzeugt werden.
 
 
