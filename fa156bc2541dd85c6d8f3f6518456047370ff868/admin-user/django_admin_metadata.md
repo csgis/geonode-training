@@ -11,7 +11,7 @@
 # Metadaten Modell
 
 Besondere Bedeutung kommt den Metadaten jedes Datensatzes hinzu. 
-Das Metadaten-Modell von GeoNode orientiert sich an dem Metadatenstandard [ISO 19115](https://de.wikipedia.org/wiki/ISO_19115).
+Das Metadaten-Modell von GeoNode orientiert sich an dem Metadatenstandard [ISO 19115:2003](https://de.wikipedia.org/wiki/ISO_19115).
 
 Sobald der Upload abgeschlossen ist, kann der Nutzer die Metadaten der Ressource füllen. Dieser werden hiernach über die CSW (OGC Catalogue Service) Endpunkte und APIs verfügbar gemacht.
 
@@ -20,18 +20,20 @@ Sobald der Upload abgeschlossen ist, kann der Nutzer die Metadaten der Ressource
 # Endpunkte für den Metadatenkatalog
 
 - Die Rest Schnittstelle
-  - https://geonode-training.csgis.de/api/v2/datasets?format=json
+  - [https://geonode-training.csgis.de/api/v2/datasets?format=json](https://geonode-training.csgis.de/api/v2/datasets?format=json)
 - Der CSW Endpunkt
-  - https://geonode-training.csgis.de/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities
+  - [https://geonode-training.csgis.de/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities](https://geonode-training.csgis.de/catalogue/csw?service=CSW&version=2.0.2&request=GetCapabilities)
 
-Dies erlaubt anderen Applikationen auf die GeoNode Daten in maschinenlesbarer Form zuzugreifen.
-Als Metadaten Server kommt [pycsw](https://pycsw.org/) zum Einsatz. Das manchmal in Dokumentation genannte ["geonetwork"](https://www.geonetwork-opensource.org/) kann aktuell nicht als Backend genutzt werden.
+Dies erlaubt anderen Applikationen auf die durch GeoNode publizierten Daten in maschinenlesbarer Form zuzugreifen.  
+Als Metadaten Server kommt [pycsw](https://pycsw.org/) zum Einsatz.  
+Das manchmal in Dokumentation genannte ["geonetwork"](https://www.geonetwork-opensource.org/) kann aktuell nicht als Backend genutzt werden.
 
-Wie bereits bekannt, können User den Metadatensatz Ihrer Daten setzen. Dies erfolgt im Frontend auf Ebene Datensatz über "Metadaten bearbeiten".
+Wie bereits bekannt, können User den Metadatensatz Ihrer Daten editieren. Dies erfolgt im Frontend auf Ebene Datensatz über "Metadaten bearbeiten".
 
 ![Metadaten bearbeiten](images/fe_edit_metadata.jpeg)
 
-Administratoren können in beschränkten Umfang Einfluss auf die angegebenen Daten nehmen.
+Administratoren können in beschränkten Umfang Einfluss auf die angebotenen Daten Einfluss nehmen.
+
 Zwei einfache Beispiele:
 
 ## Lizenzen anpassen

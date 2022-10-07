@@ -10,7 +10,7 @@
 
 # Eigene Menüpunkte erstellen
 
-GeoNode bietet einige integrierte Funktionen, mit denen Sie das Menü in der oberen Leiste schnell und einfach anpassen können (siehe das Beispiel unten).
+GeoNode bietet eine integrierte Funktionen, mit denen sie die Menüs einfach anpassen können.
 
 ![Eigenes Menu](images/admin-panel-menus-0000.png)
 
@@ -111,7 +111,7 @@ Ein Klick auf "Unsere Vektordaten" zeigt eine vorab gefiltere Liste an Vektor Da
 
 ![Verlinkte Vector Daten](images/vector_only.jpeg)
 
-> Mit dieser Technik ließen sich natürlich auch Links speziell einer Gruppe oder in einer Region denken.
+> Mit dieser Technik ließen sich natürlich auch Links denken die beispielsweise Datensätze speziell einer Gruppe oder einer Region auflisten.
 
 ## Weiterführende Links
 

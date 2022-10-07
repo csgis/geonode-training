@@ -12,17 +12,17 @@
 
 > Harvesting bezeichnet das maschinell unterstützte sammeln und speichern von Datensätzen anderer.
 
-GeoNode ist in der Lage, Ressourcen-Metadaten von mehreren entfernten Diensten zu sammeln.
+GeoNode ist in der Lage, Ressourcen-Metadaten von mehreren entfernten Diensten zu speichern.
 
-In diesem Bereich werfen wir den Blick auf die Konfiguration, um von entfernten Dienste, eine Liste relevanter Ressourcen abzurufen und hierdurch eine Kopie als lokale Ressourcen zu speichern. 
+In diesem Bereich werfen wir den Blick auf die Konfiguration, um von entfernten Dienste, eine Liste relevanter Ressourcen abzurufen und hierdurch eine Kopie zu speichern. 
 Neben einem einmaligen "harvesten" besteht weiterhin die Möglichkeit, die Quelle in definierten Zeitabschnitten erneut zu besuchen.
 
 
-Standardmäßig unterstützt GeoNode das Harvesting von:
+Standardmäßig unterstützt GeoNode das "harvesten" von:
 
-- Andere entfernte GeoNode-Instanzen;
-- OGC WMS-Servern;
-- ArcGIS REST-Dienste.
+- Andere entfernte GeoNode-Instanzen
+- OGC WMS-Servern
+- ArcGIS REST-Dienste
 
 Weiterhin besteht die Möglichkeit, eigene Harvester zu programmieren.
 
@@ -90,7 +90,7 @@ Nach dem Speichern des Objekts wird der neue Harvester gelistet.
 
 ![Neuer Harvester wird gelistet](images/django_new_Harvester_in_list.jpeg)
 
-Wir sehen der Status zeigt "ready" und unsere Konfiguration um nur Ebenen mit dem Titel  "tl_2018_02_anrc0" zu harvesten wurde gesetzt.
+Wir sehen der Status zeigt "ready" und unsere Konfiguration, um nur Ebenen mit dem Titel  "tl_2018_02_anrc0" zu harvesten, wurde gesetzt.
 
 Wir setzen den Haken vor dem Havester und wählen im unteren Menü die Option "Update harvestable resources for selected harvesters"
 
@@ -102,20 +102,17 @@ Zurück im Django Hauptmenü rufen wir die Liste der "Harvestable resources" auf
 ![Link zu Harvestable resources](images/django_list_harvestable_reousrces.jpeg)
 
 Und sehen die geharvestete Resource.
-Um diese lokal zu Speichern setzen wir am linken Rand der Tabelle den Haken, und wählen im unteren Auswahlfeld "Harvest selected resources".
+Um diese lokal zu speichern setzen wir am linken Rand der Tabelle den Haken, und wählen im unteren Auswahlfeld "Harvest selected resources".
 
 ![Datensatz abholen](images/django_harvest_res.jpeg)
 
 Nach einiger Zeit und neu laden der Maske sollte uns ein grünes Symbol über das erfolgreiche Speichern des Datensatzes angezeigt werden.
 
+![Erfolgreiche Speicherung](images/djagno_harvested_res.jpeg)
+
 Unser neuer Datensatz ist hiernach im GeoNode Portal sichtbar:
 
 ![Neuer sichtbarer Datensatz](images/fe_harvested_res.jpeg)
-
-![Erfolgreiche Speicherung](images/djagno_harvested_res.jpeg)
-
-
-![Neue Ressource speichern](images/django_harvest_res.jpeg)
 
 
 ## Periodisches harvesten
@@ -135,9 +132,9 @@ In der [Übersicht der Harvestable resources](https://geonode-training.csgis.de/
 
 ![Ressource löschen](images/django_delete_harvest.jpeg)
 
-Zurück in der [Übersicht aller Harvester](https://geonode-training.csgis.de/de-de/admin/harvesting/harvester/) editieren wir den vorab angelegten Harvester "Manueller Harvester".
+Zurück in der [Übersicht aller Harvester](https://geonode-training.csgis.de/de-de/admin/harvesting/harvester/) editieren wir den vorab angelegten Harvester "Manueller Harvester" durch Klick auf die ID.
 
-![bestehende Harvester](images/django_new_Harvester_in_list.jpeg)
+![bestehende Harvester – Markierung soll ignoriert werden](images/django_new_Harvester_in_list.jpeg)
 
 In der Maske ändern wir folgende Angaben:
 

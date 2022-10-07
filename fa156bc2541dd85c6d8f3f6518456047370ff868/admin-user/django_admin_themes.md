@@ -10,13 +10,13 @@
 
 # GeoNode Theming
 
-GeoNode bietet standardmäßig einige Theming-Optionen, die direkt über die Administrationsoberfläche verwaltet werden können. In den meisten Fällen können Sie mit diesen Optionen das Aussehen von GeoNode ganz einfach ändern, ohne eine einzige Zeile HTML oder CSS zu verändern.
+GeoNode bietet standardmäßig einige _Theming-Optionen_, die direkt über die Administrationsoberfläche verwaltet werden können. In den meisten Fällen können Sie mit diesen Optionen das Aussehen von GeoNode ganz einfach ändern, ohne eine einzige Zeile HTML oder CSS zu verändern.
 
 Im Django Admin öffnen wir die Theme-Administration über den Link Themes:
 
 ![Theme link](images/django_theme.jpeg)
 
-Die hierauf folgende Ansicht listet alle vorhandenen Themes. Achten Sie auf den Status "is enabled".
+Die hierauf folgende Ansicht listet alle vorhandenen Themes. Achten Sie auf den Status "is enabled". Trägt ein Datensatz "is enabled" (grüner Haken) wird das Thema verwendet.
 
 ![Theme aktiviert / nicht aktiviert](images/django_theme_enabled.jpeg)
 
