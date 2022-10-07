@@ -19,17 +19,16 @@ Nach der Installation von GeoNode kennt das System folgende Rollen:
 - Mitarbeiter
   - Registrierte Nutzer mit erweiterten Rechten
 - Administratoren
-  - Registrierte Nutzer mit vollständigen Rechten.
+  - Registrierte Nutzer mit vollständigen Rechten
 
 Im folgenden betrachten wir die dritte und vierte Rolle Mitarbeiter und Administrator.
 
 ## Der Administrator im Frontend
 
-> Frontend meint den für die Öffentlichkeit sichtbaren Bereich. Ihm gegenüber steht das Backend, welches das System im Hintergrund bezeichnet.
+> Frontend meint den für die Öffentlichkeit sichtbaren Bereich. Ihm gegenüber steht das Backend, welches das System im Hintergrund bezeichnet. Administratoren Rollen dürfen per se alles sehen, bearbeiten oder löschen.
 
-Administratoren Rollen dürfen per se alles sehen, bearbeiten oder löschen.
-
-Das erste Administratoren-Konto wird bei der Installation des Systems angelegt. Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
+Das erste Administratoren-Konto wird bei der Installation des Systems angelegt.  
+Die Definition des Users befindet sich [hier](https://github.com/GeoNode/geonode/blob/master/.env#L107-L119).
 
 
 ### Zusätzliche Menüpunkte
@@ -48,7 +47,8 @@ Dies sind:
   - Gruppen erstellen um User zu gruppieren.
 
 ### Invite User
-Über die Maske Invite User besteht die Möglichkeit, eine E-Mail Einladung / Aufforderung an Dritte zu senden. Die E-Mail bittet um Registrierung.
+Über die Maske Invite User besteht die Möglichkeit, eine E-Mail Einladung / Aufforderung an Dritte zu senden.  
+Der E-Mail Text bittet um Registrierung.
 
 ![Maske Benutzer einladen](images/benutzer_einladen.jpeg)
 
@@ -74,27 +74,25 @@ Beim Anlegen einer neuen Gruppe stehen folgende Eingabefelder zur Verfügung:
   - Wird für die Übersicht verwendet
 - Beschreibung der Gruppe
 - E-Mail
-  - E-Mail Adresse die verwendet wird, um ein oder alle Gruppenmitglieder, ähnlich einer Mailingliste, zu kontaktieren.
+  - E-Mail Adresse die verwendet wird, um ein oder alle Gruppenmitglieder, ähnlich einer Mailingliste, zu kontaktieren
 - Schlüsselwörter
   - Eine durch Leerzeichen oder Kommas getrennte Stichwortliste
 - Zugriff
-  - Öffentlich: Jeder registrierte Nutzer kann eine öffentliche Gruppe betrachten und dieser beitreten. 
+  - Öffentlich: Jeder registrierte Nutzer kann eine öffentliche Gruppe betrachten und dieser beitreten
   - Öffentlich (nur auf Einladung): Jeder registrierte Benutzer kann die Gruppe betrachten. Nur eingeladene Benutzer können beitreten. 
-  - Nur eingeladene Benutzer können teilnehmen.
+  - Nur eingeladene Benutzer können teilnehmen
 - Kategorien
   - Weitere Gruppierung der Gruppe. Funktioniert in GeoNode 4 nur fehlerbehaftet (Bug: Kann nicht mehr gelöscht werden) 
   
-Nach dem Anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppen-Übersicht
+Nach dem Anlegen einer neuen Gruppe erscheint diese für alle User in der Gruppen-Übersicht:
 
 ![Übersicht der Gruppen](images/view_gropus.jpeg)
 
 Weiterhin können Administratoren User hinzufügen sowie Details der Gruppe ändern.
-> In der Pause haben wir zu diesem Zweck Ihren Accounts Administratoren Rechte gegeben.
 
 ![Gruppen verwalten](images/manage_groups.jpeg)
 
 ## Übungen
-### Neue Gruppe
 
 1. Legen Sie eine neue Gruppe an und weisen Sie der neuen Gruppe einige Mitglieder zu.
 

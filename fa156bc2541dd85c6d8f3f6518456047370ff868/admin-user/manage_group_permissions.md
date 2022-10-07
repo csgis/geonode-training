@@ -10,17 +10,17 @@
 
 # Gruppenrechte
 
-> Um Ihren Datensätze-Gruppenberechtigungen zuzuweisen, müssen Sie kein Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt, um diese zu erstellen.
+> Um Ihren Datensätze-Gruppenberechtigungen zuzuweisen, müssen Sie kein Administrator sein. Jedoch, wie im vorherigen Kapitel gezeigt, um Gruppen zu erstellen.
 
 ## Rechte zuweisen 
 
-Ihren Datensätzen und Karten können neben User-Rechte über das Menü teilen, Gruppen-Rechte hinzugefügt werden.
+Ihren Datensätzen und Karten können über das Menü teilen, Gruppen-Rechte hinzugefügt werden.
 
 ![Teilen link für Berechtigungen verwenden](images/dataset_teilen.jpeg)
 
 Im bekannten Panel zur Rechtevergabe wählen Sie die jeweiligen Gruppen:
 
-![[Ebenen Berechtigungen einstellen](images/add_group_sahre.jpeg)
+![Ebenen Berechtigungen einstellen](images/add_group_sahre.jpeg)
 ![choose group](images/csgis_group.jpeg)
 
 Und vergeben hiernach die gewünschte Sichtbarkeit:
