@@ -23,7 +23,19 @@ Es gibt drei Arten von Bekanntmachungen, die nach ihrem Schweregrad unterschiede
 
 Nur Administratoren und Mitarbeiter können Ankündigungen erstellen und verwalten.
 
-Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreifen und sie zu verwalten:
+Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreifen und sie zu verwalten.
+Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die “Ablehnungen” (dismissal) zu verwalten.
+
+"Ablehnungen" sind Aufzeichnungen von Mitgliedern, die die Ankündigung gelesen und das Nachrichtenfeld geschlossen haben. Eine Ankündigung kann eine der drei folgenden "Ablehnungensgründen" haben:
+
+- Keine Ablehnungen erlaubt: 
+  - Das Mitteilungsfeld der Ankündigung kann nicht geschlossen werden.
+
+- "Session Only Dismissal",
+  - die Standardeinstellung, ermöglicht es, die Nachrichtenbox der Ankündigung für die aktuelle Browser-Sitzung zu schließen. Sie wird beim nächsten Zugriff wieder angezeigt.
+
+- Dauerhafte Ablehnungen erlaubt:   
+  - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
 
 ## Über die GeoNode-GUI, aus dem Profil-Panel
 
@@ -34,18 +46,7 @@ Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreife
 ![Ankündigungen im Django Admin verwalten](images/admin-announcments-006.png)
 
 
-Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die "Ablehnungen" (dismissal) zu verwalten.
 
-"Ablehnungen" sind Aufzeichnungen von Mitgliedern, die die Ankündigung gelesen und das Nachrichtenfeld geschlossen haben. Eine Ankündigung kann eine der drei folgenden "Ablehnungensgründen" haben:
-
-- Keine Ablehnungen erlaubt: 
-  - Das Mitteilungsfeld der Ankündigung kann nicht geschlossen werden.
-
-- "Session Only Dismissal (*)_,
-  - die Standardeinstellung, ermöglicht es, die Nachrichtenbox der Ankündigung für die aktuelle Browser-Sitzung zu schließen. Sie wird beim nächsten Zugriff wieder angezeigt.
-
-- Dauerhafte Ablehnungen erlaubt:   
-  - die Nachrichtenbox erscheint für das aktuelle Mitglied nicht mehr, sobald sie geschlossen wurde.
 
 ## Announcement im Frontend über Profil anlegen
 
