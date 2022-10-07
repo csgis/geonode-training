@@ -26,24 +26,19 @@ Nur Administratoren und Mitarbeiter können Ankündigungen erstellen und verwalt
 Derzeit gibt es zwei Möglichkeiten, auf die Liste der Ankündigungen zuzugreifen und sie zu verwalten.
 Die Funktionalitäten sind für beide Oberflächen fast gleich, außer dass es über das Admin-Panel möglich ist, auch die “Ablehnungen” (dismissal) zu verwalten.
 
-## Über die GeoNode-GUI, aus dem Profil-Panel
 
-![Ankündigungen im Frontend verwalten](images/admin-announcments-005.png)
 
 
 ## Announcement im Frontend über Profil anlegen
 
-Klicken Sie im Profilbereich auf den Link Ankündigungen
 
+Klicken Sie im Profilbereich auf den Link Ankündigungen (Announcements)
 
-![Announcement im Frontend](images/admin-announcments-007.png)
-
+![Ankündigungen im Frontend verwalten](images/admin-announcments-005.png)
 
 Klicken Sie entweder auf "Neue Ankündigung", um eine neue Bekanntmachung zu erstellen, oder auf den Titel einer bestehenden Ankündigung, um deren Inhalt zu verwalten.
 
-![Ankündigung anlegen](images/admin-announcments-007.png)
-
-Füllen Sie hierauf alle Felder des Formulars aus.
+![Announcement im Frontend](images/admin-announcments-007.png)
 
 ## Ankündigung über den Django Admin
 
