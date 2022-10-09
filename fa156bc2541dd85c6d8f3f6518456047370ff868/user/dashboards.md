@@ -26,7 +26,7 @@ Sie eignen sich gut für die Präsentation von Ergebnissen oder Zusammenfassunge
 
 3. Danach integrieren Sie in das Dashboard folgendes Diagramm mit den Einwohnerzahlen.
 
-   > Im Dashboard können die Inhalte dynamisch  mit anderen Inhalten verknüpft sein (z. B. würde beim Zoomen in die Karte das Diagramm nur die Daten anzeigen, die man gerade in der Karte sieht).
+   > Im Dashboard können die Inhalte dynamisch  mit anderen Inhalten verknüpft sein.
 
    ![Inhalte verknüpfen](images/image78_2.png)
 
@@ -38,4 +38,3 @@ Sie eignen sich gut für die Präsentation von Ergebnissen oder Zusammenfassunge
     ![Dashboard Beispiel](images/image79_2.png)
 
     ![Dashboard Beispiel](images/image80_2.png)
-=======
