@@ -1,0 +1,11 @@
+{
+    "admin" : {
+        "index.md": "Index",
+        "source.md": "GeoNode Quelltext und Entwicklungsumgebung",
+        "template.md": "Templates überschreiben",
+        "custom_page.md": "Eigene Seiten anlegen",
+        "lang.md": "Übersetzung anlegen",
+        "geoapp.md": "Eigene APP: Geopackage Export",
+        "react.md": "Verändertes Frontend in GeoNode 4"
+    }
+}
