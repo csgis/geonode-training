@@ -32,8 +32,8 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
   - die Ebene filtern und nur einen Teil der Daten in die Karte anzeigen lassen
   - die Attributtabelle öffnen und die Daten hier bearbeiten
   - widgets für die ausgewählte Ebene erstellen
-  - die Symbologie der Ebene hier verändern
-  ![Funktionalitäten](images/image54.png)
+  - die Symbologie der Ebene hier verändern  
+  - ![Funktionalitäten](images/image54.png)
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 

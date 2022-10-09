@@ -10,13 +10,9 @@
 
 # Geostories
 
-<<<<<<< HEAD:94921f622d08ab26f04c534104a6260ef8bafd78/user/geostories.md
 Eine Geostory ist eine GeoNode Ressource, mit der man einen Artikel mit interaktiven Inhalten (Videos, Text, Bilder, Webseiten, dynamische Karten, andere GeoNode Ressourcen etc.) veröffentlichen kann.
-=======
-[testlink](../dev/source.html)
 
-> Eine Geostory ist ein GeoNode Ressource  mit der man ein Artikel mit interaktive Inhalten (Videos, Text, Bilder, Webseiten, dynamische Karten, andere GeoNode Ressourcen, etc.) veröffentlichen kann.
->>>>>>> 0db18eacb2af31f9fb40c7dc681b813eda7837c2:fa156bc2541dd85c6d8f3f6518456047370ff868/user/geostories.md
+[testlink](../dev/source.html)
 
 Eine Geostory kann mit folgenden Elementen aufgebaut werden:
 
@@ -30,12 +26,8 @@ Eine Geostory kann mit folgenden Elementen aufgebaut werden:
 - Medienabschnitt
 - Webseitenabschnitt
 
-> Ein Beispiel mit allen Elementen einer Geostory finden Sie [hier](https://geonode-training.csgis.de/catalogue/#/geostory/22)
-<<<<<<< HEAD:94921f622d08ab26f04c534104a6260ef8bafd78/user/geostories.md
-> 
-=======
->>>>>>> 0db18eacb2af31f9fb40c7dc681b813eda7837c2:fa156bc2541dd85c6d8f3f6518456047370ff868/user/geostories.md
-> Im [Handbuch von Mapstore](https://mapstore2.readthedocs.io/en/latest/user-guide/exploring-stories/) sind alle Funktionen detailliert beschrieben.
+> - Ein Beispiel mit allen Elementen einer Geostory finden Sie [hier](https://geonode-training.csgis.de/catalogue/#/geostory/22)
+> - Im [Handbuch von Mapstore](https://mapstore2.readthedocs.io/en/latest/user-guide/exploring-stories/) sind alle Funktionen detailliert beschrieben.
 
 Mit der nächsten Übung bauen wir eine Geostory auf.
 
@@ -46,40 +38,41 @@ Mit der nächsten Übung bauen wir eine Geostory auf.
 1. Ressource hinzufügen → Geostory erstellen → Speichern
 
 2. Im ersten Schritt wird uns angeboten, dass wir mit einem **Titelabschnitt** anfangen. Hier finden wir 2 widgets:
-   
+
     Mit einfachem Klick bearbeiten und formatieren Sie den Titel.
-   
+
     ![Titel bearbeiten](images/image67_2.png)
-   
+
     Die Größe des Titelabschnittes können Sie anpassen oder einen Hintergrund hinzufügen mit Bildern, Videos oder Karten.
-   
+
     ![Größe des Titelabschnittes und Hintergrund](images/image68.png)
-   
+
    Der erste Teil unser Geostory wäre fertig. Wir haben jetzt den Titelabschnitt mit 2 Elementen: Titel und Hintergrund (einer GeoNode Karte).
-   
+
     ![Titelabschnitt](images/image69_2.png)
 
 3. Im zweiten Schritt erweitern wir unsere Geostory mit einem **Absatzabschnitt**.
-   
+
     ![Absatzabschnitt](images/image70.png)
-   
+
     Hier können wir hinzufügen:
-   
+
     ![Absatzabschnitt bearbeiten](images/image71.png)
-   
+
    - Text
    - Medien (Bilder, Videos, Karten)
    - eine Webseite
 
 4. Lassen wir unsere Geostory mit einer **immersive section** erweitern. Sie besteht aus zwei Elementen: dem Hintergrund und dem Inhalt.
-   
+
     Der Unterschied zu der vorherigen Option (Absatzabschnitt) ist, dass die Inhalte im gleichen Abschnitt zusammen bleiben.
-   
+
     ![immersive section](images/image71-a.png)
 
 5. Im nächsten Schritt beschäftigen wir uns mit der**Geokarussel** Option:
-   
+
     ![Geocarousel](images/image74_2.png)
-- Der Hintegrund dient dem gesamten Abschnitt.
-- Der Text und das untere kleine Bild werden mit einem bestimmten Ort in der Karte verknüpft.
-- Sie können damit beliebige Anmerkungen zu bestimmten Orten hinzufügen.
+
+    - Der Hintegrund dient dem gesamten Abschnitt.
+    - Der Text und das untere kleine Bild werden mit einem bestimmten Ort in der Karte verknüpft.
+    - Sie können damit beliebige Anmerkungen zu bestimmten Orten hinzufügen.
