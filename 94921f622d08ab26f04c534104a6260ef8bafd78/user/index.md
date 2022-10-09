@@ -1,4 +1,5 @@
 <!-- the Menu -->
+
 <link rel="stylesheet" media="all" href="../styles.css" />
 <div id="logo"><a href="https://csgis.de">© csgis</a></div>
 <div id="menu"></div>
@@ -6,7 +7,6 @@
 <script src="../menu.js"></script>
 <script src="../jumpmenu.js"></script>
 <!-- the Menu -->
-
 
 # Einführung in GeoNode 4.0 für Anwender
 
@@ -24,7 +24,7 @@ In dieser Schulung werden wir folgende Themen mit GeoNode behandeln:
 
 ## Ziel:
 
-In diesem Kurs arbeiten Sie mit GeoNode mit konkreten Beispielen und Fragestellungen aus der Praxis.
+In diesem Kurs arbeiten Sie mit GeoNode an Hand konkreter Beispiele und Fragestellungen aus der Praxis.
 Wir bauen gemeinsam ein Geoportal auf. Schritt für Schritt lernen wir GeoNode kennen.
 
 Wir beschäftigen uns mit der Publikation, dem Management und der Analyse von Geodaten in GeoNode.
