@@ -21,7 +21,6 @@ Nachdem sich der Anwender erfolgreich registriert hat, kann er sich sofort anmel
 > Die Option zum Registrieren kann nach Bedarf ausgeblendet werden, sodass ein Admin die Registrierung eigenständig durchführen kann.
 > Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass der Admin die Registrierung bestätigten muss.
 
-
 # User Profil
 
 Im Profil stehen dem User u.a. folgende Funktionen zur Verfügung:
@@ -51,13 +50,12 @@ Außerdem können registrierte Benutzer:
 ![Profil](images/image5.png)
 
 > Weitere empfehlenswert GeoNode Dokumentationen sind:
+> 
 > - [GeoNode Handbuch](https://docs.geonode.org/en/master/usage/index.html)
 > - [Mapstore Handbuch](https://mapstore.readthedocs.io/en/latest/user-guide/home-page/)* 
 
 > Auf der Startseite, im Menü "Über"  kann man visualisieren, filtern und sehen, welche User in GeoNode registriert sind und welche Daten sie  veröffentlicht haben.
-> =======
-> 
-> Auf der Startseite, im Menü Über  kann man visualisieren, filtern und sehen welche User im GeoNode registriert sind und welche Daten haben sie   veröffentlicht
+
 
 ![Benutzer](images/image8.png)
 
