@@ -33,7 +33,7 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 1. Starten Sie die Edtierung. Wählen Sie Schwabing aus und zoomen Sie zum Extent
 
 2. Filtern Sie  Schwabing,  Schwabing-West und  Schwabing-Ost, lassen Sie nur diese Orte sichtbar auf der Karte und verändern Sie die Einwohnerzahlen (Spalte population) dieser Orte.
-   
+
    ![Attributfilter](images/image20.png)
 
 3. Untersuchen Sie weitere Filter Optionen wie “Interessengebiet“
@@ -49,14 +49,11 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 1. Fügen Sie ein neues Polygon hinzu.
 2. Digitalisieren Sie ein neues benachbartes Polygon (Snap Optionen)
 
-<<<<<<< HEAD:94921f622d08ab26f04c534104a6260ef8bafd78/user/geodaten_publizieren_und_bearbeiten.md
-> Zum Selektieren  nur ein Mal  in die Karte klicken.
-> 
-> Selektieren von mehreren Objekten können wir über Filter machen.
-=======
-> Zum selektieren in die Karte nur ein Mal klicken
-> Selektieren von mehreren Objekten können wir über Filter machen
->>>>>>> 0db18eacb2af31f9fb40c7dc681b813eda7837c2:fa156bc2541dd85c6d8f3f6518456047370ff868/user/geodaten_publizieren_und_bearbeiten.md
+
+> - Zum Selektieren  nur ein Mal  in die Karte klicken.
+> - Selektieren von mehreren Objekten können wir über Filter machen.
+> - Zum selektieren in die Karte nur ein Mal klicken
+> - Selektieren von mehreren Objekten können wir über Filter machen
 
 ## Stil bearbeiten
 
@@ -102,12 +99,12 @@ Innerhalb der **Markierungsoption*** haben wir 2 verschiedene Legenden zur Verf�
 1. Lassen Sie roads klassifiziert darstellen nur mit folgenden Kategorien der Spalte “Type“: primary, residential, secundary, tertiary. Roads soll nur innerhalb dieser Maßstäbe erscheinen 1:144448 und 1:9028
 
 2. Wie kann man erreichen, dass nur der Typ residential innerhalb dieser Maßstäbe erscheint aber dass die anderen Typen immer sichtbar bleiben?
-   
+
    ![Beispiele für Legenden und Filter](images/image33-a.png)
 
-> *Die Symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie     Grafikdateien(svg, png, etc.). Man braucht die url, wo die Bilder gehostet sind*
-> 
-> ![Symbolregel](images/image38_2.png)
+> *Die Symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie Grafikdateien (svg, png, etc.). Man braucht die url, wo die Bilder gehostet sind*
+
+![Symbolregel](images/image38_2.png)
 
 ## Metadaten bearbeiten
 
@@ -129,10 +126,10 @@ Die Metadaten in GeoNode dienen 2 wesentlichen Zwecken:
 5. Probieren Sie die Suche nach Daten mit der Filteroption “Ausmaß“
 
 > *Im Schritt 4 (Datensatz Attribute) lässt sich unter Anzeigetyp speichern, wie die gespeicherten Daten in einer Spalte angezeigt werden sollen. Mit Klick auf ein Objekt in der Karte erscheinen die Informationen entsprechend formatiert.*
-> 
-> ![Datensatz Attribute](images/image42_2.png)
-> 
-> ![Informationen einer Ebene](images/image41_2.png)
+
+![Datensatz Attribute](images/image42_2.png)
+
+![Informationen einer Ebene](images/image41_2.png)
 
 ## Ressource teilen
 
@@ -154,7 +151,7 @@ Sie können die folgenden Berechtigungen festlegen:
 1. Stellen Sie sicher, dass die places nicht heruntergeladen werden können. Melden Sie sich ab und prüfen Sie, dass keine Option zum Herunterladen angeboten ist.
 
 2. Erlauben Sie, dass die places von anderen Benutzer verwaltet werden können
-   
+
    ![Berechtigungen](images/image45_2.png)
 
 ## Filtern
