@@ -24,6 +24,8 @@ In dieser Python Sitzung haben wir Zugriff auf die GeoNode Datenbank und Ihre Da
 ## Beispiel: Ändern aller Titel bestehender Datensätze
 
 ```python
+$ ./manage_dev.sh shell
+
 from geonode.base.models import ResourceBase
 all_datasets = ResourceBase.objects.all()
 for dataset in all_datasets:

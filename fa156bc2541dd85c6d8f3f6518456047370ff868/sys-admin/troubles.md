@@ -33,6 +33,9 @@ docker-compose logs -f django
 
 Kontrollieren Sie das Admin-Passwort des Geoservers in `.env` und setzen Sie dieses in der GeoServer Admin GUI erneut.
 
+Ein weiterer Punkt ist dass eine Einstellung die Upload Größe limitiert.
+-[Übersicht über Limits](https://docs.google.com/document/d/1L4wRTKq7uUkmrRTWPutaTcQU4VqLpYSOpe70fxaDp9A/edit)
+
 ## Datensätze werden nicht angezeigt, obwohl die Berechtigungen stimmen
 
 GeoServer regelt die Regeln über "Geofence" Regeln. Um diese mit Django/GeoNode abzugleichen, verbindet sich GeoServer über oauth2 mit Django.
