@@ -101,6 +101,6 @@ Loggt sich der Mitarbeiter nun mit seinem Account ein, besitzt er über erweiter
 
 ![Fehlender Link für Mitarbeiter (Nur sichtbar für Administratoren)](images/missing_group_link.jpeg)
 
-> Dem ist leider nicht so, hierbei handelt es sich um einen Bug in GeoNode4. Die neue Gruppe kann jedoch trotzdem bei direkt Aufruf des links https://geonode-training.csgis.de/groups/create/ oder über die Django Administrationsoberfläche erzeugt werden.
+> Dem ist leider nicht so, hierbei handelt es sich um einen Bug in GeoNode4. Die neue Gruppe kann jedoch trotzdem bei direkt Aufruf des links [https://geonode-training.csgis.de/groups/create/](https://geonode-training.csgis.de/groups/create/) oder über die Django Administrationsoberfläche erzeugt werden.
 
 
