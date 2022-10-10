@@ -41,20 +41,11 @@ Das Kommando
 ```bash
 geopackage_collection
 ├── __init__.py
-├── __pycache__
-│   ├── __init__.cpython-39.pyc
-│   ├── admin.cpython-39.pyc
-│   ├── apps.cpython-39.pyc
-│   ├── helper.cpython-39.pyc
-│   ├── models.cpython-39.pyc
-│   └── views.cpython-39.pyc
 ├── admin.py
 ├── apps.py
 ├── helper.py
 ├── migrations
 │   ├── __init__.py
-│   └── __pycache__
-│       └── __init__.cpython-39.pyc
 ├── models.py
 ├── templates
 │   └── base
