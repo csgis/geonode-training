@@ -33,7 +33,8 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
   - die Attributtabelle öffnen und die Daten hier bearbeiten
   - widgets für die ausgewählte Ebene erstellen
   - die Symbologie der Ebene hier verändern  
-  - ![Funktionalitäten](images/image54.png)
+
+  ![Funktionalitäten](images/image54.png)
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 
@@ -53,6 +54,7 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
 1. Fügen Sie die Tabelle der Ebene administrative in die Karte ein.
 
 1. Mit dem Tool Notizen/Zeichen fügen Sie eine Anmerkung (Annotation) hinzu. Danach lassen Sie sich mit einfachen Klick auf die Karte die Informationen anzeigen.    
+
   ![Informationen anzeigen](images/image61.png)
 
   > GeoNode gibt die Informationen von alle Ebenen  aus, wo man geklickt hat und den Hinweis von den Ebenen wo dort keine Daten gibt:
@@ -66,8 +68,8 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
 
 1. Wie bei allen GeoNode Ressourcen können Sie Berechtigungen an die Karte vergeben, um zum Beispiel zu erlauben, dass jemand anders diese Karte mitgestalten kann.
 
-    ![Berechtigungen](images/image63_2.png)
+  ![Berechtigungen](images/image63_2.png)
 
 1. Speichern Sie Ihre Karte und lassen Sie eine PDF in A4 Format ausdrucken.
 
-     ![Karte drucken](images/image64_2.png)
+  ![Karte drucken](images/image64_2.png)
