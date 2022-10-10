@@ -12,6 +12,6 @@
         "django_admin_metadata.md": "&nbsp; | Metadaten",
         "django_admin_harvester.md": "&nbsp; | Harvesting",
         "announcements.md": "Ankündigungen",
-        "geoserve_gui.md": "GeoServer GUI"
+        "geoserver_gui.md": "GeoServer GUI"
     }
 }
