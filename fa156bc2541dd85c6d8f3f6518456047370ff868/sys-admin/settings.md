@@ -17,11 +17,11 @@ Einen guten Einstiegspunkt liefert daher die [offizielle Django Dokumentation](h
 
 Im Haupt-Repository von GeoNode (core) befindet sich die Datei unter folgendem Pfad:
 
-- https://github.com/GeoNode/geonode/blob/master/geonode/settings.py
+- [https://github.com/GeoNode/geonode/blob/master/geonode/settings.py](https://github.com/GeoNode/geonode/blob/master/geonode/settings.py)
 
 In GeoNode-Projekt unter:
 
-- https://github.com/GeoNode/geonode-project/blob/master/src/project_name/settings.py
+- [https://github.com/GeoNode/geonode-project/blob/master/src/project_name/settings.py](https://github.com/GeoNode/geonode-project/blob/master/src/project_name/settings.py)
 
 Hier zeigt sich eine Besonderheit in Zeile 31ff.:
 

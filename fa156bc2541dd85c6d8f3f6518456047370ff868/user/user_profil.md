@@ -10,16 +10,15 @@
 
 # Registrieren
 
-Im ersten Schritt erfolgt eine Registrierung auf der GeoNode Plattform. Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente etc.) visualisiert und geteilt aber nicht bearbeitet werden.
-Nachdem sich der Anwender erfolgreich registriert hat, kann er sich sofort anmelden und GeoNode in vollem Umfang nutzen.
+Im ersten Schritt erfolgt eine Registrierung auf der GeoNode Plattform. Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente etc.), insofern sie öffentlich sind, angesehen aber nicht bearbeitet werden.
+Nachdem sich der Anwender erfolgreich registriert hat, kann er nach Freigabe des Accounts, GeoNode in vollem Umfang nutzen.
 
 ![Anmeldung](images/image2.jpg)
 
 > Die Option zum registrieren kann nach Bedarf ausgeblendet werden sodass einen Admin die Registrierung eigenständig durchführt.
 > Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass einen Admin die Registrierung bestätigten muss
 
-> Die Option zum Registrieren kann nach Bedarf ausgeblendet werden, sodass ein Admin die Registrierung eigenständig durchführen kann.
-> Standardmäßig läuft die Registrierung automatisch. Man kann aber diese Option ändern sodass der Admin die Registrierung bestätigten muss.
+> Standardmäßig läuft die Registrierung automatisch. Weiterhin ist es möglich dass ein Admin die Registrierung bestätigten muss. Die Option zum registrieren kann nach Bedarf auch kompolett ausgeblendet werden, sodass ein Admin die Registrierung eigenständig durchführen kann. 
 
 # User Profil
 
@@ -31,9 +30,7 @@ Im Profil stehen dem User u.a. folgende Funktionen zur Verfügung:
 - Benachrichtigungseinstellungen
 - Andere Anwender einladen, Ihre GeoNode Plattform zu benutzen
 
-> Es lohnt sich, diese Optionen in Ruhe zu prüfen und zu entscheiden, mit welchen Aktionen dem Anwender eine Email gesendet werden soll (standardmäßig sind alle Optionen ausgewählt.
-> 
-> Mit einer GeoNode Instance, die von vielen Anwendern aktiv benutzt wird, werden Sie viele Emails erhalten!)
+> Es lohnt sich, diese Optionen in Ruhe zu prüfen und zu entscheiden, mit welchen Aktionen dem Anwender eine Email gesendet werden soll (standardmäßig sind alle Optionen ausgewählt. Mit einer GeoNode Instance, die von vielen Anwendern aktiv benutzt wird, werden Sie viele Emails erhalten!)
 > 
 > Es lohnt sich diese Optionen in Ruhe zum lesen und hier entscheiden mit welchen Aktionen eine Email an den Anwender gesendet werden soll (standardmäßig sind alle Optionen ausgewählt.
 > Mit einer GeoNode Instance, die von vielen Anwender aktiv benutzt wird, werden Sie dann viele Emails bekommen!)
