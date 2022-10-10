@@ -14,9 +14,9 @@ Nach dem die Daten hochgeladen sind, stehen uns unter "Datensatz ansehen" folgen
 
 ![Datensatz ansehen](images/image18.png)
 
-**Speichern:** Sollen Änderungen an den Daten, der Symbologie, den Berechtigungen etc. vorgenommen werden, so können Sie diese hier dauerhaft speichern. Mit **“speichern als“** erzeugen Sie einen neuen Dataset.
+**Speichern:** Sollen Änderungen an den Daten, der Symbologie, den Berechtigungen etc. vorgenommen werden, so können Sie diese hier dauerhaft speichern. Mit **“speichern als“** erzeugen Sie ein neues Dataset.
 
-Im Menü **bearbeiten** können wir:
+Im Menü **Bearbeiten** können wir:
 
 **Informationen anzeigen lassen:** (allgemeine Informationen zu der Ressource). Hier haben Sie auch die Möglichkeit, diese Ressource als Favorit zu speichern, den Link zu teilen oder die Datei downzuloaden.
 
@@ -52,16 +52,14 @@ Geometrien und Tabellen können in GeoNode bearbeitet werden. Die Optionen für 
 
 > - Zum Selektieren  nur ein Mal  in die Karte klicken.
 > - Selektieren von mehreren Objekten können wir über Filter machen.
-> - Zum selektieren in die Karte nur ein Mal klicken
-> - Selektieren von mehreren Objekten können wir über Filter machen
 
 ## Stil bearbeiten
 
-Es gibt 3 verschiedene Gruppen (Regeln) von  Stilen, die man benutzen kann (sie können miteinander kombiniert werden)
+Es gibt 3 verschiedene Gruppen (Regeln) von Stilen, die man benutzen kann (sie können miteinander kombiniert werden)
 
 ![Regeln](images/image20-a.png)
 
-Außerdem gibt es die Möglichkeit für die verschiedenen Regeln die Daten zu filtern (wenn man zum Beispiel nur bestimmte Daten darstellen möchte – type=forest -) oder nur innerhalb eines bestimmten Maßstabs die Daten darstellen zu lassen.
+Außerdem gibt es die Möglichkeit, für die verschiedenen Regeln, die Daten zu filtern (wenn man zum Beispiel nur bestimmte Daten darstellen möchte – type=forest -) oder nur innerhalb eines bestimmten Maßstabs die Daten darstellen zu lassen.
 
 ![Filter und Maßstababhängige Sichtbarkeit](images/image20-b.png)
 
@@ -88,7 +86,7 @@ Innerhalb der **Markierungsoption*** haben wir 2 verschiedene Legenden zur Verf�
 1. Stellen Sie die railways wie in der unteren Abbildung dar. Benutzen Sie den einfachen Stil und erstellen sie die entsprechenden Filter (*type=subway und type =tram*).
    ![Symbologie von railways](images/image33_2.png)
 
-2. Speichern Sie den Stil als sld und laden Sie diese Datei als Dokument in GeoNode hoch     
+2. Speichern Sie den Stil als sld und laden Sie diese Datei als Dokument in GeoNode hoch.     
 
 3. Benachrichtigen Sie Ihre Kollegen, dass es eine neue Legende gibt und prüfen Sie Ihre Mailbox bzgl. der gesendeten/empfangenen Nachrichten.
 
@@ -98,11 +96,11 @@ Innerhalb der **Markierungsoption*** haben wir 2 verschiedene Legenden zur Verf�
 
 1. Lassen Sie roads klassifiziert darstellen nur mit folgenden Kategorien der Spalte “Type“: primary, residential, secundary, tertiary. Roads soll nur innerhalb dieser Maßstäbe erscheinen 1:144448 und 1:9028
 
-2. Wie kann man erreichen, dass nur der Typ residential innerhalb dieser Maßstäbe erscheint aber dass die anderen Typen immer sichtbar bleiben?
+2. Wie kann man erreichen, dass nur der Typ residential innerhalb dieser Maßstäbe erscheint aber die anderen Typen immer sichtbar bleiben?
 
    ![Beispiele für Legenden und Filter](images/image33-a.png)
 
-> *Die Symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie Grafikdateien (svg, png, etc.). Man braucht die url, wo die Bilder gehostet sind*
+> *Die Symbolregel ermöglicht die Erstellung von Legenden mit Symbolen wie Grafikdateien (svg, png, etc.). Man braucht die url, bei der die Bilder gehostet sind*
 
 ![Symbolregel](images/image38_2.png)
 
@@ -111,7 +109,7 @@ Innerhalb der **Markierungsoption*** haben wir 2 verschiedene Legenden zur Verf�
 Die Metadaten in GeoNode dienen 2 wesentlichen Zwecken:
 
 - sie geben zusätzliche Auskunft über die Daten.
-- sie vereinfachen die Suche von Resourcen durch andere Benutzer und damit können die Daten leichter abgerufen werden.
+- sie vereinfachen die Suche von Ressourcen durch andere Benutzer und damit können die Daten leichter abgerufen werden.
 
 > Ausführliche Informationen über die Bearbeitung von Metadaten finden Sie [hier](https://docs.geonode.org/en/master/usage/managing_datasets/dataset_metadata.html)
 
@@ -122,7 +120,7 @@ Die Metadaten in GeoNode dienen 2 wesentlichen Zwecken:
 1. Thumbnail aktualisieren
 2. Kategorie population speichern unter den grundlegenden Metadaten
 3. Unter regions soll Germany gespeichert werden
-4. Speichern Sie die Metadaten und suchen sie auf der Startseite in GeoNode nach Daten mit z. B. der Kategorie  population oder nach der Region  Germany
+4. Speichern Sie die Metadaten und suchen Sie auf der Startseite in GeoNode nach Daten mit z. B. der Kategorie  population oder nach der Region  Germany
 5. Probieren Sie die Suche nach Daten mit der Filteroption “Ausmaß“
 
 > *Im Schritt 4 (Datensatz Attribute) lässt sich unter Anzeigetyp speichern, wie die gespeicherten Daten in einer Spalte angezeigt werden sollen. Mit Klick auf ein Objekt in der Karte erscheinen die Informationen entsprechend formatiert.*
@@ -133,7 +131,7 @@ Die Metadaten in GeoNode dienen 2 wesentlichen Zwecken:
 
 ## Ressource teilen
 
-Beim Erstellen oder Hochladen eines neuen Datensatzes müssen Sie festlegen, wer diesen Datensatz **anzeigen, herunterladen, bearbeiten** und **verwalten** kann. Standardmäßig können nur Eigentümer Datensätze bearbeiten und verwalten, jeder kann sie ansehen.
+Beim Erstellen oder Hochladen eines neuen Datasets müssen Sie festlegen, wer diesen Datensatz **anzeigen, herunterladen, bearbeiten** und **verwalten** kann. Standardmäßig können nur Eigentümer Datensätze bearbeiten und verwalten, jeder kann sie ansehen.
 
 > Weiterführende Informationen finden Sie unter [Dataset permissions](https://docs.geonode.org/en/4.x/usage/managing_datasets/dataset_permissions.html)
 
@@ -142,7 +140,7 @@ Sie können die folgenden Berechtigungen festlegen:
 - Anzeigen (ermöglicht das Anzeigen des Datensatzes).
 - Herunterladen (ermöglicht das Anzeigen und Herunterladen des Datensatzes).
 - Bearbeiten (ermöglicht das Ändern der Metadaten, der Attribute und Geometrien und des Stils).
-- Verwalten (ermöglicht das Bearbeiten, Löschen, Ändern der Freigabeoptionen und Publizieren eines Datensatzes). Datensätze, die nicht publiziert sind, können nur von Admin gesehen und bearbeitet werden.
+- Verwalten (ermöglicht das Bearbeiten, Löschen, Ändern der Freigabeoptionen und Publizieren eines Datensatzes). Datensätze, die nicht publiziert sind, können nur vom Admin gesehen und bearbeitet werden.
 
 ### Übung
 
@@ -150,7 +148,7 @@ Sie können die folgenden Berechtigungen festlegen:
 
 1. Stellen Sie sicher, dass die places nicht heruntergeladen werden können. Melden Sie sich ab und prüfen Sie, dass keine Option zum Herunterladen angeboten ist.
 
-2. Erlauben Sie, dass die places von anderen Benutzer verwaltet werden können
+2. Erlauben Sie, dass die places von anderen Benutzern verwaltet werden können
 
    ![Berechtigungen](images/image45_2.png)
 
@@ -167,7 +165,7 @@ Beide Optionen können auch gleichzeitig benutzt werden:
 
 ## Herunterladen
 
-Mit dieser Funktion können Sie die datesets herunterladen in mehreren Formaten (GeoJSON, GML, Shapefile, CSV, GeoPackage oder KML).
+Mit dieser Funktion können Sie die Datasets herunterladen in mehreren Formaten (GeoJSON, GML, Shapefile, CSV, GeoPackage oder KML).
 
 Sie können entscheiden, ob Sie die Daten mit der ursprünglichen Projektion (prj Datei, die beim Import der Daten benutzt wurde) herunterladen werden oder in WGS84 (EPSG 4326).
 

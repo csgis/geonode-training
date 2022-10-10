@@ -27,42 +27,42 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
 1. Ressource hinzufügen → Karte erstellen → Speichern
 1. Datensatz hinzufügen → Im Datensatzkatalog die Ressource administrative, railways und places auswählen.
   ![Datensatzkatalog](images/image51-a.png)
-1. Mit klick auf einer Ebenen erscheint eine Reihe von interessanten Funktionalitäten. Wir können hier zum Beispiel:
+1. Mit Klick auf eine Ebenen erscheint eine Reihe von interessanten Funktionalitäten. Wir können hier zum Beispiel:
 
-  - die Ebene filtern und nur einen Teil der Daten in die Karte anzeigen lassen
+  - die Ebene filtern und nur einen Teil der Daten in der Karte anzeigen lassen
   - die Attributtabelle öffnen und die Daten hier bearbeiten
-  - widgets für die ausgewählte Ebene erstellen
-  - die Symbologie der Ebene hier verändern  
+  - Widgets für die ausgewählte Ebene erstellen
+  - die Symbologie der Ebene verändern  
 
   ![Funktionalitäten](images/image54.png)
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 
-  > In der Karte können wir die Symbole einer Ebene ändern ohne die Symbologie der ursprünglichen Ressource zu verändern  
+  > In der Karte können wir die Symbole einer Ebene ändern, ohne die Symbologie der ursprünglichen Ressource zu verändern  
   > ![Hinweis](images/image56.png)
 
-1. Prüfen Sie dass die Symbologie der GeoNode Ressource ***places*** sich nicht geändert hat.
+1. Prüfen Sie, dass sich die Symbologie der GeoNode Ressource ***places*** nicht geändert hat.
 
 1. Begleiten Sie die Karte mit folgenden Widgets des Layers places:
 
-  ![Beispiele für widgets](images/image56-a.png)
+  ![Beispiele für Widgets](images/image56-a.png)
 
 1. Beachten Sie, die Diagramme zeigen immer die Daten, die man im aktuellen Ausschnitt der Karte sieht.
 
-  ![Diagramme sind der Kartenauschnitt synchronisiert](images/image59.png)
+  ![Diagramme sind der Kartenausschnitt synchronisiert](images/image59.png)
 
 1. Fügen Sie die Tabelle der Ebene administrative in die Karte ein.
 
-1. Mit dem Tool Notizen/Zeichen fügen Sie eine Anmerkung (Annotation) hinzu. Danach lassen Sie sich mit einfachen Klick auf die Karte die Informationen anzeigen.    
+1. Mit dem Tool Notizen/Zeichen fügen Sie eine Anmerkung (Annotation) hinzu. Danach lassen Sie sich mit einfachem Klick auf die Karte die Informationen anzeigen.    
 
   ![Informationen anzeigen](images/image61.png)
 
-  > GeoNode gibt die Informationen von alle Ebenen  aus, wo man geklickt hat und den Hinweis von den Ebenen wo dort keine Daten gibt:
+  > GeoNode gibt die Informationen von allen Ebenen aus, auf die man geklickt hat und den Hinweis auf Ebenen, die keine Daten enthalten:
   > ![Hinweis](images/image62.png)
 
 1. Schalten Sie alle Widgets ein und aus und lassen Sie nur den Text und das Diagramm sichtbar.
 
-1. Lassen Sie die Ebene administrative transparent darstellen
+1. Lassen Sie die Ebene ***administrative*** transparent darstellen
 
   ![Deckkraft einstellen](images/image60.png)
 
@@ -70,6 +70,6 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
 
   ![Berechtigungen](images/image63_2.png)
 
-1. Speichern Sie Ihre Karte und lassen Sie eine PDF in A4 Format ausdrucken.
+1. Speichern Sie Ihre Karte und lassen Sie eine PDF im A4 Format ausdrucken.
 
   ![Karte drucken](images/image64_2.png)

@@ -63,15 +63,15 @@ Mit der nächsten Übung bauen wir eine Geostory auf.
    - Medien (Bilder, Videos, Karten)
    - eine Webseite
 
-4. Lassen wir unsere Geostory mit einer **immersive section** erweitern. Sie besteht aus zwei Elementen: dem Hintergrund und dem Inhalt.
+4. Lassen Sie uns die Geostory mit einer **immersive section** erweitern. Sie besteht aus zwei Elementen: dem Hintergrund und dem Inhalt.
 
     Der Unterschied zu der vorherigen Option (Absatzabschnitt) ist, dass die Inhalte im gleichen Abschnitt zusammen bleiben.
 
     ![immersive section](images/image71-a.png)
 
-5. Im nächsten Schritt beschäftigen wir uns mit der**Geokarussel** Option:
+5. Im nächsten Schritt beschäftigen wir uns mit der **Geokarussel** Option:
 
-    ![Geocarousel](images/image74_2.png)
+    ![Geokarussel](images/image74_2.png)
 
     - Der Hintegrund dient dem gesamten Abschnitt.
     - Der Text und das untere kleine Bild werden mit einem bestimmten Ort in der Karte verknüpft.
