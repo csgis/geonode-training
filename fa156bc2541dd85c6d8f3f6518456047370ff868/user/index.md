@@ -8,12 +8,7 @@
 <script src="../jumpmenu.js"></script>
 <!-- the Menu -->
 
-<<<<<<< HEAD:94921f622d08ab26f04c534104a6260ef8bafd78/user/index.md
-# Einführung in GeoNode 4.0 für Anwender
-=======
-
 # 1. Einführung in GeoNode 4.0 für Anwender
->>>>>>> 0db18eacb2af31f9fb40c7dc681b813eda7837c2:fa156bc2541dd85c6d8f3f6518456047370ff868/user/index.md
 
 ## Inhalt:
 
