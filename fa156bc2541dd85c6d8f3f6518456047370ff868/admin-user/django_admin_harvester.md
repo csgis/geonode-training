@@ -84,7 +84,7 @@ Refresh harvestable resources update frequency| bleibt ohne Auswirkungen da nur 
 Check availability frequency | 1
 Check availability frequency | admin
 Harvester type | geonode.harvesting.harvesters.geonodeharvester.GeonodeUnifiedHarvesterWorker
-Harvester type specific configuration | {"resource_title_filter": "tl_2018_02_anrc0"}
+Harvester type specific configuration | `{"resource_title_filter": "tl_2018_02_anrc0"}`
 
 Nach dem Speichern des Objekts wird der neue Harvester gelistet.
 
