@@ -20,7 +20,8 @@ Auf der linken Seite finden Sie Übungen und Informationen für
 - Benutzer die mit der Entwicklung mit GeoNode starten möchten
 - System Administratoren die auf Server Ebene das Portal warten
 
-[Download der Dokumentation als PDF](./documentation_geonode4_csgis.pdf){:target="_blank"}
+[Download der Dokumentation als PDF](./documentation_geonode4_csgis.pdf){:target="_blank"}  
+[Die Schulungsdaten finden Sie unter](./data/test_data.zip){:target="_blank"}
 
 > Aus Gründen der besseren Lesbarkeit wird im Text verallgemeinernd das generische Maskulinum verwendet. Diese Formulierungen umfassen gleichermaßen weibliche, männliche und diverse Personen; alle sind damit selbstverständlich gleichberechtigt angesprochen.
 
