@@ -22,7 +22,7 @@ Sie eignen sich gut für die Präsentation von Ergebnissen oder Zusammenfassunge
 
    ![Dashboard widgets](images/image76_2.png)
 
-2. Fügen Sie zuerst die Karte hinzu, die Sie in der Übung "Karten erstellen" gespeichert haben.
+2. Fügen Sie zuerst die Karte hinzu, die Sie in der Übung [Karten erstellen](karten_erstellen.html) gespeichert haben.
 
 3. Danach integrieren Sie in das Dashboard folgendes Diagramm mit den Einwohnerzahlen.
 
@@ -30,7 +30,7 @@ Sie eignen sich gut für die Präsentation von Ergebnissen oder Zusammenfassunge
 
    ![Inhalte verknüpfen](images/image78_2.png)
 
-1. Fügen Sie die Tabelle der places zum Dashboard hinzu. Diese Daten sollen auch mit der Karte und dem Diagramm verknüpft werden.
+4. Fügen Sie die Tabelle der places zum Dashboard hinzu. Diese Daten sollen auch mit der Karte und dem Diagramm verknüpft werden.
    Mit  “Verbindungen ausblenden“ sehen Sie eine rote Umrandung oben über den    widgets, die Sie informiert, welche Elemente des Dashboards miteinander verknüpft sind.
 
 5. Als letztes können Sie zum Beispiel einen Zähler  mit der gesamten Einwohnerzahl hinzufügen.

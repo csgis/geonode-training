@@ -12,8 +12,6 @@
 
 Eine Geostory ist eine GeoNode Ressource, mit der man einen Artikel mit interaktiven Inhalten (Videos, Text, Bilder, Webseiten, dynamische Karten, andere GeoNode Ressourcen etc.) veröffentlichen kann.
 
-[testlink](../dev/source.html)
-
 Eine Geostory kann mit folgenden Elementen aufgebaut werden:
 
 ![Elementen einer Geostory](images/image65.png)

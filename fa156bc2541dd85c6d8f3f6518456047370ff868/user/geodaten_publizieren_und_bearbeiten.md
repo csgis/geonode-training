@@ -84,6 +84,7 @@ Innerhalb der **Markierungsoption*** haben wir 2 verschiedene Legenden zur Verf√
 **Symbologie von railways**
 
 1. Stellen Sie die railways wie in der unteren Abbildung dar. Benutzen Sie den einfachen Stil und erstellen sie die entsprechenden Filter (*type=subway und type =tram*).
+
    ![Symbologie von railways](images/image33_2.png)
 
 2. Speichern Sie den Stil als sld und laden Sie diese Datei als Dokument in GeoNode hoch.     
