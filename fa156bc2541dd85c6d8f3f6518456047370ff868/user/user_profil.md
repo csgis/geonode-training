@@ -10,7 +10,7 @@
 
 # Registrieren
 
-Im ersten Schritt erfolgt eine Registrierung auf der GeoNode Plattform. Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente etc.), soweit sie öffentlich sind, angesehen aber nicht bearbeitet werden.
+Im ersten Schritt erfolgt eine Registrierung auf der GeoNode Plattform. **Ohne Registrierung können die Daten (Karten, Datensätze, Dokumente etc.), soweit sie öffentlich sind, angesehen aber nicht bearbeitet werden.**
 Nachdem sich der Anwender erfolgreich registriert hat, kann er nach Freigabe des Accounts GeoNode in vollem Umfang nutzen.
 
 ![Anmeldung](images/image2.jpg)
@@ -32,7 +32,7 @@ Im Profil stehen dem User u.a. folgende Funktionen zur Verfügung:
 
 ![Benachrichtigungen](images/image4.png)
 
-Außerdem können registrierte Benutzer:
+**Außerdem können registrierte Benutzer:**
 
 - die letzten Aktivitäten von allen Benutzern sehen und auf die Daten zugreifen (Ebenen, Karten, Dokumente, Geostories und Dashboards)
 - eine Liste aller favorisierten Inhalte sehen
