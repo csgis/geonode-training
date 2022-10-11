@@ -34,7 +34,7 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
   - Widgets für die ausgewählte Ebene erstellen
   - die Symbologie der Ebene verändern  
 
-  ![Funktionalitäten](images/image54.png)
+    ![Funktionalitäten](images/image54.png)
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 
