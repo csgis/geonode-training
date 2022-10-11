@@ -28,17 +28,17 @@ Zusätzlich können mehrere [Widgets](https://docs.geonode.org/en/master/usage/m
 1. Datensatz hinzufügen → Im Datensatzkatalog die Ressource administrative, railways und places auswählen.
   ![Datensatzkatalog](images/image51-a.png)
 1. Mit Klick auf eine Ebenen erscheint eine Reihe von interessanten Funktionalitäten. Wir können hier zum Beispiel:
-
   - die Ebene filtern und nur einen Teil der Daten in der Karte anzeigen lassen
   - die Attributtabelle öffnen und die Daten hier bearbeiten
   - Widgets für die ausgewählte Ebene erstellen
   - die Symbologie der Ebene verändern  
+
     ![Funktionalitäten](images/image54.png)
 
 1. Verändern Sie die Symbologie von ***places***: öffnen Sie die Datei places.sld, kopieren Sie den Inhalt und fügen Sie ihn in den Code-Editor ein.
 
   > In der Karte können wir die Symbole einer Ebene ändern, ohne die Symbologie der ursprünglichen Ressource zu verändern  
-  > ![Hinweis](images/image56.png)
+  ![Hinweis](images/image56.png)
 
 1. Prüfen Sie, dass sich die Symbologie der GeoNode Ressource ***places*** nicht geändert hat.
 
