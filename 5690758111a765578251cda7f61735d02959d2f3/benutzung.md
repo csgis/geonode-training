@@ -10,7 +10,7 @@
 
 # Benutzung
 
-In der QGIS Browser Verbindung sieht man die Daten der Datenbank. Mit Doppelklick auf das QGIS Projekt **vnp2023** (im Schema *test*)** wird das Projekt geöffnet.
+In der QGIS Browser Verbindung sieht man die Daten der Datenbank. Mit Doppelklick auf das QGIS Projekt **vnp2023** (im Schema *test*) wird das Projekt geöffnet.
 
 In diesem Projekt gibt es u.a. folgende Ebenen:
 
