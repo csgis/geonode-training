@@ -1,0 +1,8 @@
+{
+    "home" : {
+        "./benutzung.md: "1. Benutzung",
+        "./datenbankverbindung.md": "2. Datenbankverbindung",
+        "./editierung_mehrere_polygone.md": "3. Editierung mehrere Polygone",
+        "./editierungen.md": "4. Editierungen"
+    }
+}
