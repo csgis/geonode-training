@@ -1,11 +1,11 @@
 <!-- the Menu -->
 
-<link rel="stylesheet" media="all" href="../styles.css" />
-<div id="logo"><a href="https://csgis.de">© CSGIS 2022</a></div>
+<link rel="stylesheet" media="all" href="./styles.css" />
+<div id="logo"><a href="https://csgis.de">© CSGIS 2024</a></div>
 <div id="menu"></div>
 <div id="jumpMenu"></div>
-<script src="../menu.js"></script>
-<script src="../jumpmenu.js"></script>
+<script src="./menu.js"></script>
+<script src="./jumpmenu.js"></script>
 <!-- the Menu -->
 
 # Datenbankverbindung
@@ -32,7 +32,7 @@ Die Checkbox "Speichern" **nicht** auswählen
 
 Untere Optionen (Geometrien von Spalten, geometrielose Tabellen anzeigen und Speichern/Laden von QGIS Projekten) auswählen.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.001.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.001.png)
 
 Danach auf "Verbindung testen" klicken.
 

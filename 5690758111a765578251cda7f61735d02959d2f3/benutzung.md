@@ -1,11 +1,11 @@
 <!-- the Menu -->
 
-<link rel="stylesheet" media="all" href="../styles.css" />
-<div id="logo"><a href="https://csgis.de">© CSGIS 2022</a></div>
+<link rel="stylesheet" media="all" href="./styles.css" />
+<div id="logo"><a href="https://csgis.de">© CSGIS 2024</a></div>
 <div id="menu"></div>
 <div id="jumpMenu"></div>
-<script src="../menu.js"></script>
-<script src="../jumpmenu.js"></script>
+<script src="./menu.js"></script>
+<script src="./jumpmenu.js"></script>
 <!-- the Menu -->
 
 # Benutzung
@@ -14,7 +14,7 @@ In der QGIS Browser Verbindung sieht man die Daten der Datenbank. Mit Doppelklic
 
 In diesem Projekt gibt es u.a. folgende Ebenen:
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.002.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.002.png)
 
 \- Allgemeine GIS Informationen wie FFH- Gebiete, Gemeinden, Landkreise, etc. (diese Layer sind nicht editierbar)
 
@@ -22,25 +22,25 @@ In diesem Projekt gibt es u.a. folgende Ebenen:
 
 \- VNP Auslaufsdatum:  Dieser Layer ist nicht editierbar. Die Legende zeigt das Jahr, in dem der VNP Vertrag ausläuft.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.003.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.003.png)
 
 \- Nächste Beratung: hier werden die Feldstücke in 4 Kategorien dargestellt, je nachdem, wann die nächste Beratung in diesem Feldstück stattfinden soll.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.004.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.004.png)
 
 Die Notizen in diesem Layer zeigen Beispiele von Abfragen, die man gezielt in QGIS stellen kann.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.005.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.005.png)
 
 Wenn man zum Beispiel eine Excel Liste mit allen Betrieben braucht, die man in diesem Monat (Dezember) beraten muss, kann man es mit dieser Abfrage erreichen:
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.006.png)Das Ergebnis der Abfrage kann als Excel exportiert werden (Rechte Maus Taste auf dem Layer - Nächste Beratung → *Export → Objekte speichern als*)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.006.png)Das Ergebnis der Abfrage kann als Excel exportiert werden (Rechte Maus Taste auf dem Layer - Nächste Beratung → *Export → Objekte speichern als*)
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.007.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.007.png)
 
 \- VNP Beratung: In diesem Layer werden die Informationen für die Beratungen eingegeben. Jeder Berater sieht die Daten seines Zuständigkeits-Gebietes und darf nur diese bearbeiten.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.008.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.008.png)
 
 Diese Ebene wird jedes Jahr einmalig aktualisiert: Informationen des vorherigen Jahres werden an diesen Layer übertragen. In den meisten Fällen wird eine zentrale Aktualisierung durch den Datenbank Administrator möglich sein. Bei anderen Fällen ist eine automatisierte Aktualisierung nicht möglich, da sich die Flächen und Eigentümer der Betriebe jährlich ändern (die Feldstücke werden kleiner, größer, Eigentümer wechselt, etc.).
 

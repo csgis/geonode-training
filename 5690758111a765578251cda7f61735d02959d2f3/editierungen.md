@@ -1,11 +1,11 @@
 <!-- the Menu -->
 
-<link rel="stylesheet" media="all" href="../styles.css" />
-<div id="logo"><a href="https://csgis.de">© CSGIS 2022</a></div>
+<link rel="stylesheet" media="all" href="./styles.css" />
+<div id="logo"><a href="https://csgis.de">© CSGIS 2024</a></div>
 <div id="menu"></div>
 <div id="jumpMenu"></div>
-<script src="../menu.js"></script>
-<script src="../jumpmenu.js"></script>
+<script src="./menu.js"></script>
+<script src="./jumpmenu.js"></script>
 <!-- the Menu -->
 
 # Editierungen im Layer vnp beratung
@@ -16,17 +16,17 @@ Die anderen Spalten sowie die Geometrien (Polygone) dieses Layers können nicht 
 
 Um die Editierung zu starten, klicken Sie auf folgenden Button :
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.009.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.009.png)
 
 Danach kann der Layer  **vnp beratung** bearbeitet werden:
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.010.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.010.png)
 
 > Für die Editierung von einzelnen Polygonen wäre es am besten, mit dem i Button (“Objekte abfragen“) auf das entsprechende Polygon zu klicken und in das erscheinende Fenster die Daten einzutragen:
 
 \- Im Reiter **Betrieb** können die Daten für die Beratung eingetragen werden
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.011.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.011.png)
 
 \- Mit Klick auf den Reiter **VNP Bestand** werden die dazugehörigen Schläge (Polygone des Layers VNP Bestand)  aufgelistet.
 
@@ -34,11 +34,11 @@ Danach kann der Layer  **vnp beratung** bearbeitet werden:
 
 In diesem Reiter können keine Editierungen vorgenommen werden (**die Daten des Layers  VNP Bestand sind nicht editierbar**).
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.012.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.012.png)
 
 Mit Klick in das Kontrollkästchen des jeweiligen Schlages (VNP Vertragsfläche) wird dieser Eintrag im Formular markiert und man kann auf das betroffene Polygon des Layers VNP Bestand in der Karte zoomen.
 
-![](vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.013.png)
+![](./images/vnp.f0055f3c-3b95-43d4-b52d-11b57bced8ab.013.png)
 
 
 In der Spalte **interesse** können diese Werte eingetragen werden:
