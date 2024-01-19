@@ -4,7 +4,8 @@
         "./datenbankverbindung.md": "1. Datenbankverbindung",
         "./benutzung.md": "2. Benutzung",
         "./editierungen.md": "3. Editierungen",
-        "./editierung_mehrere_polygone.md": "4. Editierung mehrere Polygone"
+        "./editierung_mehrere_polygone.md": "4. Editierung mehrere Polygone",
+        "./fehlende_vnp_flaechen.md": "5. Fehlende VNP Flaechen"
         
     }
 }
