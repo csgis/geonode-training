@@ -7,7 +7,7 @@
 <script src="./menu.js"></script>
 <script src="./jumpmenu.js"></script>
 
-# Layer Fehlende VNP Flächen
+# Layer "FIDs nicht vorhanden"
 
 Derzeit gibt es noch keine Möglichkeit, die Beratungsinformationen von “neuen“ FID-Nummern (Feldstücke, die im vorherigen Jahr nicht existiert haben) in die Datenbank einzutragen.
 Diese Feldstücke werden wir selber einpflegen. Die eingetragenen Informationen werden wir nächstes Jahr in den neuen VNP-Beratungs-Layer überführen.
@@ -20,7 +20,7 @@ Zum Beispiel sehen wir in der unteren Abbildung, dass das Feldstück DEBYLI76680
 
 ![](./images/100000010000028C000001BEBBC7171EC879971E.png)
 
-Um im Layer “Fehlende VNP Flaechen“ zu digitalisieren, müssen wir zuerst die Editierung starten mit dem Tool “Bearbeitungsstatus umschalten“. Danach können wir Polygone mit dem Werkzeug “Polygon Objekt hinzufügen“ digitalisieren:
+Um im Layer “FIDs nicht vorhanden“ zu digitalisieren, müssen wir zuerst die Editierung starten mit dem Tool “Bearbeitungsstatus umschalten“. Danach können wir Polygone mit dem Werkzeug “Polygon Objekt hinzufügen“ digitalisieren:
 
 ![](./images/1000000100000291000001FF74D7535410FED2F7.png)
 
@@ -50,7 +50,7 @@ Für die Editierung der Attributtabelle stehen die notwendigen Felder im Formula
 
 ## Attributierung von geometrielosen Datensätzen
 
-Es kann der Fall vorkommen, dass wir in der Karte nicht die  FID_Betriebsnummer finden, die wir speichern müssen. In diesem Fall können wir das Polygon nicht digitalisieren. Wir werden für diese Fälle mit dem Tool „“Objekt hinzufügen“ arbeiten, das man in der Attribut Tabelle finden kann. Damit speichern wir die Daten in der Attributtabelle, aber erzeugen keine Polygone.
+Es kann der Fall vorkommen, dass wir in der Karte nicht die  FID_Betriebsnummer finden, die wir speichern müssen. In diesem Fall können wir das Polygon nicht digitalisieren. Wir werden für diese Fälle mit dem Tool “Objekt hinzufügen“ arbeiten, das man in der Attribut Tabelle finden kann. Damit speichern wir die Daten in der Attributtabelle, aber erzeugen keine Polygone.
 
 ![](./images/100000010000057E00000246796A37B8EB161BFF.png)
 

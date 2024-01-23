@@ -5,7 +5,8 @@
         "./benutzung.md": "2. Benutzung",
         "./editierungen.md": "3. Editierungen",
         "./editierung_mehrere_polygone.md": "4. Editierung mehrere Polygone",
-        "./fehlende_vnp_flaechen.md": "5. Fehlende VNP Flaechen"
+        "./fehlende_vnp_flaechen.md": "5. FIDs nicht vorhanden",
+        "./faq.md": "FAQ"
         
     }
 }
