@@ -5,7 +5,8 @@
         "./benutzung.md": "2. Benutzung",
         "./editierungen.md": "3. Editierungen",
         "./editierung_mehrere_polygone.md": "4. Editierung mehrere Polygone",
-        "./fehlende_vnp_flaechen.md": "5. FIDs nicht vorhanden",
+        "./daten_mehreren_Betrieben_gleichzeitig_aendern.md": "5. Daten von mehreren Betrieben gleichzeitig ändern",
+        "./fehlende_vnp_flaechen.md": "6. FIDs nicht vorhanden",
         "./faq.md": "FAQ"
         
     }
