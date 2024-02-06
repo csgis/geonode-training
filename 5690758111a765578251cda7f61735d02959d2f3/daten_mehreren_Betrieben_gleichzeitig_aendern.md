@@ -9,9 +9,9 @@
 
 # Daten von mehreren Betrieben gleichzeitig ändern
 
-Wir können Informationen von mehreren Betrieben gleichzeitig editieren. Zuerst ist es immer notwendig, dass wir die Betriebe selektieren. Danach prüfen wir in der Attributtabelle, dass die selektierten Datensätze die sind, die wir editieren wollen. Nach der Prüfung können wir mit dem Tool [Attribute von allen gewählten Objekten gleichzeitig ändern](https://docs.qgis.org/3.4/de/docs/user_manual/working_with_vector/editing_geometry_attributes.html#merge-attributes-of-selected-features) die Änderungen aller selektierten Datensätze in der Attributabelle speichern.
+Wir können Informationen von mehreren Betrieben gleichzeitig editieren. Zuerst ist es immer notwendig, dass wir die Betriebe selektieren. Danach prüfen wir in der Attributtabelle, dass die selektierten Datensätze die sind, die wir editieren wollen. Nach der Prüfung können wir mit dem Tool **Attribute von allen gewählten Objekten gleichzeitig ändern** die Änderungen aller selektierten Datensätze in der Attributabelle speichern.
 
-In diesem Beispiel wollen wir ‚‘Kein Interesse’ für alle Feldstücke bei 3 Betrieben verwenden: '7791940356','7797000052','7791850247'.
+In diesem Beispiel wollen wir ‘Kein Interesse’ für alle Feldstücke bei 3 Betrieben eintragen: '7791940356','7797000052','7791850247'.
 
 Die Datensätze dieser Betriebe selektieren wir mit der Option **“Objekte nach Ausdruck wählen“**:
 
@@ -21,7 +21,7 @@ Die Datensätze dieser Betriebe selektieren wir mit der Option **“Objekte nach
 
 > "fs_betrnr" in ('7791940356','7797000052','7791850247')
 
-3\.- Mit Klick auf „“Objekte wählen“ werden alle Feldstücke der 3 Betriebe ausgewählt.
+3\.- Mit Klick auf “Objekte wählen“ werden alle Feldstücke der 3 Betriebe ausgewählt.
 
 ![](./images/100000010000045600000290C5ACFDFC18737699.png)
 
@@ -33,7 +33,7 @@ Nachdem die Datensätze selektiert sind, können wir sie editieren mit **Attribu
 
 ![](./images/100000010000039D0000026B86A5D06A3053DBD0.png)
 
-Im obigen Fall haben wir ‘kein Interesse’ in allen Datensätzen gespeichert. Die Tabelle können wir prüfen und danach die Editierung speichern und beenden. Die Selektionen sollten wir dann sofort aufheben, damit wir keine ausgewählten Polygone mehr haben.
+Im obigen Fall haben wir ‘kein Interesse’ in allen selektierten Datensätzen gespeichert. Die Tabelle können wir prüfen und danach die Editierung speichern und beenden. Die Selektionen sollten wir dann sofort aufheben, damit wir keine ausgewählten Polygone mehr haben.
 
 ![](./images/100000010000009C0000007CE6070B6DEA46CE20.png)
 
