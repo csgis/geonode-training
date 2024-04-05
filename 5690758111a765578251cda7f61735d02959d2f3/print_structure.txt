@@ -1,4 +1,0 @@
-benutzung
-datenbankverbindung
-editierung_mehrere_polygone
-editierungen
